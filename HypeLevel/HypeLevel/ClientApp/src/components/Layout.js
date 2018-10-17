@@ -1,23 +1,24 @@
 import React from 'react';
 import { Col, Grid, Row } from 'react-bootstrap';
 import NavMenu from './NavMenu';
-import {css} from 'aphrodite';
-import styles from '../appStyles';
+import Middle from "./Middle";
+import './styles/layout.css';
 
 export default props => (
   <Grid fluid>
-    <Row className={css(styles.row)}>
-      <Col sm={8} smOffset={2}>
-        <NavMenu sm={8} smOffset={2} />
+    <Row >
+      <Col>
+        <NavMenu />
       </Col>
     </Row>
-    <Row  className={css(styles.middleHead)}>
-      <Col sm={8} smOffset={2}>
-      <Row className ={css(styles)}>
-        {/* <img src={require('../pictures/maxresdefault.jpg'
-      )} /> */}
-      </Row>
-      
+    <Row  >
+      <Col>
+        <Middle />
+      </Col>
+    </Row>
+    <Row >
+      <Col>
+        <NavMenu />
       </Col>
     </Row>
     <Row>

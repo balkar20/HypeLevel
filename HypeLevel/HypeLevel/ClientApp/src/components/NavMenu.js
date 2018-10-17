@@ -4,14 +4,14 @@ import { Glyphicon, Nav, Navbar, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import {css} from 'aphrodite';
 import styles from '../appStyles';
-import '../index.css';
+import './styles/nav.css';
 
 export default props => (
-  <Navbar className={css(styles.navTop)} inverse fixedTop collapseOnSelect>
-    <Navbar.Collapse>
-      <Nav>
-        <LinkContainer to={'/'} exact>
-          <NavItem className={css(styles.navTopLi)}>
+  <Navbar inverse fixedTop collapseOnSelect>
+    <Navbar.Collapse className={"nav-top"} >
+      <Nav >
+        <LinkContainer  to={'/'} exact>
+          <NavItem >
              ГЛАВНАЯ
           </NavItem>
         </LinkContainer>
