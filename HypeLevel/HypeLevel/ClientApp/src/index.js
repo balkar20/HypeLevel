@@ -10,7 +10,7 @@ import configureStore from './store/configureStore';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {createStore} from "redux";
-import  {newReduce} from "./reducers/newsReducers";
+import  allReducers, { newReduce } from "./reducers/allReducers";
 
 
 // Create browser history to use in the Redux store
@@ -19,7 +19,7 @@ const history = createBrowserHistory({ basename: baseUrl });
 
 // Get the application-wide store instance, prepopulating with state from the server where available.
 //const initialState = window.initialReduxState;
-const store = createStore([]);
+const store = createStore(allReducers);
 
 const rootElement = document.getElementById('root');
 
