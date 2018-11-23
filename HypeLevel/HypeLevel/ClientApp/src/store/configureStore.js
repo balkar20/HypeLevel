@@ -1,14 +1,32 @@
-import {createStore} from "redux";
+// import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
+// import thunk from 'redux-thunk';
+// import { routerReducer, routerMiddleware } from 'react-router-redux';
+// import {createStore} from "redux";
+// import  * as reducers from "./reducers/index";
+// import { combineReducers } from 'redux';
 
+// export default function configureStore(history, initialState) {
 
-function news(state = []){
-    return state;
-}
+//   const middleware = [
+//     thunk,
+//     routerMiddleware(history)
+//   ];
 
-const store = createStore(news);
+//   // In development, use the browser's Redux dev tools extension if installed
+//   const enhancers = [];
+//   const isDevelopment = process.env.NODE_ENV === 'development';
+//   if (isDevelopment && typeof window !== 'undefined' && window.devToolsExtension) {
+//     enhancers.push(window.devToolsExtension());
+//   }
 
-store.subscribe(() => {
-    console.log("subscribe", store.getState())
-});
+//   const rootReducer = combineReducers({
+//     ...reducers,
+//     routing: routerReducer
+//   });
 
-export default store;
+//   return createStore(
+//     rootReducer,
+//     initialState,
+//     compose(applyMiddleware(...middleware), ...enhancers)
+//   );
+// }

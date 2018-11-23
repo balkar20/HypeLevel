@@ -1,15 +1,15 @@
-export const GET_NEWS = 'GET_NEWS'
-export const TOGGLE_TODO = 'TOGGLE_TODO'
-export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
+import {RECIEVE_NEWS, REQUEST_NEWS} from "../constants/ActionTypes"
 
-export function getNews(id) {
-    return { type: GET_NEWS, id }
-  }
-  
-  export function toggleTodo(index) {
-    return { type: TOGGLE_TODO, index }
-  }
-  
-  export function setVisibilityFilter(filter) {
-    return { type: SET_VISIBILITY_FILTER, filter }
-  }
+export const newsActionCreators = {
+    requestNews: id  => async dispatch => {
+        console.log("HI from request news");
+        const url = `api/News/GetNews?id=${id}`;
+        const response = await fetch(url);
+        const news = await response.json();
+
+        console.log(news);
+        //const news ={news:[{name: "slava"}, {name: "vlad"}]} 
+    
+        dispatch({ type: RECIEVE_NEWS, news: news});
+    }
+}

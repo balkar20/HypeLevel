@@ -17,7 +17,7 @@ namespace HypeLevel.Controllers
         };
 
         [HttpGet("[action]")]
-        public IEnumerable<News> GetNews(int startDateIndex)
+        public IEnumerable<News> GetNews(int id)
         {
             return News;
         }
