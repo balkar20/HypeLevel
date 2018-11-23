@@ -14,13 +14,14 @@ import { routerReducer, routerMiddleware } from 'react-router-redux';
 import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 
-const middleware = [
-  thunk,
-  routerMiddleware(history)
-];
+
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 const history = createBrowserHistory({ basename: baseUrl });
+const middleware = [
+    thunk,
+    routerMiddleware(history)
+];
 const reducers = {
   newsReducer: newsReducers.newsReducer, 
 };
