@@ -8,7 +8,6 @@ export const newsActionCreators = {
         const news = await response.json();
 
         console.log(news);
-        //const news ={news:[{name: "slava"}, {name: "vlad"}]} 
     
         dispatch({ type: RECIEVE_NEWS, news: news});
     }
