@@ -1,8 +1,7 @@
-ul.nav li a, ul.nav li a{
+ul.nav li a, ul.nav li a, ul.nav li a:visited{
     font-size: inherit !important;
     color: inherit !important;
 }
-
 .navbar-collapse.collapse.in{
     padding-left: 0%;
     /* margin-left: 0%; */
@@ -16,10 +15,17 @@ nav .container{
     width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+/* li a{
+    color: black ! important;
+} */
+
+@media only screen and (max-width: 768px) {
     nav .container{
         display: flex;
         justify-content: center;
 
+    }
+    .navbar-collapse.collapse{
+        /* margin-left: -15px !important; */
     }
 }

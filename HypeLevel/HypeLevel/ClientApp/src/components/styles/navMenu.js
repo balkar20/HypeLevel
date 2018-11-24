@@ -10,10 +10,20 @@ const styles = StyleSheet.create({
     },
     navFont:{
         fontSize: "large",
-        color: "lawngreen"
+        color: "black"
     },
     navCollapse:{
-        
+        marginLeft:"-15px"
+    },
+    hover:{
+        ":hover": {
+            backgroundColor:"black",
+            color:"white"
+            
+        }
+    },
+    link:{
+        color:"black"
     }
     // red: {
     //     backgroundColor: 'red'
