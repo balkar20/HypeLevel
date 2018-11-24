@@ -1,0 +1,25 @@
+ul.nav li a, ul.nav li a{
+    font-size: inherit !important;
+    color: inherit !important;
+}
+
+.navbar-collapse.collapse.in{
+    padding-left: 0%;
+    /* margin-left: 0%; */
+    background-color: sienna;
+}
+nav .container{
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    nav .container{
+        display: flex;
+        justify-content: center;
+
+    }
+}

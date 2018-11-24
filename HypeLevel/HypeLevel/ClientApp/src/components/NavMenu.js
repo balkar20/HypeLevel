@@ -2,33 +2,26 @@ import './styles/navMenu.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Glyphicon, Nav, Navbar, NavItem,  MenuItem, NavDropdown} from 'react-bootstrap';
-
+import {css} from "aphrodite";
+import styles from "./styles/navMenu";
+import "./styles/navMenu.css";
 
 export default props => {
-    <Navbar inverse collapseOnSelect>
-  <Navbar.Header>
-    <Navbar.Brand>
-      <a href="#brand">React-Bootstrap</a>
-    </Navbar.Brand>
+    return <Navbar className={css(styles.navInverse)} inverse collapseOnSelect>
+   
     <Navbar.Toggle />
-  </Navbar.Header>
   <Navbar.Collapse>
-    <Nav>
+  
+    <Nav className={css(styles.navFont)}>
+    
       <NavItem eventKey={1} href="#">
         Link
       </NavItem>
-      <NavItem eventKey={2} href="#">
+      <NavItem  eventKey={2} href="#">
         Link
       </NavItem>
-      <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-        <MenuItem eventKey={3.1}>Action</MenuItem>
-        <MenuItem eventKey={3.2}>Another action</MenuItem>
-        <MenuItem eventKey={3.3}>Something else here</MenuItem>
-        <MenuItem divider />
-        <MenuItem eventKey={3.3}>Separated link</MenuItem>
-      </NavDropdown>
     </Nav>
-    <Nav pullRight>
+    <Nav className={css(styles.navFont)} pullRight>
       <NavItem eventKey={1} href="#">
         Link Right
       </NavItem>
