@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     },
     hover:{
         ":hover": {
-            backgroundColor:"#1a2b42",
+            backgroundColor:"#1a2b28",
             color:"white"
             
         }

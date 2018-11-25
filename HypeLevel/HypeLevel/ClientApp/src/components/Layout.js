@@ -6,21 +6,29 @@ import NavMenu from './NavMenu';
 import {css} from "aphrodite"
 import styles from "./styles/layout"
 import  "./styles/layout.css"
+import large from "../pictures/HeadDarkFederation.png"
+import small from "../pictures/HeadDarkFederationSmall.png"
+import extraSmall from "../pictures/HeadDarkFederationExtraSmall.png"
 
 const Layout = (props) => {
-  return <div>
+  return (
            <Grid fluid>
            <Row className={css(styles.labelRow)}>
-
+           <div className={css(styles.imageContainer)}>
+            <img className={css(styles.imageLarge)} src={large}/>
+            <img className={css(styles.imageSmall)} src={small}/>
+            {/* <img className={css(styles.imageExstraSmall)} src={extraSmall}/> */}
+           </div>
+            
            </Row>
            <Row className={css(styles.topRow, styles.small)}>
            <NavMenu />
            </Row>
-           <Row >
+           <Row className={css(styles.contentRow)}>
              {props.children}
            </Row>
          </Grid>
-         </div>
+  )
 };
 
 export default Layout;

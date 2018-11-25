@@ -2,6 +2,10 @@ import {newsActionCreators} from "../actions/newsActions";
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { Col, Grid, Row } from 'react-bootstrap';
+import NewsWindow from "./NewsWindow";
+import {css} from "aphrodite"
+import styles from "./styles/news"
 
 class News extends Component{
     // constructor(props){
@@ -17,26 +21,36 @@ class News extends Component{
       }
     
     render(){
-        console.log("from render - ", this.props.newsReducer.news);
-        const news = this.props.newsReducer.news;
-        return(
-            
-            <div>
-                
-                <ul>{news.map((i) => 
-                  <li key={i.id}>
-                  {i.name}
-                  </li>
-                )}</ul>
+
+        return( 
+            <div className="">
+                {generateNews(this.props)}
             </div>
         )
-    }
+    };
 }
+function generateNews(props) {
+    return (
+        <Row >
+            <Col lg="4">
+                
+            </Col>
+            <Col lg="8">
+                {props.newsList.map(n => 
+            <Col lg={4} >
+                <NewsWindow news={n} />
+            </Col>)}
+            </Col>
+        </Row>
+        
+    );
+};
+    
 
 const mapStateToProps = (state) => {
     console.log("news is:", state.newsReducer.news)
     return {
-         newsReducer:state.newsReducer
+         newsList:state.newsReducer.news
     };
   }
 

@@ -13,6 +13,9 @@ namespace HypeLevel.Controllers
             new News{Name = "hi", Id = 1, Data = "koliujh"},
             new News{Name = "Lol", Id = 2, Data = "Lpoi"},
             new News{Name = "Mand", Id = 3, Data = "niuy"},
+            new News{Name = "hi", Id = 4, Data = "koliujh"},
+            new News{Name = "Lol", Id = 5, Data = "Lpoi"},
+            new News{Name = "Mand", Id = 6, Data = "niuy"},
 
         };
 

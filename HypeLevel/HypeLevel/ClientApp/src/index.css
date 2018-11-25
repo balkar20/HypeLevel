@@ -7,7 +7,11 @@ ul.nav li a, ul.nav li a:visited {
 }
 body {
     margin-top: 0%;
-    background-color: #1a2b42;
+    background: url("http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png");
+    background-color: #0b0b0b;
+    background-size: 1200px, 100px;
+    background-position: top center;
+    background-repeat: no-repeat;
 
 }
 
