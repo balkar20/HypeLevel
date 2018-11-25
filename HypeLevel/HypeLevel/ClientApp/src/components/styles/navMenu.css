@@ -2,10 +2,17 @@ ul.nav li a, ul.nav li a, ul.nav li a:visited{
     font-size: inherit !important;
     color: inherit !important;
 }
+
+ul.nav li.active{
+    color: white;
+}
+
 .navbar-collapse.collapse.in{
     padding-left: 0%;
     /* margin-left: 0%; */
     background-color: sienna;
+    width: 100%;
+    text-align: center;
 }
 nav .container{
     margin-left: 0%;

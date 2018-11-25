@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
         paddingLeft: "0px",
         backgroundImage:"inherit",
         backgroundColor:"inherit",
-        border:"none"
+        border:"none",
+        marginBottom:"0"
     },
     navFont:{
         fontSize: "large",
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
     },
     hover:{
         ":hover": {
-            backgroundColor:"black",
+            backgroundColor:"#1a2b42",
             color:"white"
             
         }

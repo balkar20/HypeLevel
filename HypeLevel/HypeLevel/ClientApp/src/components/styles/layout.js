@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     },
     topRow:{
         backgroundColor:"sienna",
-        height: "50px",
+        minHeight:"min-content",
         paddingLeft: "0px",
     },
     navLeft:{
@@ -31,9 +31,10 @@ const styles = StyleSheet.create({
     // },
 
     small: {
-        // '@media (max-width: 769px)': {
-        //     height: "auto"
-        // }
+        '@media (max-width: 769px)': {
+            // clear:"both",
+            // height: "auto"
+        }
     }
 });
 

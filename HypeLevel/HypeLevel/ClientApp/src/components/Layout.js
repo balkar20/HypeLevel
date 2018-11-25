@@ -16,7 +16,7 @@ const Layout = (props) => {
            <Row className={css(styles.topRow, styles.small)}>
            <NavMenu />
            </Row>
-           <Row>
+           <Row >
              {props.children}
            </Row>
          </Grid>

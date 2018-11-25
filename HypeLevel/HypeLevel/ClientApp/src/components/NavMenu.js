@@ -14,25 +14,25 @@ export default props => {
     <Navbar.Collapse className={css(styles.navCollapse)}>
 
       <Nav className={css(styles.navFont)}>
-        <LinkContainer to={'/kjkjk'} exact>
+        <LinkContainer to={'/'} exact>
           <NavItem className={css(styles.hover)}> ГЛАВНАЯ
           </NavItem>
         </LinkContainer>
-        <LinkContainer to={'/kjkjk'} exact>
+        <LinkContainer to={'/help'} exact>
           <NavItem className={css(styles.hover)}> ПОМОЩЬ
           </NavItem>
         </LinkContainer>
-        <LinkContainer to={'/kjkjk'} exact>
+        <LinkContainer to={'/groups'} exact>
           <NavItem className={css(styles.hover)}> ГРУППЫ
           </NavItem>
         </LinkContainer>
       </Nav>
       <Nav className={css(styles.navFont)} pullRight>
-        <LinkContainer to={'/kjkjk'} exact>
+        <LinkContainer to={'/signIn'} exact>
           <NavItem className={css(styles.hover)}> ВХОД
           </NavItem>
         </LinkContainer>
-        <LinkContainer to={'/kjkjk'} exact>
+        <LinkContainer to={'/register'} exact>
           <NavItem className={css(styles.hover)}> РЕГИСТРАЦИЯ
           </NavItem>
         </LinkContainer>
