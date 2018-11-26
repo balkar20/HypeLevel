@@ -39,9 +39,14 @@ const styles = StyleSheet.create({
     },
     imageSmall:{
         width: '100%',
+        height: '50%',
         '@media (min-width: 800px) ': {
             display: 'none',
         },
+    },
+    footer:{
+        height: '300px',
+        background: '#595959'
     },
     // imageExstraSmall:{
         

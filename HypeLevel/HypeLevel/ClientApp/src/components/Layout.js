@@ -13,21 +13,22 @@ import extraSmall from "../pictures/HeadDarkFederationExtraSmall.png"
 const Layout = (props) => {
   return (
            <Grid fluid>
-           <Row className={css(styles.labelRow)}>
+           <header className={css(styles.labelRow)}>
            <div className={css(styles.imageContainer)}>
             <img className={css(styles.imageLarge)} src={large}/>
             <img className={css(styles.imageSmall)} src={small}/>
-            {/* <img className={css(styles.imageExstraSmall)} src={extraSmall}/> */}
            </div>
             
-           </Row>
+           </header>
            <Row className={css(styles.topRow, styles.small)}>
            <NavMenu />
            </Row>
            <Row className={css(styles.contentRow)}>
              {props.children}
            </Row>
+           <footer className={css(styles.footer)}></footer>
          </Grid>
+         
   )
 };
 
