@@ -8,7 +8,6 @@ import styles from "./styles/layout"
 import  "./styles/layout.css"
 import large from "../pictures/HeadDarkFederation.png"
 import small from "../pictures/HeadDarkFederationSmall.png"
-import Footer from './Footer';
 
 const Layout = (props) => {
   return (
@@ -26,7 +25,7 @@ const Layout = (props) => {
            <Row className={css(styles.contentRow)}>
              {props.children}
            </Row>
-           <Footer />>
+           
          </Grid>
          
   )
