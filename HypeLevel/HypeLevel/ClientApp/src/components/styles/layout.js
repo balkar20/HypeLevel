@@ -2,6 +2,10 @@ import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
 
+    fluid:{
+        minHeight: "100%",
+        height: "100%"
+    },
     labelRow:{
         
         height: "100px",
