@@ -5,9 +5,13 @@
 ul.nav li a, ul.nav li a:visited {
     color: red !important;
 }
-body {
-    margin-top: 0%;
+html,body, #root{
+    min-height: 100% !important;
     height: 100%;
+}
+body {
+    
+    margin-top: 0%;
     /* overflow: hidden; */
     overflow-x: hidden;
     background: url("http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png");

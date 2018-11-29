@@ -32,10 +32,10 @@ class News extends Component{
 function generateNews(props) {
     return (
         <Row >
-            <Col lg="4">
+            <Col lg={3}>
                 
             </Col>
-            <Col lg="8">
+            <Col lg={9}>
                 {props.newsList.map(n => 
             <Col lg={4} >
                 <NewsWindow news={n} />

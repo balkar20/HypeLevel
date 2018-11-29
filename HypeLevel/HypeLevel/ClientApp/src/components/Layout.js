@@ -8,11 +8,10 @@ import styles from "./styles/layout"
 import  "./styles/layout.css"
 import large from "../pictures/HeadDarkFederation.png"
 import small from "../pictures/HeadDarkFederationSmall.png"
-import extraSmall from "../pictures/HeadDarkFederationExtraSmall.png"
 
 const Layout = (props) => {
   return (
-           <Grid fluid>
+           <Grid fluid className={css(styles.fluid)}>
            <header className={css(styles.labelRow)}>
            <div className={css(styles.imageContainer)}>
             <img className={css(styles.imageLarge)} src={large}/>
@@ -26,7 +25,7 @@ const Layout = (props) => {
            <Row className={css(styles.contentRow)}>
              {props.children}
            </Row>
-           <footer className={css(styles.footer)}></footer>
+           
          </Grid>
          
   )

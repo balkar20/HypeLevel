@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Col, Grid, Row } from 'react-bootstrap';
 import NewsWindow from "./NewsWindow";
-import {css} from "aphrodite"
-import styles from "./styles/news"
+import {css} from "aphrodite";
+import styles from "./styles/home";
 import Aside from "./Aside";
 
 const assides = [
@@ -37,18 +37,18 @@ class Home extends Component{
 
 function generateNews(props) {
     return (
-        <Row >
-            <Col lg="4">
+        <Row className={css(styles.contentRow)}>
+            <Col lg="3" className={css(styles.newsCol)}>
                 {assides.map(a =>
-                <Col lg="10">
+                <Col lg="12">
                     <NewsWindow key={a.id} news={a}></NewsWindow>
                 </Col>
                      
                 )}
             </Col>
-            <Col lg="8">
+            <Col lg="9" className={css(styles.newsCol)}>
                 {props.news.map(n => 
-            <Col lg={4} >
+            <Col style={styles.newsCol} lg={4} >
                 <NewsWindow key={n.id} news={n} />
             </Col>)}
             </Col>
