@@ -4,10 +4,8 @@ const styles = StyleSheet.create({
     footer: {
         width: "100%",
         height: "200px",
-        backgroundColor: "red",
-        position: "fixed",
-        left: "0",
-        bottom: "0"
+        backgroundColor: "#333333",
+        marginBottom: "0"
     }
 });
 

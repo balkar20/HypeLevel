@@ -4,9 +4,10 @@ const styles = StyleSheet.create({
 
     navInverse:{
         paddingLeft: "0px",
-        backgroundImage:"inherit",
-        backgroundColor:"inherit",
-        border:"none",
+        // backgroundImage:"inherit",
+        background:"#533e42",
+        border:"1px",
+        borderColor: "blue",
         marginBottom:"0"
     },
     navFont:{
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
     },
     hover:{
         ":hover": {
-            backgroundColor:"#1a2b28",
+            backgroundColor:"black",
             color:"white"
             
         }
