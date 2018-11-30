@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/layout.css';
-import {Home} from './Home';
+import Home from './Home';
 import { Col, Grid, Row } from 'react-bootstrap';
 import NavMenu from './NavMenu';
 import Footer from './Footer';
@@ -11,13 +11,22 @@ import large from "../pictures/HeadDarkFederation.png"
 import small from "../pictures/HeadDarkFederationSmall.png"
 
 const Layout = (props) => {
-  return  (<header className={css(styles.labelRow)}>
+  return  (
+  <div>
+    <header className={css(styles.labelRow)}>
            <div className={css(styles.imageContainer)}>
             <img className={css(styles.imageLarge)} src={large}/>
             <img className={css(styles.imageSmall)} src={small}/>
            </div>
            <NavMenu />
-           </header>)
+           </header>
+           <div className={css()}>
+             {/* <Home/> */}
+           </div>
+           
+  </div>
+
+          )
 };
 
 export default Layout;

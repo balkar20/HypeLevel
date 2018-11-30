@@ -10,7 +10,7 @@ import large from "../pictures/HeadDarkFederation.png"
 import small from "../pictures/HeadDarkFederationSmall.png"
 
 const Footer = (props) => {
-  const footerClass = `fixed-bottom ${css(styles.footer)}`;
+  const footerClass = `${css(styles.footer)}`;
   return (
            <footer className={footerClass} ></footer>
   )

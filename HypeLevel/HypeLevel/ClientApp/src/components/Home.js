@@ -13,9 +13,6 @@ const assides = [
     {name:"Kolya", data:"lol", id:"2"},
     {name:"Kolya", data:"lol", id:"3"},];
 class Home extends Component{
-    // constructor(props){
-    //     super(props)
-    // }
 
     componentWillMount(){
         this.props.requestNews(1);

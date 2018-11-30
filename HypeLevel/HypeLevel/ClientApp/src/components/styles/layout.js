@@ -1,14 +1,20 @@
 import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
-
+    container:{
+        position: 'relative',
+        width: "100%",
+        height: "!00%"
+    },
     fluid:{
         minHeight: "100%",
         height: "100%"
     },
     labelRow:{
-        
+        width:"100%",
+        position:'fixed',
         height: "100px",
+        background: "blue",
         // backgroundImage: "url(http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png)",
         //backgroundRepeat: "no-repeat"
     },
