@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     labelRow:{
         
         height: "100px",
-        backgroundImage: "url(http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png)",
+        // backgroundImage: "url(http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png)",
         //backgroundRepeat: "no-repeat"
     },
     contentRow:{
@@ -29,10 +29,8 @@ const styles = StyleSheet.create({
     },
     imageContainer:{
         width: '100%',
-        height: "200px",
+        height: "100%",
         textAlign: 'center',
-        //  backgroundImage: 'url(http://x-lines.ru/letters/i/cyrillicgothic/4570/000000/60/1/etozr43ye31se3m1cf4g155q.png)',
-        //  backgroundRepeat: 'no-repeat',
          
     },
     
@@ -67,8 +65,6 @@ const styles = StyleSheet.create({
 
     small: {
         '@media (max-width: 769px)': {
-            // clear:"both",
-            // height: "auto"
         }
     }
 });

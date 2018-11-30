@@ -38,18 +38,13 @@ class Home extends Component{
 function generateNews(props) {
     return (
         <Row className={css(styles.contentRow)}>
-            <Col lg="3" className={css(styles.newsCol)}>
-                {assides.map(a =>
-                <Col lg="12">
-                    <NewsWindow key={a.id} news={a}></NewsWindow>
-                </Col>
-                     
-                )}
+            <Col xs="1" sm={2}  md="3" className={css(styles.assideCol)}>
+                    
             </Col>
-            <Col lg="9" className={css(styles.newsCol)}>
+            <Col xs={11} sm={10}  md="9" className={css(styles.newsCol)}>
                 {props.news.map(n => 
-            <Col style={styles.newsCol} lg={4} >
-                <NewsWindow key={n.id} news={n} />
+            <Col className={css(styles.newsInside)} sm={4} >
+                <NewsWindow  key={n.id} news={n} />
             </Col>)}
             </Col>
         </Row>

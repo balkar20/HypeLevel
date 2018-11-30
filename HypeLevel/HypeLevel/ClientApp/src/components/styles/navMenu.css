@@ -10,7 +10,7 @@ ul.nav li.active{
 .navbar-collapse.collapse.in{
     padding-left: 0%;
     /* margin-left: 0%; */
-    background-color: sienna;
+    background-color:"#533e42";
     width: 100%;
     text-align: center;
 }
