@@ -13,15 +13,18 @@ import small from "../pictures/HeadDarkFederationSmall.png"
 const Layout = (props) => {
   return  (
   <div>
-    <header className={css(styles.labelRow)}>
+    <div>
+    <header className={css(styles.header)}>
            <div className={css(styles.imageContainer)}>
             <img className={css(styles.imageLarge)} src={large}/>
             <img className={css(styles.imageSmall)} src={small}/>
            </div>
            <NavMenu />
            </header>
-           <div className={css()}>
-             {/* <Home/> */}
+    </div>
+    
+           <div className={css(styles.container)}>
+             <Home/>
            </div>
            
   </div>

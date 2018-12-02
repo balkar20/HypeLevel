@@ -25,7 +25,7 @@ class Home extends Component{
     render(){
 
         return( 
-            <div className="">
+            <div className={css(styles.container)}>
                 {generateNews(this.props)}
             </div>
         )
