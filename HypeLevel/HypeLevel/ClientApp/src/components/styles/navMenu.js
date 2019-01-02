@@ -3,8 +3,12 @@ import { StyleSheet } from 'aphrodite';
 const styles = StyleSheet.create({
 
     navInverse:{
+        zIndex:"9999",
         paddingLeft: "0px",
-        // backgroundImage:"inherit",
+        position: "fixed",
+        top:"0",
+        left:"0",
+        right:"0",
         background:"#533e42",
         border:"1px",
         borderColor: "blue",

@@ -35,10 +35,10 @@ class Home extends Component{
 function generateNews(props) {
     return (
         <Row className={css(styles.contentRow)}>
-            <Col xs="1" sm={2}  md="3" className={css(styles.assideCol)}>
+            <Col xs="0" sm={2}  md="3" className={css(styles.assideCol)}>
                     
             </Col>
-            <Col xs={11} sm={10}  md="9" className={css(styles.newsCol)}>
+            <Col xs={12} sm={10}  md="9" className={css(styles.newsCol)}>
                 {props.news.map(n => 
             <Col className={css(styles.newsInside)} sm={4} >
                 <NewsWindow  key={n.id} news={n} />

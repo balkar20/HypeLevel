@@ -22,11 +22,10 @@ const Layout = (props) => {
            <NavMenu />
            </header>
     </div>
-    
-           <div className={css(styles.container)}>
-             <Home/>
-           </div>
-           
+    <div ></div>
+    <div className={css(styles.container)}>
+      {props.children}
+    </div>
   </div>
 
           )

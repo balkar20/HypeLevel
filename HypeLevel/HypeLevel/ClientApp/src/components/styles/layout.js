@@ -3,17 +3,23 @@ import { StyleSheet } from 'aphrodite';
 const styles = StyleSheet.create({
     container:{
         marginTop:"0",
-        position: 'relative',
+        position: "absolute",
+        top:"150px",
         width: "100%",
-        height: "!00%"
+        height: ""
+    },
+    flud:{
+        minHeight: "100%",
+        height: "100%"
     },
     fluid:{
         minHeight: "100%",
         height: "100%"
     }, 
     header:{
+        
         width:"100%",
-        position:'fixed',
+        // position:'fixed',
         height: "auto",
         background: "blue",
         // backgroundImage: "url(http://x-lines.ru/letters/i/cyrillicbasic/0495/b37a7c/42/1/etozr43ye31se3m1cf4g155q.png)",
@@ -35,10 +41,17 @@ const styles = StyleSheet.create({
         paddingRight: "0px",
     },
     imageContainer:{
+        background:'#3471cb',
+        // zIndex:"9999",
+        position:'absolute',
+        top:"50px",
+        left:"0",
+        right:"0",
+        marginBottom:"0",
         width: '100%',
-        height: "100%",
+        height: "100px",
+        verticalAlign:"center",
         textAlign: 'center',
-         
     },
     
     imageLarge:{
