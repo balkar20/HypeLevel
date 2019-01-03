@@ -5,12 +5,8 @@ const styles = StyleSheet.create({
         marginTop:"0",
         position: "absolute",
         top:"150px",
-        width: "100%",
+        width: "0%",
         height: ""
-    },
-    actionsContainer:{
-        width: "100%",
-        height: "70px",
     },
     flud:{
         minHeight: "100%",

@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     },
     navFont:{
         fontSize: "large",
-        color: "black"
+        color: "#cf9fff"
     },
     navCollapse:{
         marginLeft:"-15px"

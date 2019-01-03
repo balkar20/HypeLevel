@@ -4,7 +4,7 @@ ul.nav li a, ul.nav li a, ul.nav li a:visited{
 }
 
 ul.nav li.active{
-    color: white;
+    color: rgb(179, 52, 52);
 }
 
 .navbar-collapse.collapse.in{

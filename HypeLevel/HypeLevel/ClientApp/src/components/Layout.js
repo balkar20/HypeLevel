@@ -15,15 +15,17 @@ const Layout = (props) => {
   <div>
     <div>
     <header className={css(styles.header)}>
+           <NavMenu />
            <div className={css(styles.imageContainer)}>
             <img className={css(styles.imageLarge)} src={large}/>
             <img className={css(styles.imageSmall)} src={small}/>
            </div>
-           <NavMenu />
+           
            </header>
     </div>
     <div ></div>
     <div className={css(styles.container)}>
+    <div className={css(styles.actionsContainer)}></div>
       {props.children}
     </div>
   </div>
