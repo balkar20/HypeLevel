@@ -2,9 +2,13 @@ import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
     box:{
-       backgroundColor: "#23184b",
+       borderStyle: "solid",
+       borderWidth:"2px",
+       borderColor: "red", 
        color: "#dd6265",
-       height: "150px"
+       height: "150px",
+       textAlign: "center",
+       marginBottom: "5px"
     }
 });
 

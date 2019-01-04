@@ -8,10 +8,6 @@ const styles = StyleSheet.create({
         width: "100%",
         height: ""
     },
-    actionsContainer:{
-        width: "100%",
-        height: "70px",
-    },
     flud:{
         minHeight: "100%",
         height: "100%"

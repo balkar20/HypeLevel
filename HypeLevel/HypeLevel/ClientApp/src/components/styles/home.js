@@ -2,13 +2,9 @@ import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
     container:{
-        // position: 'absolute',
-        // top: "0",
-        // left: "0",
         width:"100%"
     },
     contentRow:{
-        
         marginLeft: "0px",
         marginRight: "15px",
     },
