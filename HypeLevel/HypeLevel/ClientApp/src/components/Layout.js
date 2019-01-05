@@ -13,16 +13,14 @@ import ActionsContainer from "./ActionsContainer";
 
 const Layout = (props) => {
   return  (
-  <div>
-    <div>
+  <div className={css(styles.rootContainer)}>
+  <NavMenu />
     <header className={css(styles.header)}>
-            <NavMenu />
             <div className={css(styles.imageContainer)}>
               <img className={css(styles.imageLarge)} src={large}/>
               <img className={css(styles.imageSmall)} src={small}/>
             </div>
-           </header>
-    </div>
+    </header>
     <div className={css(styles.container)}>
       <ActionsContainer />
       {props.children}

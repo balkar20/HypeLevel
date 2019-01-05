@@ -2,9 +2,10 @@ import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
     box:{
-       borderStyle: "solid",
-       borderWidth:"2px",
-       borderColor: "red", 
+        border:"none",
+    //    borderStyle: "solid",
+    //    borderWidth:"2px",
+    //    borderColor: "red", 
        color: "#dd6265",
        height: "150px",
        textAlign: "center",

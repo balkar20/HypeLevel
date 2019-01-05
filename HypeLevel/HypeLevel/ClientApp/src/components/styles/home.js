@@ -10,10 +10,11 @@ const styles = StyleSheet.create({
     },
     newsCol: {
         paddingLeft: "0",
-        paddingRight: "0"
+        paddingRight: "0",
+        margin: "0"
     },
     newsInside:{
-        paddingRight:"0"
+        padding: "0"
     },
     assideCol:{
         paddingLeft: "0",
