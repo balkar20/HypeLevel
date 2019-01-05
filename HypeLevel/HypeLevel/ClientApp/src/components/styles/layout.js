@@ -17,8 +17,10 @@ const styles = StyleSheet.create({
         height: "100%"
     }, 
     header:{
-        
-        width:"100%",
+        position:'absolute',
+        top:"50px",
+        left:"0",
+        right:"0",
         // position:'fixed',
         height: "auto",
         background: "blue",
@@ -41,12 +43,9 @@ const styles = StyleSheet.create({
         paddingRight: "0px",
     },
     imageContainer:{
-        background:'#3471cb',
+        background:"#ae0000",
         // zIndex:"9999",
-        position:'absolute',
-        top:"50px",
-        left:"0",
-        right:"0",
+        
         marginBottom:"0",
         width: '100%',
         height: "100px",
@@ -61,7 +60,7 @@ const styles = StyleSheet.create({
     },
     imageSmall:{
         width: '100%',
-        height: '50%',
+        height: '100%',
         '@media (min-width: 800px) ': {
             display: 'none',
         },

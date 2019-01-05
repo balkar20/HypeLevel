@@ -4,26 +4,25 @@ import Home from './Home';
 import { Col, Grid, Row } from 'react-bootstrap';
 import NavMenu from './NavMenu';
 import Footer from './Footer';
-import {css} from "aphrodite"
-import styles from "./styles/layout"
-import  "./styles/layout.css"
-import large from "../pictures/HeadDarkFederation.png"
-import small from "../pictures/HeadDarkFederationSmall.png"
+import {css} from "aphrodite";
+import styles from "./styles/layout";
+import  "./styles/layout.css";
+import large from "../pictures/HeadDarkFederation.png";
+import small from "../pictures/HeadDarkFederationSmall.png";
+import ActionsContainer from "./ActionsContainer";
 
 const Layout = (props) => {
   return  (
-  <div>
-    <div>
+  <div className={css(styles.rootContainer)}>
+  <NavMenu />
     <header className={css(styles.header)}>
-           <div className={css(styles.imageContainer)}>
-            <img className={css(styles.imageLarge)} src={large}/>
-            <img className={css(styles.imageSmall)} src={small}/>
-           </div>
-           <NavMenu />
-           </header>
-    </div>
-    <div ></div>
+            <div className={css(styles.imageContainer)}>
+              <img className={css(styles.imageLarge)} src={large}/>
+              <img className={css(styles.imageSmall)} src={small}/>
+            </div>
+    </header>
     <div className={css(styles.container)}>
+      <ActionsContainer />
       {props.children}
     </div>
   </div>
