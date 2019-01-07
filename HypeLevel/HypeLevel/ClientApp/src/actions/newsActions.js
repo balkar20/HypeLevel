@@ -11,4 +11,6 @@ export const newsActionCreators = {
     
         dispatch({ type: RECIEVE_NEWS, news: news});
     }
+
+    
 }

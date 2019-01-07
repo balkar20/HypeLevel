@@ -7,6 +7,7 @@ import iconMySpace from "../icons/myspace.png";
 import iconAtronaut from "../icons/atronaut.png";
 import iconSpotify from "../icons/spotify.png";
 import iconChat from "../icons/chat.png";
+import iconNews from "../icons/createNews.png";
 
 const ActionsContainer = (props) => {
   return  (
@@ -15,6 +16,7 @@ const ActionsContainer = (props) => {
     <ActionFrame img={iconChat} head="Создать беседу" description="Создать открытую/приватную беседу - добавить в нее людей"/>
     <ActionFrame img={iconSpotify} head="Создать оффер" description="Создать задание для исполнителей"/>
     <ActionFrame img={iconMySpace} head="Создать группу" description="Создать группу пользователей"/>
+    <ActionFrame href="/createNews" img={iconNews} head="Создать пост" description="Запостить актуальную информацию"/>
   </div>
 
           )
