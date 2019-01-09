@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Web;
 using Domain.Models;
 using Microsoft.AspNetCore.Http;
 using NewsViewModel = HypeLevel.ViewModels.NewsViewModel;
+using System.Drawing.Imaging;
 
 namespace HypeLevel.Controllers
 {
@@ -15,7 +20,7 @@ namespace HypeLevel.Controllers
     public class NewsController : Controller
     {
         private DarkContext db;
-
+        
         public NewsController(DarkContext db)
         {
             this.db = db;
@@ -62,10 +67,15 @@ namespace HypeLevel.Controllers
                 News news = MapFormCollectionToNews(form);
                 foreach (var file in form.Files)
                 {
-                    news.Image = MapFileToByteArray(file);
+                    //news.Image = MapFileToByteArray(file);
+                }
+
+                string path = news.Name;
+                using (var stream = form.Files[0].OpenReadStream())
+                {
+                    
                 }
                 
-
                 db.News.Add(news);
                 db.SaveChanges();
 
@@ -77,34 +87,38 @@ namespace HypeLevel.Controllers
             {
                 return new { Success = false, ex.Message };
             }
-            //News news = new News();
-            //if (newsViewModel.Image != null)
-            //{
-            //    byte[] imageData = null;
-            //    // считываем переданный файл в массив байтов
-            //    using (var binaryReader = new BinaryReader(newsViewModel.Image.OpenReadStream()))
-            //    {
-            //        imageData = binaryReader.ReadBytes((int)newsViewModel.Image.Length);
-            //    }
-            //    // установка массива байтов
-            //    news.Image = imageData;
-            //}
-
-            
-
-            //return RedirectToAction("NewsCreated");
         }
 
         [HttpGet("[action]")]
-        public async Task<IEnumerable<NewsViewModel>> GetNews(int startNewsindex)
+        public  HttpResponseMessage GetNewsImage(int startNewsindex)
         {
+            //HttpResponseMessage response;
+            //if (db.News.Any())
+            //{
+            //    var saved = db.News.FirstOrDefault();
+
+            //    byte[] imgData = saved.Image;
+            //    MemoryStream ms = new MemoryStream(imgData);
+
+            //    response = new HttpResponseMessage(HttpStatusCode.OK);
+            //    response.Content = new StreamContent(ms);
+            //    response.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("image/jpg");
+            //    return response;
+            //}
+
+            return null;
+        }
+
+        [HttpGet("[action]")]
+        public  IEnumerable<News> GetNews(int startNewsindex)
+        {
+            IEnumerable<News> news = new List<News>();
             if (db.News.Any())
             {
-                var saved = db.News.FirstOrDefault();
-                return testNews;
+                news = db.News.ToList();
             }
 
-            return testNews;
+            return news;
         }
 
         [HttpGet("[action]")]
@@ -134,11 +148,13 @@ namespace HypeLevel.Controllers
             if (file == null || file.Length == 0)
                 throw new Exception("File is empty!");
             byte[] fileArray;
+            Image image;
             using (var stream = file.OpenReadStream())
             using (var memoryStream = new MemoryStream())
             {
                 stream.CopyTo(memoryStream);
                 fileArray = memoryStream.ToArray();
+                image = Image.FromStream(memoryStream);
             }
 
             return fileArray;

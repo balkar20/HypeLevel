@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.1" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,7 @@
   <ItemGroup>
     <Folder Include="ClientApp\src\components\styles\" />
     <Folder Include="ClientApp\src\NewFolder\" />
+    <Folder Include="static\" />
   </ItemGroup>
 
   <ItemGroup>
