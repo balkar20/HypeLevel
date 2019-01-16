@@ -24,7 +24,7 @@
   <ItemGroup>
     <Folder Include="ClientApp\src\components\styles\" />
     <Folder Include="ClientApp\src\NewFolder\" />
-    <Folder Include="static\" />
+    <Folder Include="static\images\" />
   </ItemGroup>
 
   <ItemGroup>

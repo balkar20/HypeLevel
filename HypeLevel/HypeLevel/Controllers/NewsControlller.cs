@@ -13,6 +13,9 @@ using Domain.Models;
 using Microsoft.AspNetCore.Http;
 using NewsViewModel = HypeLevel.ViewModels.NewsViewModel;
 using System.Drawing.Imaging;
+using System.Reflection;
+using Abp.IO.Extensions;
+using Abp.Reflection.Extensions;
 
 namespace HypeLevel.Controllers
 {
@@ -67,15 +70,9 @@ namespace HypeLevel.Controllers
                 News news = MapFormCollectionToNews(form);
                 foreach (var file in form.Files)
                 {
-                    //news.Image = MapFileToByteArray(file);
+                    news.ImagePath = SaveImageWithName(file, news.Name);
                 }
 
-                string path = news.Name;
-                using (var stream = form.Files[0].OpenReadStream())
-                {
-                    
-                }
-                
                 db.News.Add(news);
                 db.SaveChanges();
 
@@ -143,21 +140,25 @@ namespace HypeLevel.Controllers
             return news;
         }
 
-        private static byte[] MapFileToByteArray(IFormFile file)
+        private static string SaveImageWithName(IFormFile file, string name)
         {
             if (file == null || file.Length == 0)
                 throw new Exception("File is empty!");
             byte[] fileArray;
             Image image;
+            var resultPath = $"/static/images/{name}.img";
+
+            var assembly = (typeof(NewsController).Assembly);
+            var location = assembly.GetDirectoryPathOrNull();
+
             using (var stream = file.OpenReadStream())
-            using (var memoryStream = new MemoryStream())
+            using (var imageStream = System.IO.File.Create(resultPath))
             {
-                stream.CopyTo(memoryStream);
-                fileArray = memoryStream.ToArray();
-                image = Image.FromStream(memoryStream);
+                var bytes = stream.GetAllBytes();
+                imageStream.Write(bytes);
             }
 
-            return fileArray;
+            return resultPath;
         }
     }
 }
