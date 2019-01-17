@@ -1,21 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Net.Mime;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using System.Web;
 using Domain.Models;
 using Microsoft.AspNetCore.Http;
 using NewsViewModel = HypeLevel.ViewModels.NewsViewModel;
-using System.Drawing.Imaging;
-using System.Reflection;
 using Abp.IO.Extensions;
-using Abp.Reflection.Extensions;
 
 namespace HypeLevel.Controllers
 {
@@ -58,13 +49,10 @@ namespace HypeLevel.Controllers
 
         };
 
-        
-
         [HttpPost]
         [Route("createNews")]
         public dynamic CreateNews(IFormCollection form)
         {
-            News saved;
             try
             {
                 News news = MapFormCollectionToNews(form);
@@ -76,8 +64,6 @@ namespace HypeLevel.Controllers
                 db.News.Add(news);
                 db.SaveChanges();
 
-                saved = db.News.FirstOrDefault();
-
                 return new { Success = true };
             }
             catch (Exception ex)
@@ -86,24 +72,30 @@ namespace HypeLevel.Controllers
             }
         }
 
-        [HttpGet("[action]")]
-        public  HttpResponseMessage GetNewsImage(int startNewsindex)
+        [HttpPut]
+        [Route("updateNews")]
+        public  dynamic UpdateNews(IFormCollection form)
         {
-            //HttpResponseMessage response;
-            //if (db.News.Any())
-            //{
-            //    var saved = db.News.FirstOrDefault();
+            try
+            {
+                News news = MapFormCollectionToNews(form);
+                foreach (var file in form.Files)
+                {
+                    news.ImagePath = SaveNewsImageAndReturnRootPath(file, news);
+                }
 
-            //    byte[] imgData = saved.Image;
-            //    MemoryStream ms = new MemoryStream(imgData);
+                News findedNews = db.News.FirstOrDefault(f => f.Id == news.Id);
 
-            //    response = new HttpResponseMessage(HttpStatusCode.OK);
-            //    response.Content = new StreamContent(ms);
-            //    response.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("image/jpg");
-            //    return response;
-            //}
+                findedNews.Data = news.Data;
+                findedNews.ImagePath = news.ImagePath;
+                db.SaveChanges();
 
-            return null;
+                return new { Success = true };
+            }
+            catch (Exception ex)
+            {
+                return new { Success = false, ex.Message };
+            }
         }
 
         [HttpGet("[action]")]
@@ -144,13 +136,9 @@ namespace HypeLevel.Controllers
         {
             if (file == null || file.Length == 0)
                 throw new Exception("File is empty!");
-            byte[] fileArray;
-            Image image;
-            var pathToDB = $"/images/{news.Id}-{news.Name}.jpg";
-            var pathToSave = $"static{pathToDB}";
-
-            
-            var location = System.IO.Directory.GetCurrentDirectory();
+            var pathToDb = $"/images/{news.Id}-{news.Name}.jpg";
+            var pathToSave = $"static{pathToDb}";
+            var location = Directory.GetCurrentDirectory();
 
             using (var stream = file.OpenReadStream())
             using (var imageStream = System.IO.File.Create($"{location}/{pathToSave}"))
@@ -159,7 +147,7 @@ namespace HypeLevel.Controllers
                 imageStream.Write(bytes);
             }
 
-            return pathToDB;
+            return pathToDb;
         }
     }
 }
