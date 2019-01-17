@@ -10,6 +10,12 @@ const styles = StyleSheet.create({
        height: "150px",
        textAlign: "center",
        marginBottom: "5px"
+    },
+    image:{
+        display:"block",
+        float:"left",
+        width: "200px",
+        height:"200px"
     }
 });
 

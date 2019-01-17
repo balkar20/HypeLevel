@@ -34,12 +34,12 @@ class Home extends Component{
 
 function generateNews(props) {
     return (
-        <Row className={css(styles.contentRow)}>
+        <div >
                 {props.news.map(n => 
-                <Col className={css(styles.newsInside)} sm={4} >
+                <Row className={css(styles.contentRow)}  >
                     <NewsWindow  key={n.id} news={n} />
-                </Col>)}
-        </Row>
+                </Row>)}
+        </div>
         
     );
 };
