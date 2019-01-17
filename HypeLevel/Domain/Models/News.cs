@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
+﻿using System;
 
-namespace HypeLevel.ViewModels
+namespace Domain.Models
 {
     public class News
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Data { get; set; }
+        public string ImagePath { get; set; }
     }
 }
