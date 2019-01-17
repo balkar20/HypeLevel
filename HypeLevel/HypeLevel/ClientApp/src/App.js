@@ -10,7 +10,7 @@ import CreateNews from './components/CreateNews';
 export default () => (
     <Layout>
         <Route exact path='/' component={Home} />
-        <Route exact path='/createNews' component={CreateNews} />
+        <Route path='/createNews' component={CreateNews} />
         {/* <Route path='/news' component={News} />
         {/* <Route path='/help' component={} />
         <Route path='/help' component={} /> */}

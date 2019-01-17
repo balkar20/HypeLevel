@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         width:"100%"
     },
     contentRow:{
-        marginLeft: "0px",
+        marginLeft: "15px",
         marginRight: "15px",
     },
     newsCol: {

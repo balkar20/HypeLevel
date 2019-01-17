@@ -70,7 +70,7 @@ namespace HypeLevel.Controllers
                 News news = MapFormCollectionToNews(form);
                 foreach (var file in form.Files)
                 {
-                    news.ImagePath = SaveImageWithName(file, news.Name);
+                    news.ImagePath = SaveNewsImageAndReturnRootPath(file, news);
                 }
 
                 db.News.Add(news);
@@ -140,25 +140,26 @@ namespace HypeLevel.Controllers
             return news;
         }
 
-        private static string SaveImageWithName(IFormFile file, string name)
+        private static string SaveNewsImageAndReturnRootPath(IFormFile file, News news)
         {
             if (file == null || file.Length == 0)
                 throw new Exception("File is empty!");
             byte[] fileArray;
             Image image;
-            var resultPath = $"/static/images/{name}.img";
+            var pathToDB = $"/images/{news.Id}-{news.Name}.jpg";
+            var pathToSave = $"static{pathToDB}";
 
-            var assembly = (typeof(NewsController).Assembly);
-            var location = assembly.GetDirectoryPathOrNull();
+            
+            var location = System.IO.Directory.GetCurrentDirectory();
 
             using (var stream = file.OpenReadStream())
-            using (var imageStream = System.IO.File.Create(resultPath))
+            using (var imageStream = System.IO.File.Create($"{location}/{pathToSave}"))
             {
                 var bytes = stream.GetAllBytes();
                 imageStream.Write(bytes);
             }
 
-            return resultPath;
+            return pathToDB;
         }
     }
 }
