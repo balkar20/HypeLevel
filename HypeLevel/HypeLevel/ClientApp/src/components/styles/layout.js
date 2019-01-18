@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         position: "absolute",
         top:"150px",
         width: "100%",
-        height: ""
+        height: "",
     },
     flud:{
         minHeight: "100%",

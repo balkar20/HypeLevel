@@ -2,11 +2,17 @@ import { StyleSheet } from 'aphrodite';
 
 const styles = StyleSheet.create({
     container:{
-        width:"100%"
+        display:'flex',
+        justifyContent: "center"
+
     },
     contentRow:{
-        marginLeft: "15px",
-        marginRight: "15px",
+        width: "80%",
+        border:"left",
+        borderWidth:"3px",
+        borderColor:"#f95100"
+        // marginLeft: "15px",
+        // marginRight: "15px",
     },
     newsCol: {
         paddingLeft: "0",
