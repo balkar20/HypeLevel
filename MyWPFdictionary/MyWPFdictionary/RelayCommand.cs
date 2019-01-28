@@ -14,7 +14,7 @@ namespace MyWPFdictionary
 
         public bool CanExecute(object parameter)
         {
-            throw new NotImplementedException();
+            return execute != null ? true : false;
         }
 
         public void Execute(object parameter)

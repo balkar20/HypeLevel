@@ -23,12 +23,8 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new AppViewModel();
+            DataContext = new AppViewModel(new WordRepository());
         }
 
-        private void Input_OnTextChanged(object sender, TextChangedEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
