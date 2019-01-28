@@ -22,6 +22,6 @@
         <Button Grid.Column="1" Grid.Row="1" Background="Aqua" Content="Add word" Width="100" Command="{Binding AddCommand}"
                     CommandParameter="{Binding Path=SelectedWord}"></Button>
 
-        <TextBlock Grid.Column="1" Grid.Row="0" DataContext="{Binding Path=SelectedWord}" Text="{Binding Path=Translate,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}"></ListBox>
     </Grid>
 </Window>

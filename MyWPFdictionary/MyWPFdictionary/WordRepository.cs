@@ -22,8 +22,23 @@ namespace MyWPFdictionary
             
 
         //}
-
-        public Dictionary<string, string> GetWordsDictionaryFromText(List<string> lines)
+        public void AddWordAndTranslateToFile(WordWithTranslate wordWithTranslate, Stream stream)
+        {
+            try
+            {
+                using (stream)
+                using (var streamWriter = new StreamWriter(stream))
+                {
+                    streamWriter.WriteLine($"{wordWithTranslate.Word} - {wordWithTranslate.Translate}");
+                }
+            }
+            catch (Exception e)
+            {
+                throw new FileLoadException(e.Message);
+            }
+            
+        }
+        public Dictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
         {
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             string pattern = @"([a-zA-Z]+)(\s[--–—]\s+)([а-яА-ЯёЁ]+)";

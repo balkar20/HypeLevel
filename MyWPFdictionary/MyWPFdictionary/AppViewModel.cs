@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
+using System.Linq;
+using System.Reactive.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using MyWPFdictionary.Annotations;
@@ -14,15 +16,15 @@ namespace MyWPFdictionary
     public class AppViewModel : INotifyPropertyChanged
     {
         private IDictionary<string, string> dictionary;
-        
+        public ObservableCollection<string> ShowCollection { get; set; }
         private WordWithTranslate selectedWord;
         private readonly WordRepository repository;
 
 
         public AppViewModel(WordRepository repo)
         {
-            List<string> lines = FileHelper.ReadAsListString(typeof(AppViewModel), "./files/words1.txt");
-            dictionary = repo.GetWordsDictionaryFromText(lines);
+            ShowCollection = new ObservableCollection<string>(FileHelper.ReadAsListString(typeof(AppViewModel), "./files/words1.txt")); ;
+            dictionary = repo.GetWordsDictionaryFromText(ShowCollection);
         }
 
         public WordWithTranslate SelectedWord
@@ -75,6 +77,12 @@ namespace MyWPFdictionary
             if (string.IsNullOrEmpty(value))
             {
                 this.dictionary.Add(word, translate);
+                repository.AddWordAndTranslateToFile(new WordWithTranslate()
+                {
+                    Word = word,
+                    Translate = translate
+                }, FileHelper.ReadAsStream(typeof(AppViewModel), "./files/words1.txt"));
+                ShowCollection.Add($"{word} - {translate}");
             }
         }
 
