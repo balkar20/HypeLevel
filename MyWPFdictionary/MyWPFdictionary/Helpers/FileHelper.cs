@@ -36,6 +36,7 @@ namespace MyWPFdictionary.Helpers
                 path = $"{type.Namespace}.{path.Substring(2)}";
             }
             path = path.Replace("\\", ".").Replace("/", ".");
+
             return assembly.GetManifestResourceStream(path);
         }
     }

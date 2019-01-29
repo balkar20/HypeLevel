@@ -22,14 +22,27 @@ namespace MyWPFdictionary
             
 
         //}
-        public void AddWordAndTranslateToFile(WordWithTranslate wordWithTranslate, Stream stream)
+        public void AddWordAndTranslateToFile(WordWithTranslate wordWithTranslate, string pathForRoot)
         {
             try
             {
-                using (stream)
-                using (var streamWriter = new StreamWriter(stream))
+                string lPath;
+                string location = AppDomain.CurrentDomain.BaseDirectory + $"{pathForRoot}";
+                int index;
+                index = location.IndexOf("bin");
+                if (index > 0)
                 {
-                    streamWriter.WriteLine($"{wordWithTranslate.Word} - {wordWithTranslate.Translate}");
+                    lPath = location.Remove(index, 10);
+                }
+                else
+                {
+                    lPath = location;
+                }
+
+                using (var stream = new FileStream(lPath, FileMode.Append, FileAccess.Write))
+                using (var writer = new StreamWriter(stream))
+                {
+                    writer.WriteLine($"{wordWithTranslate.Word} - {wordWithTranslate.Translate}");
                 }
             }
             catch (Exception e)
