@@ -25,6 +25,7 @@ namespace MyWPFdictionary
                 translate = value;
                 OnPropertyChanged("Translate");
             }
+            
         }
 
         

@@ -15,11 +15,12 @@ namespace MyWPFdictionary
 {
     public class AppViewModel : DependencyObject, INotifyPropertyChanged
     {
-        public AppViewModel(WordRepository repository)
+        public AppViewModel(WordRepository repository, List<string> rowCollectionList)
         {
             selectedWord = new WordWithTranslate(){Word = "", Translate = ""};
             this.repository = repository;
-            ShowCollection = new ObservableCollection<string>(FileHelper.ReadAsListString(typeof(AppViewModel), "./files/words1.txt")); ;
+            ShowCollection = new ObservableCollection<string>(rowCollectionList
+                .Select(w => w.ToLower()));
             dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
         }
 
@@ -80,11 +81,18 @@ namespace MyWPFdictionary
                        (searchCommand = new RelayCommand(obj =>
                        {
                            var word = (string) obj;
+
                            if (dictionary.ContainsKey(word))
                            {
-                               FindedTranslate = dictionary[word];
+                               string finded = dictionary[word];
+                               SelectedWord.Translate = finded;
+                               FindedTranslate = finded;
                            }
-
+                           else
+                           {
+                               SelectedWord.Translate = "";
+                               FindedTranslate = "";
+                           }
                        }));
             }
         }
@@ -98,10 +106,10 @@ namespace MyWPFdictionary
                 this.dictionary.Add(word, translate);
                 repository.AddWordAndTranslateToFile(new WordWithTranslate()
                 {
-                    Word = word,
-                    Translate = translate
+                    Word = word.ToLower(),
+                    Translate = translate.ToLower()
                 },"files\\words1.txt");
-                ShowCollection.Add($"{word} - {translate}");
+                ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
             }
             else
             {
