@@ -38,6 +38,11 @@
                             Command="{Binding Path=SearchCommand}"
                             CommandParameter="{ Binding Path=SelectedWord.Word}"/>
                     </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction
+                            Command="ApplicationCommands.Copy"
+                            />
+                    </i:EventTrigger>
                 </i:Interaction.Triggers>
             </TextBox>
             <TextBox  Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>

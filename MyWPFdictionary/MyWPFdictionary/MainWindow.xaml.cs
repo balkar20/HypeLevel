@@ -32,7 +32,8 @@ namespace MyWPFdictionary
             if (e.Key == Key.Return)
             {
                 var context = ((AppViewModel) DataContext);
-                
+                context.SearchCommand.Execute(((TextBox)sender).Text);
+                ApplicationCommands.Copy.Execute(((TextBox)sender), ((TextBox)sender));
             }
         }
     }

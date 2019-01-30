@@ -25,10 +25,8 @@ namespace MyWPFdictionary
                 translate = value;
                 OnPropertyChanged("Translate");
             }
-            
         }
 
-        
         public event PropertyChangedEventHandler PropertyChanged;
 
         [NotifyPropertyChangedInvocator]
