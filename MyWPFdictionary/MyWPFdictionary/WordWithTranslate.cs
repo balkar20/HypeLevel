@@ -22,7 +22,7 @@ namespace MyWPFdictionary
             get { return translate; }
             set
             {
-                word = value;
+                translate = value;
                 OnPropertyChanged("Translate");
             }
         }

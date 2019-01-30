@@ -6,7 +6,17 @@
         xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
         xmlns:local="clr-namespace:MyWPFdictionary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="700" Width="1000">
+    <Window.Resources>
+        <SolidColorBrush x:Key="redStyle" Color="BlanchedAlmond" />
+        <LinearGradientBrush x:Key="gradientSyle" StartPoint="0.5,1" EndPoint="0.5,0">
+            <GradientStop Color="gray" Offset="0" />
+            <GradientStop Color="White" Offset="1" />
+        </LinearGradientBrush>
+        <Button x:Key="resButton" Background="{StaticResource gradientSyle}">
+            <TextBlock Text="OK" FontSize="16" />
+        </Button>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -16,23 +26,22 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
-            <TextBox DataContext="{Binding SelectedWord}" Text="{Binding Path=Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
-                <!--<i:Interaction.Triggers>
+        <StackPanel MaxHeight="30"  Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
+            <TextBox Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
+                <i:Interaction.Triggers>
                     <i:EventTrigger EventName="LostFocus">
                         <i:InvokeCommandAction
-                            Command="{Binding SearchCommand}"
-                            CommandParameter="{Binding SelectedWord}"/>
+                            Command="{Binding Path=SearchCommand}"
+                            CommandParameter="{ Binding Path=SelectedWord.Word}"/>
                     </i:EventTrigger>
-                </i:Interaction.Triggers>-->
+                </i:Interaction.Triggers>
             </TextBox>
             <TextBox  Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
-            <TextBlock  Text="{Binding Path=Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
-            <TextBlock DataContext="SelectedWord" Text="{Binding Path=Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
-        </StackPanel>
-        <Button Grid.Column="1" Grid.Row="1" Background="Aqua" Content="Add word" Width="100" Command="{Binding AddCommand}"
+            <TextBox>finded:</TextBox>
+            <TextBlock  Text="{Binding Path=FindedTranslate,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBlock>
+            <Button Grid.Column="0" Grid.Row="0" Background="{StaticResource gradientSyle}" Content="Add/Change word"  Command="{Binding AddCommand}"
                     CommandParameter="{Binding Path=SelectedWord}"></Button>
-
-        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}"></ListBox>
+        </StackPanel>
+        <ListBox Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" ItemsSource="{Binding ShowCollection}"></ListBox>
     </Grid>
 </Window>
