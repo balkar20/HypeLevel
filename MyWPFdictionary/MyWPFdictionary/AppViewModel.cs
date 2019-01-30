@@ -15,23 +15,15 @@ namespace MyWPFdictionary
 {
     public class AppViewModel : DependencyObject, INotifyPropertyChanged
     {
-        //static AppViewModel()
-        //{
-        //    WordWithTranslateProperty = DependencyProperty.Register(
-        //        "SelectedWord",
-        //        typeof(WordWithTranslate),
-        //        typeof(AppViewModel));
-        //}
-        public AppViewModel(WordRepository repository)
+        public AppViewModel(WordRepository repository, List<string> rowCollectionList)
         {
-            selectedWord = new WordWithTranslate();
+            selectedWord = new WordWithTranslate(){Word = "", Translate = ""};
             this.repository = repository;
-            ShowCollection = new ObservableCollection<string>(FileHelper.ReadAsListString(typeof(AppViewModel), "./files/words1.txt")); ;
+            ShowCollection = new ObservableCollection<string>(rowCollectionList
+                .Select(w => w.ToLower()));
             dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
         }
 
-        public static readonly DependencyProperty WordWithTranslateProperty;
-        public static readonly DependencyProperty FindedTRanslateProperty;
         private IDictionary<string, string> dictionary;
         public ObservableCollection<string> ShowCollection { get; set; }
         private WordWithTranslate selectedWord;
@@ -42,18 +34,11 @@ namespace MyWPFdictionary
         {
             get
             {
-                //return (WordWithTranslate) GetValue(WordWithTranslateProperty);
-                return selectedWord ;
+                return selectedWord;
             }
             set
             {
-                //SetValue(WordWithTranslateProperty, value);
-                //if (!string.IsNullOrEmpty(value.Word))
-                //{
-                //    selectedWord.Word = value.Word;
-                //}
                 selectedWord = value;
-                ////FindedTranslate = dictionary[selectedWord.Word];
                 OnPropertyChanged("SelectedWord");
             }
         }
@@ -62,11 +47,11 @@ namespace MyWPFdictionary
         {
             get
             {
-                return String.IsNullOrEmpty(selectedWord.Translate) ? "not found" : selectedWord.Translate;
+                return findedTranslate; 
             }
             set
             {
-                findedTranslate = selectedWord.Translate;
+                findedTranslate = value;
                 OnPropertyChanged("FindedTranslate");
             }
         }
@@ -96,11 +81,18 @@ namespace MyWPFdictionary
                        (searchCommand = new RelayCommand(obj =>
                        {
                            var word = (string) obj;
+
                            if (dictionary.ContainsKey(word))
                            {
-                               findedTranslate = dictionary[word];
+                               string finded = dictionary[word];
+                               SelectedWord.Translate = finded;
+                               FindedTranslate = finded;
                            }
-
+                           else
+                           {
+                               SelectedWord.Translate = "";
+                               FindedTranslate = "";
+                           }
                        }));
             }
         }
@@ -114,18 +106,26 @@ namespace MyWPFdictionary
                 this.dictionary.Add(word, translate);
                 repository.AddWordAndTranslateToFile(new WordWithTranslate()
                 {
-                    Word = word,
-                    Translate = translate
+                    Word = word.ToLower(),
+                    Translate = translate.ToLower()
                 },"files\\words1.txt");
-                ShowCollection.Add($"{word} - {translate}");
+                ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
+            }
+            else
+            {
+                string finded = this.dictionary[word];
+                this.dictionary[word] = translate;
+
             }
         }
 
+
+
         public event PropertyChangedEventHandler PropertyChanged;
-        public void OnPropertyChanged([CallerMemberName]string prop = "")
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(prop));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

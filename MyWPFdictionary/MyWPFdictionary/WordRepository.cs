@@ -54,7 +54,7 @@ namespace MyWPFdictionary
         public Dictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
         {
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
-            string pattern = @"([a-zA-Z]+)(\s[--–—]\s+)([а-яА-ЯёЁ]+)";
+            string pattern = @"([a-zA-Z]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
             
             foreach (var line in lines)
@@ -64,8 +64,8 @@ namespace MyWPFdictionary
                 {
                     GroupCollection groups = matches[0].Groups;
 
-                    var word = groups[1].ToString();
-                    var translate = groups[3].ToString();
+                    var word = groups[1].ToString().ToLower();
+                    var translate = groups[3].ToString().ToLower();
 
                     if (!dictionary.ContainsKey(word))
                     {

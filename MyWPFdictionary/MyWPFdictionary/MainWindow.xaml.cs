@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MyWPFdictionary.Helpers;
 
 namespace MyWPFdictionary
 {
@@ -23,8 +24,22 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new AppViewModel(new WordRepository());
+            DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words1.txt"));
         }
 
+        private void UIElement_OnKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                var context = ((AppViewModel) DataContext);
+                context.SearchCommand.Execute(((TextBox)sender).Text);
+                ApplicationCommands.Copy.Execute(((TextBox)sender), ((TextBox)sender));
+            }
+            else
+            {
+                txbx_translate.Text = "";
+                txbx_finded.Text = "";
+            }
+        }
     }
 }
