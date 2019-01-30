@@ -49,44 +49,9 @@
             
             
         </StackPanel>
-        <StackPanel Orientation="Horizontal" FlowDirection="LeftToRight" Margin="0 500 0 0" Grid.Column="0" Grid.Row="0" >
-            <TextBlock>finded: </TextBlock>
-            <TextBlock Name="txbx_finded"  Text="{Binding Path=FindedTranslate,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBlock>
-            <Button Grid.Column="0"  Margin="0 0 0 50" Height="30" Background="{StaticResource gradientSyle}" Content="Add/Change word"  Command="{Binding AddCommand}"
-                CommandParameter="{Binding Path=SelectedWord}"></Button>
-        </StackPanel>
-        
-        
-        <ListBox Grid.Column="1"  ItemsSource="{Binding ShowCollection}">
-            <ListBox.ItemContainerStyle>
-                <Style TargetType="{x:Type ListBoxItem}">
-                    <Setter Property="Margin" Value="15"/>
-                    <Setter Property="Padding" Value="15"/>
-                    <Setter Property="Background" Value="LightSteelBlue"/>
-                    <Setter Property="FontSize" Value="25"/>
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
-                                <Border x:Name="brd" Background="{TemplateBinding Background}" 
-                                        BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-                                    <ContentPresenter Margin="{TemplateBinding Padding}"/>
-                                </Border>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="ItemsControl.AlternationIndex" Value="1">
-                                        <Setter Property="Background" Value="Orange"/>
-                                    </Trigger>
-                                    <Trigger Property="IsSelected" Value="True">
-                                        <Setter Property="Background" Value="LimeGreen"/>
-                                        <Setter Property="Foreground" Value="White"/>
-                                        <Setter Property="BorderThickness" Value="1"/>
-                                        <Setter Property="BorderBrush" Value="Black"/>
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </ListBox.ItemContainerStyle>
-        </ListBox>
+        <Button Grid.Column="1" Grid.Row="1" Background="Aqua" Content="Add word" Width="100" Command="{Binding AddCommand}"
+                    CommandParameter="{Binding Path=SelectedWord}"></Button>
+
+        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}"></ListBox>
     </Grid>
 </Window>
