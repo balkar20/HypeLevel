@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using MyWPFdictionary.Helpers;
 
 namespace MyWPFdictionary
@@ -27,18 +16,17 @@ namespace MyWPFdictionary
             DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words1.txt"));
         }
 
-        private void UIElement_OnKeyDown(object sender, KeyEventArgs e)
+        private void UIElement_OnKeyUp(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Return)
+            string text = ((TextBox)sender).Text;
+            var context = ((AppViewModel)DataContext);
+            if (string.IsNullOrEmpty(text))
             {
-                var context = ((AppViewModel) DataContext);
-                context.SearchCommand.Execute(((TextBox)sender).Text);
-                ApplicationCommands.Copy.Execute(((TextBox)sender), ((TextBox)sender));
+                context.FindedCollection.Clear();
             }
-            else
-            {
-                txbx_translate.Text = "";
-            }
+            context.SearchCommand.Execute(text);
+            context.SearchForCollectinCommand.Execute(text);
+
         }
     }
 }

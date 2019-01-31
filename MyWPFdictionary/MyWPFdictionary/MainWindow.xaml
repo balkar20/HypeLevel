@@ -26,30 +26,37 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel MaxHeight="30"  Orientation="Horizontal" Grid.Column="0" >
-            <TextBox BorderBrush="Black" BorderThickness="2" KeyDown="UIElement_OnKeyDown" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="LostFocus">
-                        <i:InvokeCommandAction
-                            Command="{Binding Path=SearchCommand}"
-                            CommandParameter="{ Binding Path=SelectedWord.Word}"/>
-                    </i:EventTrigger>
-                    <i:EventTrigger EventName="LostFocus">
-                        <i:InvokeCommandAction
-                            Command="ApplicationCommands.Copy"
+        <StackPanel  VerticalAlignment="Top" Height="500" Orientation="Vertical" Grid.Column="0" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="0 0 65 0">English:</TextBlock>
+                <TextBlock>Russian:</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox BorderBrush="Black" BorderThickness="2"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="LostFocus">
+                            <i:InvokeCommandAction
+                                Command="{Binding Path=SearchCommand}"
+                                CommandParameter="{ Binding Path=SelectedWord.Word}"/>
+                        </i:EventTrigger>
+                        <i:EventTrigger EventName="LostFocus">
+                            <i:InvokeCommandAction
+                                Command="ApplicationCommands.Copy"
                             />
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </TextBox>
-            <TextBox Name="txbx_translate" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBox Name="txbx_translate" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
+            </StackPanel>
             
-            
+            <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add word" MinHeight="50" Width="100" Command="{Binding AddCommand}"
+                        CommandParameter="{Binding Path=SelectedWord}"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <ListBox   ItemsSource="{Binding FindedCollection}"></ListBox>
+            </StackPanel>
         </StackPanel>
-        <StackPanel FlowDirection="LeftToRight" Grid.Column="0" Margin="0 380 0 200">
-            <Button HorizontalAlignment="Left"  Background="Aqua" Content="Add word" MinHeight="70" Width="100" Command="{Binding AddCommand}"
-                                CommandParameter="{Binding Path=SelectedWord}"></Button>
-        </StackPanel>
-        
 
         <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}">
             <ListBox.ItemContainerStyle>

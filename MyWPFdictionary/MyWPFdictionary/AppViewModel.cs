@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.IO;
 using System.Linq;
-using System.Reactive.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using MyWPFdictionary.Annotations;
-using MyWPFdictionary.Helpers;
 
 
 namespace MyWPFdictionary
@@ -21,11 +17,13 @@ namespace MyWPFdictionary
             this.repository = repository;
             ShowCollection = new ObservableCollection<string>(rowCollectionList
                 .Select(w => w.ToLower()));
+            FindedCollection = new ObservableCollection<string>();
             dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
         }
 
         private IDictionary<string, string> dictionary;
         public ObservableCollection<string> ShowCollection { get; set; }
+        public ObservableCollection<string> FindedCollection { get; set; }
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
@@ -71,6 +69,7 @@ namespace MyWPFdictionary
                        }));
             }
         }
+
         private RelayCommand searchCommand;
 
         public RelayCommand SearchCommand
@@ -92,6 +91,28 @@ namespace MyWPFdictionary
                            {
                                SelectedWord.Translate = "";
                                FindedTranslate = "";
+                           }
+                       }));
+            }
+        }
+
+        private RelayCommand searchForCollectionCommand;
+
+        public RelayCommand SearchForCollectinCommand
+        {
+            get
+            {
+                return searchForCollectionCommand ??
+                       (searchForCollectionCommand = new RelayCommand(obj =>
+                       {
+                           var word = (string) obj;
+                           FindedCollection.Clear();
+                           
+                           IEnumerable<string> finded = string.IsNullOrEmpty(word)
+                                    ? new List<string>() : dictionary.Keys.Where(k => k.StartsWith(word));
+                           foreach (var s in finded)
+                           {
+                               FindedCollection.Add($"{s} - {dictionary[s]}");
                            }
                        }));
             }
