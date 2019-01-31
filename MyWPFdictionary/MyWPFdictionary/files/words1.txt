@@ -218,3 +218,16 @@ allies - союзники
 walrus - морж
 vigorous - бодрый
 knuckle - кулак
+weasels - хорьки
+deliberating - обсуждение
+unanimous - единодушное
+fret - размывать
+blossom - цвести
+apprentice - подмастерье
+reproach - упрекать
+restraint - сдержанность
+weep - плакать
+clot - сгусток
+shrivel - высыхать
+wreck - развалина
+torment - мучение
