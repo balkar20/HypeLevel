@@ -207,7 +207,6 @@ heist - ограбление
 chevy - гнаться
 ponder - задуматься
 reckoning - расплата
-hello - привет
 reckon - рассчитывать
 sprouted - проросли
 pretzel - кренделек
@@ -217,3 +216,5 @@ though - хоть
 thincessant - непрекращающийся
 allies - союзники
 walrus - морж
+vigorous - бодрый
+knuckle - кулак
