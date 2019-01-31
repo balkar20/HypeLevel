@@ -38,7 +38,6 @@ namespace MyWPFdictionary
             else
             {
                 txbx_translate.Text = "";
-                txbx_finded.Text = "";
             }
         }
     }

@@ -26,10 +26,6 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <!--<Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-
-        </Grid.RowDefinitions>-->
         <StackPanel MaxHeight="30"  Orientation="Horizontal" Grid.Column="0" >
             <TextBox BorderBrush="Black" BorderThickness="2" KeyDown="UIElement_OnKeyDown" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
                 <i:Interaction.Triggers>
@@ -45,13 +41,45 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </TextBox>
-            <TextBox BorderBrush="Black" Name="txbx_translate"  Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
+            <TextBox Name="txbx_translate" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
             
             
         </StackPanel>
-        <Button Grid.Column="1" Grid.Row="1" Background="Aqua" Content="Add word" Width="100" Command="{Binding AddCommand}"
-                    CommandParameter="{Binding Path=SelectedWord}"></Button>
+        <StackPanel FlowDirection="LeftToRight" Grid.Column="0" Margin="0 380 0 200">
+            <Button HorizontalAlignment="Left"  Background="Aqua" Content="Add word" MinHeight="70" Width="100" Command="{Binding AddCommand}"
+                                CommandParameter="{Binding Path=SelectedWord}"></Button>
+        </StackPanel>
+        
 
-        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}"></ListBox>
+        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Margin" Value="20"/>
+                    <Setter Property="Padding" Value="20"/>
+                    <Setter Property="Background" Value="LightSteelBlue"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                <Border x:Name="brd" Background="{TemplateBinding Background}" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                    <ContentPresenter Margin="{TemplateBinding Padding}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                                        <Setter Property="Background" Value="Orange"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="LimeGreen"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Setter Property="BorderThickness" Value="1"/>
+                                        <Setter Property="BorderBrush" Value="Black"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
     </Grid>
 </Window>

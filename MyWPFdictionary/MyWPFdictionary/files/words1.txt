@@ -204,3 +204,4 @@ remorse - раскаяние
 notorious - пресловутый
 ponder - обдумывать
 heist - ограбление
+chevy - гнаться
