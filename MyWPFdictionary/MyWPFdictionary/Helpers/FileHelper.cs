@@ -7,6 +7,24 @@ namespace MyWPFdictionary.Helpers
 {
     public static class FileHelper
     {
+        public static string GetPathForRoot(string pathForRoot)
+        {
+            string lPath;
+            string location = AppDomain.CurrentDomain.BaseDirectory + $"{pathForRoot}";
+            int index;
+            index = location.IndexOf("bin");
+            if (index > 0)
+            {
+                lPath = location.Remove(index, 10);
+            }
+            else
+            {
+                lPath = location;
+            }
+
+            return lPath;
+        }
+
         public static List<string> ReadAsListString(Type type, string path)
         {
             List<string> lines = new List<string>();

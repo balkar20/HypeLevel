@@ -27,7 +27,7 @@ namespace MyWPFdictionary
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
-        
+
         public WordWithTranslate SelectedWord
         {
             get

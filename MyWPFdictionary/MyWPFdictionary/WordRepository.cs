@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using MyWPFdictionary.Helpers;
 
 namespace MyWPFdictionary
 {
@@ -26,18 +27,7 @@ namespace MyWPFdictionary
         {
             try
             {
-                string lPath;
-                string location = AppDomain.CurrentDomain.BaseDirectory + $"{pathForRoot}";
-                int index;
-                index = location.IndexOf("bin");
-                if (index > 0)
-                {
-                    lPath = location.Remove(index, 10);
-                }
-                else
-                {
-                    lPath = location;
-                }
+                string lPath = FileHelper.GetPathForRoot(pathForRoot);
 
                 using (var stream = new FileStream(lPath, FileMode.Append, FileAccess.Write))
                 using (var writer = new StreamWriter(stream))
