@@ -64,11 +64,12 @@
                     <Setter Property="Margin" Value="20"/>
                     <Setter Property="Padding" Value="20"/>
                     <Setter Property="Background" Value="LightSteelBlue"/>
+                    <Setter Property="FontSize" Value="25"/>
+                    <Setter Property="Foreground" Value="BurlyWood"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="{x:Type ListBoxItem}">
-                                <Border x:Name="brd" Background="{TemplateBinding Background}" 
-                                        BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                <Border x:Name="brd" Background="Black">
                                     <ContentPresenter Margin="{TemplateBinding Padding}"/>
                                 </Border>
                                 <ControlTemplate.Triggers>

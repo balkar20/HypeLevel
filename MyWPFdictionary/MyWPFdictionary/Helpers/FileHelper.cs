@@ -39,7 +39,11 @@ namespace MyWPFdictionary.Helpers
                 {
                     while (reader.Peek() >= 0)
                     {
-                        lines.Add(reader.ReadLine());
+                        string line = reader.ReadLine();
+                        if (!string.IsNullOrWhiteSpace(line))
+                        {
+                            lines.Add(line);
+                        }
                     }
                     return lines;
                 }

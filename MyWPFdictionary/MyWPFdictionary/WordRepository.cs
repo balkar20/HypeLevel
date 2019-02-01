@@ -9,9 +9,6 @@ namespace MyWPFdictionary
 {
     public class WordRepository
     {
-        private readonly Dictionary<string, string> words;
-        private readonly List<string> stringWords;
-
         private static int addedCounter = 0;
         //public WordRepository(string documentPath)
         //{
@@ -69,7 +66,7 @@ namespace MyWPFdictionary
                     var word = groups[1].ToString().ToLower();
                     var translate = groups[3].ToString().ToLower();
 
-                    if (!dictionary.ContainsKey(word))
+                    if (!dictionary.ContainsKey(word) && !string.IsNullOrWhiteSpace(word))
                     {
                         dictionary.Add(word, translate);
                     }
