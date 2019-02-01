@@ -6,7 +6,6 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using MyWPFdictionary.Annotations;
 
-
 namespace MyWPFdictionary
 {
     public class AppViewModel : DependencyObject, INotifyPropertyChanged
