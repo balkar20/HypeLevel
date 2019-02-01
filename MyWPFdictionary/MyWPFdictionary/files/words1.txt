@@ -231,3 +231,4 @@ clot - сгусток
 shrivel - высыхать
 wreck - развалина
 torment - мучение
+po-по
