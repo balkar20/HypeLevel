@@ -232,3 +232,4 @@ shrivel - высыхать
 wreck - развалина
 torment - мучение
 decimated - истребленный
+malicious - злонамеренный
