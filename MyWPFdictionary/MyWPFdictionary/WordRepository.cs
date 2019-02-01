@@ -12,6 +12,7 @@ namespace MyWPFdictionary
         private readonly Dictionary<string, string> words;
         private readonly List<string> stringWords;
 
+        private static int addedCounter = 0;
         //public WordRepository(string documentPath)
         //{
         //    this.words  = GetWordsDictionaryFromText(documentPath);
@@ -32,7 +33,18 @@ namespace MyWPFdictionary
                 using (var stream = new FileStream(lPath, FileMode.Append, FileAccess.Write))
                 using (var writer = new StreamWriter(stream))
                 {
-                    writer.WriteLine($"{wordWithTranslate.Word} - {wordWithTranslate.Translate}");
+                    string stringToSave;
+                    if (addedCounter == 0)
+                    {
+                        stringToSave = $"\n{wordWithTranslate.Word} - {wordWithTranslate.Translate}";
+                    }
+                    else
+                    {
+                        stringToSave = $"{wordWithTranslate.Word} - {wordWithTranslate.Translate}";
+                    }
+                        
+                    writer.WriteLine(stringToSave);
+                    addedCounter++;
                 }
             }
             catch (Exception e)

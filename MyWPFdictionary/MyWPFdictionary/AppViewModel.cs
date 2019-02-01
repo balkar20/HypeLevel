@@ -21,13 +21,14 @@ namespace MyWPFdictionary
             dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
         }
 
-        private IDictionary<string, string> dictionary;
-        public ObservableCollection<string> ShowCollection { get; set; }
-        public ObservableCollection<string> FindedCollection { get; set; }
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
+        private IDictionary<string, string> dictionary;
 
+        public ObservableCollection<string> ShowCollection { get; set; }
+        public ObservableCollection<string> FindedCollection { get; set; }
+        
         public WordWithTranslate SelectedWord
         {
             get
@@ -139,8 +140,6 @@ namespace MyWPFdictionary
 
             }
         }
-
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
