@@ -58,7 +58,7 @@
             </StackPanel>
         </StackPanel>
 
-        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection}">
+        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection, UpdateSourceTrigger=PropertyChanged}">
             <ListBox.ItemContainerStyle>
                 <Style TargetType="{x:Type ListBoxItem}">
                     <Setter Property="Margin" Value="20"/>
