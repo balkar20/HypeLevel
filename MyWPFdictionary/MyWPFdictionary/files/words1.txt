@@ -230,4 +230,4 @@ weep - плакать
 clot - сгусток
 shrivel - высыхать
 wreck - развалина
-torment - мучение
+torment - мучениеdecimated - косит
