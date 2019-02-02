@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arena", "Arena\Arena.csproj", "{1326A465-EC03-4B1A-B4AC-72DED35AC6D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConectTodb", "ConectTodb\ConectTodb.csproj", "{B57B408A-8EB3-4036-BA08-C39BC9FCF9A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1326A465-EC03-4B1A-B4AC-72DED35AC6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1326A465-EC03-4B1A-B4AC-72DED35AC6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1326A465-EC03-4B1A-B4AC-72DED35AC6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57B408A-8EB3-4036-BA08-C39BC9FCF9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57B408A-8EB3-4036-BA08-C39BC9FCF9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57B408A-8EB3-4036-BA08-C39BC9FCF9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57B408A-8EB3-4036-BA08-C39BC9FCF9A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,7 +42,7 @@ namespace MyWPFdictionary.Helpers
                         string line = reader.ReadLine();
                         if (!string.IsNullOrWhiteSpace(line))
                         {
-                            lines.Add(line);
+                            lines.Add(line.ToLower());
                         }
                     }
                     return lines;

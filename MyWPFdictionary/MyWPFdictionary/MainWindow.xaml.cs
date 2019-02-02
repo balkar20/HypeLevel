@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Windows;
 using System.Windows.Forms;
+using MyWPFdictionary.dataBase;
 using MyWPFdictionary.Helpers;
+using MyWPFdictionary.Models;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
 using MessageBox = System.Windows.MessageBox;
 using TextBox = System.Windows.Controls.TextBox;
@@ -27,6 +31,8 @@ namespace MyWPFdictionary
         {
             try
             {
+                DictionaryContext context = new DictionaryContext();
+                List<WordWithTranslate> words = context.WordWithTranslates.ToList();
                 string pathForGit = FileHelper.GetPathForRoot("files/");
                 string path = FileHelper.GetPathForRoot("files/gitPull.bat");
                 Process.Start(path, pathForGit);

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using MyWPFdictionary.Annotations;
+using MyWPFdictionary.dataBase;
 
 namespace MyWPFdictionary
 {
@@ -125,7 +126,7 @@ namespace MyWPFdictionary
             if (string.IsNullOrEmpty(value))
             {
                 this.dictionary.Add(word, translate);
-                repository.AddWordAndTranslateToFile(new WordWithTranslate()
+                repository.AddWordAndTranslateToFile(new WordWithTranslate() 
                 {
                     Word = word.ToLower(),
                     Translate = translate.ToLower()

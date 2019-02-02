@@ -321,3 +321,15 @@ juncture - стык, соединение
 grasp - схватывание
 nozzle - сопло, насадка
 boundary - граница
+absolve - освобождать
+mundane - мирской
+titillate - щекотать
+manor - поместье
+flu - грипп
+meddling - надоедливый
+captives - пленники
+squad - команда
+awry - неправильно, косо
+compound - соединение
+farewell - прощальный
+ultimate - окончательный
