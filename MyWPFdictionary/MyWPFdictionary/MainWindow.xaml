@@ -27,13 +27,13 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel  VerticalAlignment="Top" Height="500" Orientation="Vertical" Grid.Column="0" >
+        <StackPanel MinHeight="700"  Background="IndianRed"  VerticalAlignment="Top"  Orientation="Vertical" Grid.Column="0" >
             <StackPanel Orientation="Horizontal">
                 <TextBlock Margin="0 0 65 0">English:</TextBlock>
                 <TextBlock>Russian:</TextBlock>
             </StackPanel>
             <StackPanel Height="50" Orientation="Horizontal">
-                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
+                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="130" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
@@ -47,19 +47,19 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
+                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="130"></TextBox>
             </StackPanel>
 
             <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
                 <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add word" MinHeight="50" Width="100" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
-            <StackPanel Orientation="Vertical">
+            <StackPanel Background="Chocolate" Orientation="Vertical">
                 <ListBox   ItemsSource="{Binding FindedCollection}"></ListBox>
             </StackPanel>
         </StackPanel>
 
-        <ListBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection, UpdateSourceTrigger=PropertyChanged}">
+        <ListBox Background="BlueViolet" Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection, UpdateSourceTrigger=PropertyChanged}">
             <ListBox.ItemContainerStyle>
                 <Style TargetType="{x:Type ListBoxItem}">
                     <Setter Property="Margin" Value="20"/>
