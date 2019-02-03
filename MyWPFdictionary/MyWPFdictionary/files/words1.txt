@@ -344,3 +344,67 @@ invaded - вторгся
 severely - сильно
 
 thud - глухой звук
+
+mansion - особняк
+dank - промозглый
+arcane - тайный
+rascal - мошенник
+peril - подвергать опасности
+abominations - мерзости
+clamor - ропот
+lad - парень
+rife - изобилующий
+hack - мотыга
+crack - трещина
+flare - вспышка
+inevitable - неизбежный
+warden - смотритель
+ledge - уступ
+perpetrated - совершаемых
+affair - дело
+dapper - щеголеватый
+amplify - усиливать
+facial - лицевой
+tow - буксировать, тащить
+dickens - черт
+persuasive - убедительный
+gills - жабры
+mongering - спекуляция
+resembling - похожий
+chisel - резец
+tombstone - надгробная плита
+slash - хлестать, сокращать
+constitute - составлять
+desecrate - осквернять
+chivalrous - рыцарский
+lace - шнурок
+limb - конечность
+zipper - молния
+reprimand - выговор
+jaw - челюсть
+kettle - чайник
+snivelling - хныкать
+remedy - средство
+addled - испорченный
+sprung - захмелевший, треснувший
+hissing - шипение
+yield - уступать, доходность
+wane - убывать
+intrepid - бесстрашный
+impale - прокалывать
+spike - колос, шип
+abdomen - живот
+obtain - получать
+hoof - копыто
+tiresome - утомительный
+dismay - испуг
+cantina - столовая
+deck - колода
+gullet - пищевод
+aspersion - клевета
+runt - коротышка
+sobriquet - кличка
+devious - хитрый
+grumpy - сердитый
+mellifluous - сладкозвучный
+ramified - разветвленный
