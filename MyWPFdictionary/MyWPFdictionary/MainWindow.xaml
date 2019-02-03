@@ -32,8 +32,8 @@
                 <TextBlock Margin="0 0 65 0">English:</TextBlock>
                 <TextBlock>Russian:</TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBox BorderBrush="Black" BorderThickness="2"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
+            <StackPanel Height="50" Orientation="Horizontal">
+                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
@@ -47,7 +47,7 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Name="txbx_translate" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
+                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"></TextBox>
             </StackPanel>
 
             <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">

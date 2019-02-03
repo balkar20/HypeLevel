@@ -11,11 +11,11 @@ namespace MyWPFdictionary.dataBase
 {
     using System;
     using System.Collections.Generic;
-    
-    public partial class WordWithTranslate
-    {
-        public int Id { get; set; }
-        public string Word { get; set; }
-        public string Translate { get; set; }
-    }
+
+    //public partial class WordWithTranslate
+    //{
+    //    public int Id { get; set; }
+    //    public string Word { get; set; }
+    //    public string Translate { get; set; }
+    //}
 }

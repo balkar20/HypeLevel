@@ -13,14 +13,14 @@ namespace MyWPFdictionary.dataBase
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DictionaryContext : DbContext
+    public partial class BaseConnection1 : DbContext
     {
-        static DictionaryContext()
+        static BaseConnection1()
         {
             //System.Data.Entity.Database.SetInitializer(new WordDbInitializer());
         }
 
-        public DictionaryContext()
+        public BaseConnection1()
             : base("name=DictionaryConnection")
         {
         }

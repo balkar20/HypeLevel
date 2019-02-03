@@ -8,27 +8,27 @@ using MyWPFdictionary.Models;
 
 namespace MyWPFdictionary.dataBase
 {
-    public class WordDbInitializer : DropCreateDatabaseIfModelChanges<DictionaryContext>
+    public class WordDbInitializer : DropCreateDatabaseIfModelChanges<BaseConnection1>
     {
-        protected override void Seed(DictionaryContext context)
-        {
-            List<string> listFomFile = FileHelper.ReadAsListString(typeof(MainWindow), "./files/words1.txt");
-            var dictionary = new WordRepository().GetWordsDictionaryFromText(listFomFile);
+        //protected override void Seed(BaseConnection1 context)
+        //{
+        //    List<string> listFomFile = FileHelper.ReadAsListString(typeof(MainWindow), "./files/words1.txt");
+        //    var dictionary = new WordRepository().GetWordsDictionaryFromText(listFomFile);
 
-            foreach (var keyValuePair in dictionary)
-            {
-                if (!string.IsNullOrWhiteSpace(keyValuePair.Key))
-                {
-                    context.WordWithTranslates.Add(new WordWithTranslate()
-                    {
-                        Word = keyValuePair.Key,
-                        Translate = keyValuePair.Value
-                    });
-                }
-            }
+        //    foreach (var keyValuePair in dictionary)
+        //    {
+        //        if (!string.IsNullOrWhiteSpace(keyValuePair.Key))
+        //        {
+        //            context.WordWithTranslates.Add(new WordWithTranslate()
+        //            {
+        //                Word = keyValuePair.Key,
+        //                Translate = keyValuePair.Value
+        //            });
+        //        }
+        //    }
 
-            context.SaveChanges();
-        }
+        //    context.SaveChanges();
+        //}
 
     }
 }

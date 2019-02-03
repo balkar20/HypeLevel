@@ -340,3 +340,5 @@ rambling - бессвязный, бродячий
 goon - громила
 cabal - интрига
 invaded - вторгся
+
+severely - сильно
