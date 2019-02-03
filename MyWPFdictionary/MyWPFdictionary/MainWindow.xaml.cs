@@ -31,8 +31,6 @@ namespace MyWPFdictionary
         {
             try
             {
-                DictionaryContext context = new DictionaryContext();
-                List<WordWithTranslate> words = context.WordWithTranslates.ToList();
                 string pathForGit = FileHelper.GetPathForRoot("files/");
                 string path = FileHelper.GetPathForRoot("files/gitPull.bat");
                 Process.Start(path, pathForGit);
