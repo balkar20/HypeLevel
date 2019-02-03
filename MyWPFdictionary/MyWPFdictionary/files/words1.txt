@@ -333,3 +333,10 @@ awry - неправильно, косо
 compound - соединение
 farewell - прощальный
 ultimate - окончательный
+implore - умолять
+bounty - щедрость
+tangle - запутывать
+rambling - бессвязный, бродячий
+goon - громила
+cabal - интрига
+invaded - вторгся
