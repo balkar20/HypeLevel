@@ -342,3 +342,5 @@ cabal - интрига
 invaded - вторгся
 
 severely - сильно
+
+thud - глухой звук
