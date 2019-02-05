@@ -54,8 +54,8 @@
                 <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add word" MinHeight="50" Width="100" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
-            <StackPanel Background="Chocolate" Orientation="Vertical">
-                <ListBox   ItemsSource="{Binding FindedCollection}"></ListBox>
+            <StackPanel Height="500" Background="Chocolate" Orientation="Vertical">
+                <ListBox ItemsSource="{Binding FindedCollection}"></ListBox>
             </StackPanel>
         </StackPanel>
 

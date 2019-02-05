@@ -38,16 +38,7 @@ namespace MyWPFdictionary
 
         private void OnClosing(object sender, CancelEventArgs cancelEventArgs)
         {
-            try
-            {
-                var context = ((AppViewModel)DataContext);
-                context.SaveChangesCommand.Execute(null);
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
 
-            }
             MessageBoxResult result = MessageBox.Show("Do you want to push changes?", "Warning",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
