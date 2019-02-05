@@ -429,3 +429,4 @@ fragrant - душистый
 skid - занос
 retaliation - возмездие
 magnificent - великолепный
+eloquently - красноречиво
