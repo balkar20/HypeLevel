@@ -431,3 +431,9 @@ gore - запекшаяся кровь
 banishment - изгнание
 solemn - торжественный
 barrel - бочка
+stomp - топать
+demented - безумный
+whittle - строгать
+nappy - подгузник
+mouthfeel - вкусового
+viscosity - вязкость
