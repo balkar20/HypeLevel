@@ -29,8 +29,8 @@
         </Grid.ColumnDefinitions>
         <StackPanel MinHeight="700"  Background="IndianRed"  VerticalAlignment="Top"  Orientation="Vertical" Grid.Column="0" >
             <StackPanel Orientation="Horizontal">
-                <TextBlock Margin="0 0 65 0">English:</TextBlock>
-                <TextBlock>Russian:</TextBlock>
+                <TextBlock Margin="0 0 95 0">Word:</TextBlock>
+                <TextBlock>Translate:</TextBlock>
             </StackPanel>
             <StackPanel Height="50" Orientation="Horizontal">
                 <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="130" >
@@ -54,9 +54,18 @@
                 <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add word" MinHeight="50" Width="100" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
-            <StackPanel Height="500" Background="Chocolate" Orientation="Vertical">
-                <ListBox ItemsSource="{Binding FindedCollection}"></ListBox>
-            </StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition>
+
+                    </ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Height="500" Background="Chocolate" Orientation="Vertical">
+                    <ListBox ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
+                </StackPanel>
+            </Grid>
+            
         </StackPanel>
 
         <ListBox Background="BlueViolet" Grid.Column="1" Grid.Row="0" ItemsSource="{Binding ShowCollection, UpdateSourceTrigger=PropertyChanged}">

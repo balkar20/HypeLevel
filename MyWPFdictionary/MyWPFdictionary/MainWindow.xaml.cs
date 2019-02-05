@@ -67,7 +67,7 @@ namespace MyWPFdictionary
                 context.FindedCollection.Clear();
             }
             context.SearchCommand.Execute(text);
-            context.SearchForCollectinCommand.Execute(text);
+            context.SearchForCollectionCommand.Execute(text);
 
         }
     }

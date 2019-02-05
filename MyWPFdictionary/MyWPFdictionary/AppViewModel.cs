@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using System.Windows.Forms;
 using MyWPFdictionary.Annotations;
 using MyWPFdictionary.dataBase;
 
@@ -19,12 +22,14 @@ namespace MyWPFdictionary
                 .Select(w => w.ToLower()));
             FindedCollection = new ObservableCollection<string>();
             dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
+            revertDictionary = ReverseDictionary(dictionary);
         }
 
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
         private IDictionary<string, string> dictionary;
+        private IDictionary<string, string> revertDictionary;
 
         public ObservableCollection<string> ShowCollection { get; set; }
         public ObservableCollection<string> FindedCollection { get; set; }
@@ -88,6 +93,12 @@ namespace MyWPFdictionary
                                SelectedWord.Translate = finded;
                                FindedTranslate = finded;
                            }
+                           else if (revertDictionary.ContainsKey(word))
+                           {
+                               string finded = revertDictionary[word];
+                               SelectedWord.Translate = finded;
+                               FindedTranslate = finded;
+                           }
                            else
                            {
                                SelectedWord.Translate = "";
@@ -99,21 +110,37 @@ namespace MyWPFdictionary
 
         private RelayCommand searchForCollectionCommand;
 
-        public RelayCommand SearchForCollectinCommand
+        public RelayCommand SearchForCollectionCommand
         {
             get
             {
                 return searchForCollectionCommand ??
                        (searchForCollectionCommand = new RelayCommand(obj =>
                        {
-                           var word = (string) obj;
+                           var word = ((string) obj).ToLower();
                            FindedCollection.Clear();
-                           
+                           IDictionary<string, string> resDictionary = new Dictionary<string, string>();
+
+                           char sym;
+                           if (!string.IsNullOrWhiteSpace(word))
+                           {
+                               sym = word[0];
+
+                               if ((sym >= 'а') && (sym <= 'я'))
+                               {
+                                   resDictionary = revertDictionary;
+                               }
+                               else if ((sym >= 'a') && (sym <= 'z'))
+                               {
+                                   resDictionary = dictionary;
+                               }
+                           }
+
                            IEnumerable<string> finded = string.IsNullOrEmpty(word)
-                                    ? new List<string>() : dictionary.Keys.Where(k => k.StartsWith(word));
+                                    ? new List<string>() : resDictionary.Keys.Where(k => k.StartsWith(word));
                            foreach (var s in finded)
                            {
-                               FindedCollection.Add($"{s} - {dictionary[s]}");
+                               FindedCollection.Add($"{s} - {resDictionary[s]}");
                            }
                        }));
             }
@@ -153,6 +180,34 @@ namespace MyWPFdictionary
                 this.dictionary[word] = translate;
 
             }
+        }
+
+        private bool SymbolIsEnglish(char symbol)
+        {
+            bool result = false;
+            if ((symbol >= 'а') && (symbol <= 'я'))
+            {
+                result = false;
+            }
+            else if ((symbol >= 'a') && (symbol <= 'z'))
+            {
+                result = true;
+            }
+
+            return result;
+        }
+
+        private IDictionary<string, string> ReverseDictionary(IDictionary<string, string> inputDictionary)
+        {
+            Dictionary<string, string> result = new Dictionary<string, string>();
+            foreach (var keyValuePair in inputDictionary)
+            {
+                string key = result.ContainsKey(keyValuePair.Value) ? 
+                    $"{keyValuePair.Value}+" : keyValuePair.Value;
+                result.Add(key, keyValuePair.Key);
+            }
+
+            return result;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
