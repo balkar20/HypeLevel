@@ -119,6 +119,20 @@ namespace MyWPFdictionary
             }
         }
 
+        private RelayCommand saveChangesCommand;
+
+        public RelayCommand SaveChangesCommand
+        {
+            get
+            {
+                return saveChangesCommand ??
+                       (saveChangesCommand = new RelayCommand(obj =>
+                       {
+                           this.repository.SaveChanges(this.dictionary);
+                       }));
+            }
+        }
+
         private void AddWordWithTranslate(string word, string translate)
         {
             string value;
@@ -126,11 +140,11 @@ namespace MyWPFdictionary
             if (string.IsNullOrEmpty(value))
             {
                 this.dictionary.Add(word, translate);
-                repository.AddWordAndTranslateToFile(new WordWithTranslate() 
-                {
-                    Word = word.ToLower(),
-                    Translate = translate.ToLower()
-                },"files\\words1.txt");
+                //repository.AddWordAndTranslateToFile(new WordWithTranslate() 
+                //{
+                //    Word = word.ToLower(),
+                //    Translate = translate.ToLower()
+                //},"files\\words1.txt");
                 ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
             }
             else

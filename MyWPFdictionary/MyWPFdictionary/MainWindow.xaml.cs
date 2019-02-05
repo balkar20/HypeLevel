@@ -17,7 +17,7 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words1.txt"));
+            DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words2.txt"));
             this.Closing += OnClosing;
             this.Loaded += OnLoaded;
         }
@@ -55,6 +55,16 @@ namespace MyWPFdictionary
                 }
             }
 
+            try
+            {
+                var context = ((AppViewModel)DataContext);
+                context.SaveChangesCommand.Execute(null);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                
+            }
         }
 
         private void UIElement_OnKeyUp(object sender, KeyEventArgs e)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Input;
+using MyWPFdictionary.Annotations;
 
 namespace MyWPFdictionary
 {
@@ -17,7 +18,7 @@ namespace MyWPFdictionary
             return execute != null ? true : false;
         }
 
-        public void Execute(object parameter)
+        public void Execute([CanBeNull] object parameter)
         {
             this.execute(parameter);
         }

@@ -20,6 +20,19 @@ namespace MyWPFdictionary
             
 
         //}
+
+        public void SaveChanges(IDictionary<string, string> wordsTranslates)
+        {
+            string rootPath = FileHelper.GetPathForRoot("files/words2.txt");
+            using (StreamWriter writer = new StreamWriter(rootPath))
+            {
+                foreach (var keyValuePair in wordsTranslates)
+                {
+                    writer.WriteLine($"{keyValuePair.Key} - {keyValuePair.Value}");
+                }
+            }
+        }
+
         public void AddWordAndTranslateToFile(WordWithTranslate wordWithTranslate, string pathForRoot)
         {
             try
