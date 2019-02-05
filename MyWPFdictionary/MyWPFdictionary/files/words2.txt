@@ -424,3 +424,10 @@ wretch - негодяй
 slurp - чавкать
 pellets - гранулы
 impose - навязать
+mining - добыча полезных ископаемых
+reprieve - передышка
+toddler - ребенок, начинающий ходить
+gore - запекшаяся кровь
+banishment - изгнание
+solemn - торжественный
+barrel - бочка
