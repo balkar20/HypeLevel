@@ -42,7 +42,8 @@ namespace MyWPFdictionary
             MessageBoxResult result = MessageBox.Show("Do you want to push changes?", "Warning",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
-            
+            var context = ((AppViewModel)DataContext);
+            context.SaveChangesCommand.Execute(null);
             if (result == MessageBoxResult.Yes)
             {
                 try

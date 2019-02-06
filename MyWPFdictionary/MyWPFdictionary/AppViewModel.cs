@@ -87,7 +87,7 @@ namespace MyWPFdictionary
                        {
                            var word = (string) obj;
 
-                           if (dictionary.ContainsKey(word))
+                        if (dictionary.ContainsKey(word))
                            {
                                string finded = dictionary[word];
                                SelectedWord.Translate = finded;
