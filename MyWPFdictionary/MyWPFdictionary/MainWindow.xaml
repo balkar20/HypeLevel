@@ -56,13 +56,16 @@
             </StackPanel>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition>
-
-                    </ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Height="500" Background="Chocolate" Orientation="Vertical">
-                    <ListBox ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
+                    <ListBox Height="500" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Height="500" Background="Chocolate" Orientation="Vertical">
+                    <TextBlock ></TextBlock>
+                    <TextBox ></TextBox>
+                    <Button ></Button>
                 </StackPanel>
             </Grid>
             
