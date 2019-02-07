@@ -50,7 +50,7 @@ curse - проклятие
 orchastrated - организовал
 breakout - разразиться
 squabbling - склок
-brawling - драки 
+brawling - драки
 sturdy - крепкий
 bid - предложение
 flair - чутье
@@ -67,7 +67,7 @@ prejutice - предубеждение
 faculties - способности
 astonishing - удивительный
 ward - подопечный
-trunk - хобот, 
+trunk - хобот,
 squat - приземистый
 launch - запуск
 tailpipe - выхлопная труба
@@ -111,7 +111,7 @@ wacky - чокнутый
 lapdog - болонка
 instill - внушать
 wealth - богатство
-ambushes - засады 
+ambushes - засады
 emerge - всплывать
 peer - вглядываться
 accelerate - ускорять
@@ -122,7 +122,7 @@ abyss - бездна
 poverty - бедность
 prosperity - процветание
 ambush - засада
-bodega - винный погребок 
+bodega - винный погребок
 snatch - урвать
 dabble - плескаться
 concussion - сотрясение
@@ -133,12 +133,12 @@ taunting - ядовитый
 instant - мгновенный
 dagger - кинжал
 encumbered - обремененный
-bargained - выторговал 
-gloat - злорадствовать 
+bargained - выторговал
+gloat - злорадствовать
 cassock - ряса
-abbey - аббатство 
+abbey - аббатство
 monks - монахи
-thug - головорез 
+thug - головорез
 jiggle - покачивать
 inflict - причинить
 stunned - ошеломлен
@@ -171,7 +171,7 @@ depraved - развращенный
 diluted - разбавленный
 feasible - выполнимый
 comb - расческа
-aid - помощь 
+aid - помощь
 abetted - подстрекательство
 specimen - образец
 sustain - поддерживать
@@ -403,7 +403,7 @@ delinquent - преступник
 uttered - сказанный
 utterly - вконец, крайне
 courage - храбрость
-curdling - леденящий, свертываться 
+curdling - леденящий, свертываться
 dimwit - тупица
 condemned - приговоренный
 fragrant - душистый
@@ -486,7 +486,7 @@ ingest - проглатывать
 flock - стадо
 porky - сальный
 repulsive - отталкивающий
-once - однажды
+at once - однажды
 swagger - развязность
 swag - халява
 tar - деготь
@@ -494,3 +494,4 @@ shrimp - креветка
 courting - ухаживает
 pantry - кладовая
 imply - подразумевать
+thus - таким образом
