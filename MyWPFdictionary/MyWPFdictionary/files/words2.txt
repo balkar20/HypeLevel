@@ -20,6 +20,7 @@ toddler - ребенок, начинающий ходить
 taunting - ядовитый
 arsonist - поджигатель
 reprieve - передышка
+wield - владеть
 soldering - паяльный
 owl - сова
 accelerate - ускорять
@@ -50,6 +51,7 @@ culprit - преступник
 dimming - затемнение
 dwell - обитать
 waylaid - подкараулил
+preliminary - предварительный
 acquainted - знакомый
 chastity - целомудрие
 leash - привязь
@@ -72,9 +74,11 @@ agenda - повестка дня
 parlay - держать пари
 penance - покаяние
 scourers - мочалки
+plot - сюжет, график
 vanquish - побеждать
 reckoning - расплата
 trespassing - нарушение
+flick - фильм
 abacus - счеты
 fragrant - душистый
 ingress - вход
@@ -96,6 +100,7 @@ cassock - ряса
 wretch - негодяй
 stray - бездомный, плутать
 speck - пятнышко
+stiff - жесткий
 ferocity - свирепость
 straw - солома
 scamper - носиться
@@ -103,8 +108,10 @@ comb - расческа
 uttered - сказанный
 miseries - невзгоды
 deviate - отклоняться
+tangible - осязаемый
 dimwit - тупица
 compassion - сострадание
+stilettos - туфли на шпильке
 abominations - мерзости
 prominent - видный, известный
 roast - жарить
@@ -121,6 +128,7 @@ launch - запуск
 illicit - незаконный
 gloat - злорадствовать
 eluding - ускользает
+breed - разводить
 mining - добыча полезных ископаемых
 flatter - льстить
 reprimand - выговор
@@ -137,8 +145,10 @@ tangle - запутывать
 remedy - средство
 condemned - приговоренный
 facilitate - содействовать
+whip - кнут
 fossils - ископаемые
 orderlies - санитары
+candid - беспристрастный, искренний
 lurking - скрываясь
 glance - взгляд
 frustrates - расстраивает
@@ -197,6 +207,7 @@ firebugs - поджигатели
 unicorn - единорог
 boost - повышение
 indignation - возмущение
+ally - союзник
 chivalrous - рыцарский
 scholar - ученый
 prosperity - процветание
@@ -225,6 +236,7 @@ whittle - строгать
 stunned - ошеломлен
 cordially - сердечно
 swell - набухать
+impunity - безнаказанность
 indigestions - расстройства желудка
 inflame - воспаляться
 impart - придавать
@@ -268,6 +280,7 @@ implore - умолять
 vigorous - бодрый
 abetted - подстрекательство
 runt - коротышка
+pun - каламбур
 instill - внушать
 yield - уступать, доходность
 sprouted - проросли
@@ -275,8 +288,10 @@ profound - глубокий
 blackout - затемнение
 shore - берег
 outlost - пережить
+intertwined - переплетенный
 reckon - рассчитывать
 groggy - слабый
+twined - обвивать
 chaperone - сопровождать
 depicted - изображенный
 vouch - поручиться
@@ -354,8 +369,10 @@ wealth - богатство
 jaw - челюсть
 feasible - выполнимый
 dummy - манекен
+ruse - хитрость
 skew - скос
 farewell - прощальный
+vain - тщеславный
 slurp - чавкать
 poverty - бедность
 affections - привязанностей
@@ -418,9 +435,11 @@ fornicate - блудить
 reliable - надежный
 cork - пробка
 condolences - соболезнование
+hint - намек
 torment - мучение
 salvation - спасение
 fugitive - беглец
+estranged - разобщенный
 obtain - получать
 arrogance - высокомерие
 curtain - занавес
@@ -469,6 +488,7 @@ swag - халява
 posh - шикарный
 weasel - ласка
 deception - обман
+turmoil - смятение
 goon - громила
 stifled - подавленный
 retain - удерживать, приглашать
