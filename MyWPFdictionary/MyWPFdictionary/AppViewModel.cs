@@ -28,7 +28,7 @@ namespace MyWPFdictionary
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
-        private IDictionary<string, string> dictionary;
+        public IDictionary<string, string> dictionary;
         private IDictionary<string, string> revertDictionary;
 
         public ObservableCollection<string> ShowCollection { get; set; }
@@ -36,10 +36,7 @@ namespace MyWPFdictionary
         
         public WordWithTranslate SelectedWord
         {
-            get
-            {
-                return selectedWord;
-            }
+            get { return selectedWord; }
             set
             {
                 selectedWord = value;
@@ -128,11 +125,11 @@ namespace MyWPFdictionary
 
                                if ((sym >= 'а') && (sym <= 'я'))
                                {
-                                   resDictionary = revertDictionary;
+                                  resDictionary = revertDictionary;
                                }
                                else if ((sym >= 'a') && (sym <= 'z'))
                                {
-                                   resDictionary = dictionary;
+                                  resDictionary = dictionary;
                                }
                            }
 

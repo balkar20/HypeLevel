@@ -65,8 +65,44 @@
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="Observables.Specialized.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Observables.Specialized.Extensions-beta.0.0.1\lib\netstandard1.4\Observables.Specialized.Extensions.dll</HintPath>
+    <Reference Include="ParallelExtensionsExtras, Version=1.2.3.0, Culture=neutral, PublicKeyToken=665f4d61f853b5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\ParallelExtensionsExtras.1.2.0.0\lib\net40\ParallelExtensionsExtras.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.BulkUpdates, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.BulkUpdates.2.1.7\lib\portable-net45+win\SquaredInfinity.BulkUpdates.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Collections.CollectionEx, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Collections.CollectionEx.2.1.13\lib\portable-net45+win\SquaredInfinity.Collections.CollectionEx.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Collections.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Collections.Core.2.1.11\lib\portable-net45+win\SquaredInfinity.Collections.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Comparers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Comparers.2.0.6\lib\portable-net45+win\SquaredInfinity.Comparers.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.ComponentModel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.ComponentModel.2.1.0\lib\net452\SquaredInfinity.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.ComponentModel.DotNet45, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.ComponentModel.2.1.0\lib\net452\SquaredInfinity.ComponentModel.DotNet45.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Disposables, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Disposables.2.0.10\lib\portable-net45+win\SquaredInfinity.Disposables.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Extensions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Extensions.2.1.1\lib\net452\SquaredInfinity.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Extensions.DotNet45, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Extensions.2.1.1\lib\net452\SquaredInfinity.Extensions.DotNet45.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Threading, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Threading.2.0.12\lib\net452\SquaredInfinity.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Threading.DotNet45, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Threading.2.0.12\lib\net452\SquaredInfinity.Threading.DotNet45.dll</HintPath>
+    </Reference>
+    <Reference Include="SquaredInfinity.Threading.Locks, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b2eb7b1f23e71d09, processorArchitecture=MSIL">
+      <HintPath>..\packages\SquaredInfinity.Threading.Locks.2.1.7\lib\portable-net45+win\SquaredInfinity.Threading.Locks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -173,6 +209,7 @@
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
     <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\ObservableDictionary.cs" />
     <Compile Include="Models\WordModel.cs" />
     <Compile Include="Models\WordsContext.cs" />
     <Compile Include="Properties\Annotations.cs" />

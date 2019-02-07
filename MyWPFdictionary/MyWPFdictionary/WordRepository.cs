@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
+using System.Reactive.Linq;
 using System.Text.RegularExpressions;
 using MyWPFdictionary.Helpers;
 
@@ -28,7 +31,7 @@ namespace MyWPFdictionary
             {
                 foreach (var keyValuePair in wordsTranslates)
                 {
-                    writer.WriteLine($"{keyValuePair.Key} - {keyValuePair.Value}");
+                    writer.WriteLine($"{keyValuePair.Key.TrimEnd()} - {keyValuePair.Value.TrimEnd()}");
                 }
             }
         }
@@ -45,11 +48,11 @@ namespace MyWPFdictionary
                     string stringToSave;
                     if (addedCounter == 0)
                     {
-                        stringToSave = $"\n{wordWithTranslate.Word} - {wordWithTranslate.Translate}";
+                        stringToSave = $"\n{wordWithTranslate.Word.TrimEnd()} - {wordWithTranslate.Translate.TrimEnd()}";
                     }
                     else
                     {
-                        stringToSave = $"{wordWithTranslate.Word} - {wordWithTranslate.Translate}";
+                        stringToSave = $"{wordWithTranslate.Word.TrimEnd()} - {wordWithTranslate.Translate.TrimEnd()}";
                     }
                         
                     writer.WriteLine(stringToSave);
@@ -62,10 +65,12 @@ namespace MyWPFdictionary
             }
             
         }
-        public Dictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
+
+        public IDictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
         {
+            ObservableConcurrentDictionary<string, string> observableConcurrentDictionary = new ObservableConcurrentDictionary<string, string>();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
-            string pattern = @"([a-zA-Z]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
+            string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
             
             foreach (var line in lines)
@@ -78,14 +83,14 @@ namespace MyWPFdictionary
                     var word = groups[1].ToString().ToLower();
                     var translate = groups[3].ToString().ToLower();
 
-                    if (!dictionary.ContainsKey(word) && !string.IsNullOrWhiteSpace(word))
+                    if (!observableConcurrentDictionary.ContainsKey(word) && !string.IsNullOrWhiteSpace(word))
                     {
-                        dictionary.Add(word, translate);
+                        observableConcurrentDictionary.Add(word, translate);
                     }
                 }
             }
 
-            return dictionary;
+            return observableConcurrentDictionary;
         }
     }
 }
