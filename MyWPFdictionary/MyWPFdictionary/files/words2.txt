@@ -472,8 +472,6 @@ hunk - ломоть
 keen - острый
 prominent - видный, известный
 reliable - надежный
-overall  - в общем и целом
-thus  - таким образом
 deviate - отклоняться
 residing - проживающих
 frequently - часто
@@ -488,7 +486,7 @@ ingest - проглатывать
 flock - стадо
 porky - сальный
 repulsive - отталкивающий
-at once - однажды
+once - однажды
 swagger - развязность
 swag - халява
 tar - деготь
