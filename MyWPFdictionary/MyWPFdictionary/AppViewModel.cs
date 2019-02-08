@@ -28,7 +28,7 @@ namespace MyWPFdictionary
         private WordWithTranslate selectedWord;
         private string findedTranslate;
         private readonly WordRepository repository;
-        public IDictionary<string, string> dictionary;
+        private IDictionary<string, string> dictionary;
         private IDictionary<string, string> revertDictionary;
 
         public ObservableCollection<string> ShowCollection { get; set; }
