@@ -49,6 +49,7 @@ profound - глубокий
 spike - колос, шип
 overture - увертюра
 stifled - подавленный
+drain - истощать
 comb - расческа
 boost - повышение
 constellation - созвездие
@@ -83,6 +84,7 @@ monks - монахи
 orchastrated - организовал
 knuckle - кулак
 deviate - отклоняться
+entails - влечет за собой
 incision - надрез
 ardent - пылкий
 confide - доверять
@@ -184,6 +186,7 @@ fry - жарить
 cliff - утес, крутой обрыв
 cork - пробка
 nappy - подгузник
+sting - ужалить
 arcane - тайный
 tension - напряженность
 devastated - опустошенный
@@ -196,6 +199,7 @@ slug - лентяй
 blackout - затемнение
 runt - коротышка
 curse - проклятие
+transmitted - передаваемое
 abbey - аббатство
 niece - племянница
 forsake - оставлять
@@ -222,6 +226,7 @@ fret - размывать
 crusade - крестовый поход
 aspersion - клевета
 flu - грипп
+harvest - урожай
 vat - чан
 wane - убывать
 vouch - поручиться
@@ -339,6 +344,7 @@ launch - запуск
 wretch - негодяй
 cabal - интрига
 snivelling - хныкать
+harness - упряжь
 swagger - развязность
 hunk - ломоть
 impale - прокалывать
@@ -362,13 +368,13 @@ proximity - близость
 conquer - завоевать
 gravy - подливка
 deliberating - обсуждение
-gutter - водосточный желоб
 curdling - леденящий, свертываться
+gutter - водосточный желоб
 dapper - щеголеватый
 impact - влияние
 impart - придавать
-turnip - репа
 envious - завистливый
+turnip - репа
 demented - безумный
 aisle - придел
 candid - беспристрастный, искренний
@@ -379,20 +385,21 @@ specimen - образец
 hassle - стычка
 cuttlefish - каракатица
 perceive - воспринимать
-toddler - ребенок, начинающий ходить
 oath - присяга
+toddler - ребенок, начинающий ходить
 shrivel - высыхать
 rambling - бессвязный, бродячий
 penance - покаяние
 squirm - извиваться
+adjourned - приостанавливалось
 peril - подвергать опасности
 amplify - усиливать
 imminent - неизбежный
 impose - навязать
 snatch - урвать
-soldering - паяльный
-caressing - ласкательный
 descend - спускаться
+caressing - ласкательный
+soldering - паяльный
 astonishing - удивительный
 at once - однажды
 abetted - подстрекательство
@@ -418,20 +425,20 @@ yield - уступать, доходность
 feasible - выполнимый
 latency - задержка
 dull - тупой
-whip - кнут
 bark - лай
+whip - кнут
 bullied - издеваются
 bulky - объемистый
 pacifies - умиротворяет
 fad - прихоть, причуда
-plague - чума
 salvation - спасение
+plague - чума
 sewer - сточная труба
 lad - парень
 hushed - приглушенным
 rampage - буйство
-clamor - ропот
 diluted - разбавленный
+clamor - ропот
 estranged - разобщенный
 tender - нежный
 nozzle - сопло, насадка
@@ -442,8 +449,8 @@ absolve - освобождать
 occupied - занятый
 juncture - стык, соединение
 stiff - жесткий
-captives - пленники
 thus - таким образом
+captives - пленники
 belay - отставить
 looting - мародерство
 lean - опираться
@@ -451,13 +458,13 @@ significant - значительное
 orderlies - санитары
 prominent - видный, известный
 viscosity - вязкость
-pantry - кладовая
 inflict - причинить
-kettle - чайник
+pantry - кладовая
 fling - брыкаться
+kettle - чайник
 infirmary - лазарет
-tow - буксировать, тащить
 fornicate - блудить
+tow - буксировать, тащить
 notorious - пресловутый
 lease - аренда
 leash - привязь
@@ -472,48 +479,49 @@ mettle - лихость
 interagation - опрос
 frowning - угрожающий
 peer - вглядываться
-skid - занос
 feather - перо
+skid - занос
 troops - войска
-accelerate - ускорять
 devote - посвятить
+accelerate - ускорять
 vault - свод, склеп, погреб
-frequently - часто
 wealth - богатство
-limb - конечность
+frequently - часто
 swag - халява
+limb - конечность
 eloquently - красноречиво
 addled - испорченный
 hawk - ястреб
 apprentice - подмастерье
 unleash - развязать
 flick - фильм
-chisel - резец
 dickens - черт
+chisel - резец
 instant - мгновенный
 sturdy - крепкий
 harbor - гавань
 awry - неправильно, косо
 hack - мотыга
-strangling - задыхающийся
 sack - мешок
-intrepid - бесстрашный
+strangling - задыхающийся
 bulletproof - пуленепробиваемый
+intrepid - бесстрашный
 torment - мучение
 acquainted - знакомый
+blend - смесь
 daisy - маргаритка
 dwell - обитать
 tumors - опухоли
 maimed - искалеченный
-imply - подразумевать
 chaperone - сопровождать
+imply - подразумевать
 ward - подопечный
 tremble - дрожать
 egress - выход
 crud - падла
 courage - храбрость
-inflame - воспаляться
 solemn - торжественный
+inflame - воспаляться
 chastity - целомудрие
 contamination - загрязнение
 lure - приманка
@@ -530,13 +538,13 @@ mouthfeel - вкусового
 scrawny - тощий
 bullies - хулиганами
 mongering - спекуляция
-carnage - резня
 bewitch - заколдовывать
+carnage - резня
 gore - запекшаяся кровь
 arrogance - высокомерие
 perpetrated - совершаемых
-stilettos - туфли на шпильке
 contagious - заразный
+stilettos - туфли на шпильке
 lapdog - болонка
 spry - проворный
 bump - удар
