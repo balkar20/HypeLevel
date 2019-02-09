@@ -41,6 +41,7 @@ plot - сюжет, график
 gills - жабры
 sap - живица
 consort - гармонировать, обращаться
+stern - кормовой, суровый
 dashboard - приборная доска
 stunned - ошеломлен
 hissing - шипение
@@ -49,8 +50,8 @@ profound - глубокий
 spike - колос, шип
 overture - увертюра
 stifled - подавленный
-drain - истощать
 comb - расческа
+drain - истощать
 boost - повышение
 constellation - созвездие
 uttered - сказанный
@@ -344,8 +345,8 @@ launch - запуск
 wretch - негодяй
 cabal - интрига
 snivelling - хныкать
-harness - упряжь
 swagger - развязность
+harness - упряжь
 hunk - ломоть
 impale - прокалывать
 unanimous - единодушное
@@ -385,21 +386,21 @@ specimen - образец
 hassle - стычка
 cuttlefish - каракатица
 perceive - воспринимать
-oath - присяга
 toddler - ребенок, начинающий ходить
+oath - присяга
 shrivel - высыхать
 rambling - бессвязный, бродячий
 penance - покаяние
 squirm - извиваться
-adjourned - приостанавливалось
 peril - подвергать опасности
+adjourned - приостанавливалось
 amplify - усиливать
 imminent - неизбежный
 impose - навязать
 snatch - урвать
-descend - спускаться
-caressing - ласкательный
 soldering - паяльный
+caressing - ласкательный
+descend - спускаться
 astonishing - удивительный
 at once - однажды
 abetted - подстрекательство
@@ -425,20 +426,20 @@ yield - уступать, доходность
 feasible - выполнимый
 latency - задержка
 dull - тупой
-bark - лай
 whip - кнут
+bark - лай
 bullied - издеваются
 bulky - объемистый
 pacifies - умиротворяет
 fad - прихоть, причуда
-salvation - спасение
 plague - чума
+salvation - спасение
 sewer - сточная труба
 lad - парень
 hushed - приглушенным
 rampage - буйство
-diluted - разбавленный
 clamor - ропот
+diluted - разбавленный
 estranged - разобщенный
 tender - нежный
 nozzle - сопло, насадка
@@ -449,8 +450,8 @@ absolve - освобождать
 occupied - занятый
 juncture - стык, соединение
 stiff - жесткий
-thus - таким образом
 captives - пленники
+thus - таким образом
 belay - отставить
 looting - мародерство
 lean - опираться
@@ -458,13 +459,13 @@ significant - значительное
 orderlies - санитары
 prominent - видный, известный
 viscosity - вязкость
-inflict - причинить
 pantry - кладовая
-fling - брыкаться
+inflict - причинить
 kettle - чайник
+fling - брыкаться
 infirmary - лазарет
-fornicate - блудить
 tow - буксировать, тащить
+fornicate - блудить
 notorious - пресловутый
 lease - аренда
 leash - привязь
@@ -479,33 +480,33 @@ mettle - лихость
 interagation - опрос
 frowning - угрожающий
 peer - вглядываться
-feather - перо
 skid - занос
+feather - перо
 troops - войска
-devote - посвятить
 accelerate - ускорять
+devote - посвятить
 vault - свод, склеп, погреб
-wealth - богатство
 frequently - часто
-swag - халява
+wealth - богатство
 limb - конечность
+swag - халява
 eloquently - красноречиво
 addled - испорченный
 hawk - ястреб
 apprentice - подмастерье
 unleash - развязать
 flick - фильм
-dickens - черт
 chisel - резец
+dickens - черт
 instant - мгновенный
 sturdy - крепкий
 harbor - гавань
 awry - неправильно, косо
 hack - мотыга
-sack - мешок
 strangling - задыхающийся
-bulletproof - пуленепробиваемый
+sack - мешок
 intrepid - бесстрашный
+bulletproof - пуленепробиваемый
 torment - мучение
 acquainted - знакомый
 blend - смесь
@@ -513,15 +514,15 @@ daisy - маргаритка
 dwell - обитать
 tumors - опухоли
 maimed - искалеченный
-chaperone - сопровождать
 imply - подразумевать
+chaperone - сопровождать
 ward - подопечный
 tremble - дрожать
 egress - выход
 crud - падла
 courage - храбрость
-solemn - торжественный
 inflame - воспаляться
+solemn - торжественный
 chastity - целомудрие
 contamination - загрязнение
 lure - приманка
@@ -538,13 +539,13 @@ mouthfeel - вкусового
 scrawny - тощий
 bullies - хулиганами
 mongering - спекуляция
-bewitch - заколдовывать
 carnage - резня
+bewitch - заколдовывать
 gore - запекшаяся кровь
 arrogance - высокомерие
 perpetrated - совершаемых
-contagious - заразный
 stilettos - туфли на шпильке
+contagious - заразный
 lapdog - болонка
 spry - проворный
 bump - удар
