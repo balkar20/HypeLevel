@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Forms;
 using MyWPFdictionary.Annotations;
@@ -173,9 +174,26 @@ namespace MyWPFdictionary
             }
             else
             {
-                string finded = this.dictionary[word];
-                this.dictionary[word] = translate;
+                string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
+                Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
 
+                for (int i = 0; i < ShowCollection.Count; i++)
+                {
+                    MatchCollection matches = rgx.Matches(ShowCollection[i]);
+                    GroupCollection groups = matches[0].Groups;
+
+                    var findedWord = groups[1].ToString().ToLower();
+                    var findedTranslate = groups[3].ToString().ToLower();
+                    if (string.Compare(
+                            findedWord, 
+                            word, 
+                            StringComparison.InvariantCultureIgnoreCase) == 0)
+                    {
+                        ShowCollection[i] = $"{word} - {translate}";
+                    }
+                }
+
+                this.dictionary[word] = translate;
             }
         }
 
