@@ -209,6 +209,7 @@
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
     <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\Language.cs" />
     <Compile Include="Helpers\ObservableDictionary.cs" />
     <Compile Include="Models\WordModel.cs" />
     <Compile Include="Models\WordsContext.cs" />

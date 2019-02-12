@@ -12,17 +12,6 @@ namespace MyWPFdictionary
     public class WordRepository
     {
         private static int addedCounter = 0;
-        //public WordRepository(string documentPath)
-        //{
-        //    this.words  = GetWordsDictionaryFromText(documentPath);
-        //    this.stringWords = Get;
-        //}
-
-        //public List<string> GetWordsFromText(string text)
-        //{
-            
-
-        //}
 
         public void SaveChanges(IDictionary<string, string> wordsTranslates)
         {

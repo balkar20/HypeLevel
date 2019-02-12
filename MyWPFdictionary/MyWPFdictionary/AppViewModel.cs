@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -7,9 +6,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Forms;
 using MyWPFdictionary.Annotations;
-using MyWPFdictionary.dataBase;
+using MyWPFdictionary.Helpers;
 
 namespace MyWPFdictionary
 {
@@ -17,7 +15,7 @@ namespace MyWPFdictionary
     {
         public AppViewModel(WordRepository repository, List<string> rowCollectionList)
         {
-            selectedWord = new WordWithTranslate(){Word = "", Translate = ""};
+            selectedWord = new WordWithTranslate {Word = "", Translate = ""};
             this.repository = repository;
             ShowCollection = new ObservableCollection<string>(rowCollectionList
                 .Select(w => w.ToLower()));
@@ -87,9 +85,9 @@ namespace MyWPFdictionary
                 return searchCommand ??
                        (searchCommand = new RelayCommand(obj =>
                        {
-                           var word = (string) obj;
+                           var word = (string)obj;
 
-                        if (dictionary.ContainsKey(word))
+                           if (dictionary.ContainsKey(word))
                            {
                                string finded = dictionary[word];
                                SelectedWord.Translate = finded;
@@ -123,18 +121,15 @@ namespace MyWPFdictionary
                            FindedCollection.Clear();
                            IDictionary<string, string> resDictionary = new Dictionary<string, string>();
 
-                           char sym;
                            if (!string.IsNullOrWhiteSpace(word))
                            {
-                               sym = word[0];
-
-                               if ((sym >= 'а') && (sym <= 'я'))
+                               Language lang = SymbolIsEnglish(word);
+                               if (lang == Language.English)
                                {
-                                  resDictionary = revertDictionary;
-                               }
-                               else if ((sym >= 'a') && (sym <= 'z'))
+                                   resDictionary = dictionary;
+                               }else if (lang == Language.Russian)
                                {
-                                  resDictionary = dictionary;
+                                   resDictionary = revertDictionary;
                                }
                            }
 
@@ -157,7 +152,7 @@ namespace MyWPFdictionary
                 return saveChangesCommand ??
                        (saveChangesCommand = new RelayCommand(obj =>
                        {
-                           this.repository.SaveChanges(this.dictionary);
+                           repository.SaveChanges(dictionary);
                        }));
             }
         }
@@ -165,60 +160,45 @@ namespace MyWPFdictionary
         private void AddWordWithTranslate(string word, string translate)
         {
             string value;
-            this.dictionary.TryGetValue(word, out value);
+            dictionary.TryGetValue(word, out value);
             string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
             if (rgx.IsMatch($"{word} - {translate}"))
             {
                 if (!dictionary.ContainsKey(word))
                 {
-                    this.dictionary.Add(word, translate);
-                    //repository.AddWordAndTranslateToFile(new WordWithTranslate() 
-                    //{
-                    //    Word = word.ToLower(),
-                    //    Translate = translate.ToLower()
-                    //},"files\\words1.txt");
+                    dictionary.Add(word, translate);
                     ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
-
-
                 }
                 else if (dictionary.ContainsKey(word))
                 {
-
                     for (int i = 0; i < ShowCollection.Count; i++)
                     {
                         MatchCollection matches = rgx.Matches(ShowCollection[i]);
                         GroupCollection groups = matches[0].Groups;
 
                         var findedWord = groups[1].ToString().ToLower();
-                        var findedTranslate = groups[3].ToString().ToLower();
                         if (string.Compare(
                                 findedWord,
                                 word,
                                 StringComparison.InvariantCultureIgnoreCase) == 0)
                         {
                             ShowCollection[i] = $"{word} - {translate}";
-                            this.dictionary[word] = translate;
+                            dictionary[word] = translate;
                         }
                     }
-
                 }
             }
                
         }
 
-        private bool SymbolIsEnglish(char symbol)
+        private Language SymbolIsEnglish(string word)
         {
-            bool result = false;
-            if ((symbol >= 'а') && (symbol <= 'я'))
-            {
-                result = false;
-            }
-            else if ((symbol >= 'a') && (symbol <= 'z'))
-            {
-                result = true;
-            }
-
+            Language result = word.All(w => (w >= 'a') && (w <= 'z'))
+                ? Language.English
+                : word.All(w => (w >= 'а') && (w <= 'я'))
+                ? Language.Russian
+                : 0;
             return result;
         }
 
