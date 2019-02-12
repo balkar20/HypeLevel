@@ -69,7 +69,11 @@ namespace MyWPFdictionary
                        {
                            var word = obj as WordWithTranslate;
                            selectedWord = word;
-                           AddWordWithTranslate(word.Word, word.Translate);
+                           if (!string.IsNullOrWhiteSpace(word.Word)
+                            && !string.IsNullOrWhiteSpace(word.Translate))
+                           {
+                               AddWordWithTranslate(word.Word, word.Translate);
+                           }
                        }));
             }
         }
@@ -162,39 +166,45 @@ namespace MyWPFdictionary
         {
             string value;
             this.dictionary.TryGetValue(word, out value);
-            if (string.IsNullOrEmpty(value))
+            string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
+            Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
+            if (rgx.IsMatch($"{word} - {translate}"))
             {
-                this.dictionary.Add(word, translate);
-                //repository.AddWordAndTranslateToFile(new WordWithTranslate() 
-                //{
-                //    Word = word.ToLower(),
-                //    Translate = translate.ToLower()
-                //},"files\\words1.txt");
-                ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
-            }
-            else
-            {
-                string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
-                Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
-
-                for (int i = 0; i < ShowCollection.Count; i++)
+                if (!dictionary.ContainsKey(word))
                 {
-                    MatchCollection matches = rgx.Matches(ShowCollection[i]);
-                    GroupCollection groups = matches[0].Groups;
+                    this.dictionary.Add(word, translate);
+                    //repository.AddWordAndTranslateToFile(new WordWithTranslate() 
+                    //{
+                    //    Word = word.ToLower(),
+                    //    Translate = translate.ToLower()
+                    //},"files\\words1.txt");
+                    ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
 
-                    var findedWord = groups[1].ToString().ToLower();
-                    var findedTranslate = groups[3].ToString().ToLower();
-                    if (string.Compare(
-                            findedWord, 
-                            word, 
-                            StringComparison.InvariantCultureIgnoreCase) == 0)
-                    {
-                        ShowCollection[i] = $"{word} - {translate}";
-                    }
+
                 }
+                else if (dictionary.ContainsKey(word))
+                {
 
-                this.dictionary[word] = translate;
+                    for (int i = 0; i < ShowCollection.Count; i++)
+                    {
+                        MatchCollection matches = rgx.Matches(ShowCollection[i]);
+                        GroupCollection groups = matches[0].Groups;
+
+                        var findedWord = groups[1].ToString().ToLower();
+                        var findedTranslate = groups[3].ToString().ToLower();
+                        if (string.Compare(
+                                findedWord,
+                                word,
+                                StringComparison.InvariantCultureIgnoreCase) == 0)
+                        {
+                            ShowCollection[i] = $"{word} - {translate}";
+                            this.dictionary[word] = translate;
+                        }
+                    }
+
+                }
             }
+               
         }
 
         private bool SymbolIsEnglish(char symbol)
