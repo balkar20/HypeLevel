@@ -90,6 +90,7 @@ rehashing - перефразировать
 loot - добыча
 mettle - лихость
 quaint - причудливый
+incinerator - мусоросжигательная печь
 sustain - поддерживать
 drain - истощать
 plump - полнеть
@@ -365,6 +366,7 @@ sturdy - крепкий
 procure - закупать
 impartial - беспристрастный
 cherish - лелеять
+trail - след
 mellifluous - сладкозвучный
 boundary - граница
 looting - мародерство
@@ -433,6 +435,7 @@ bullies - хулиганами
 contamination - загрязнение
 leap - прыжок
 keen - острый
+violin - скрипка
 anon - скоро
 freighter - грузовое судно
 retribution - воздаяние
