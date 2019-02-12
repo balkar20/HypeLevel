@@ -20,6 +20,7 @@ ingest - проглатывать
 bygones - былое
 wacky - чокнутый
 remnant - остаток
+fodder - фураж, корм
 toddler - ребенок, начинающий ходить
 taunting - ядовитый
 homage - дань
@@ -77,6 +78,7 @@ stern - кормовой, суровый
 lean - опираться
 consort - гармонировать, обращаться
 mayhem - нанесение увечья
+spew - блевать
 coerce - принуждать
 eager - нетерпеливый, стремящийся
 burglary - кража со взломом
@@ -132,6 +134,7 @@ weave - ткать
 cog - зубец
 reverberate - отражаться
 malicious - злонамеренный
+martyr - мученик
 ditch - ров
 aisle - придел
 skid - занос
@@ -165,34 +168,34 @@ fester - гноиться
 roast - жарить
 ledge - уступ
 hatch - люк
-perform - выполнять
 abbey - аббатство
+perform - выполнять
 stump - пень
 daisy - маргаритка
 deck - колода, палуба
 limb - конечность
 impose - навязать
 launch - запуск
-eulogy - хвалебная речь
 illicit - незаконный
-gloat - злорадствовать
+eulogy - хвалебная речь
 eluding - ускользает
-mining - добыча полезных ископаемых
+gloat - злорадствовать
 breed - разводить
+mining - добыча полезных ископаемых
 flatter - льстить
-turnip - репа
-sonar - ультразвуковой локатор
-reprimand - выговор
-severely - сильно
 haste - спешка
+severely - сильно
+reprimand - выговор
+sonar - ультразвуковой локатор
+turnip - репа
 vat - чан
 cantina - столовая
 pat - похлопывание
 diluted - разбавленный
 thicken - утолщать
 crawl - ползать
-at once - однажды
 clasp - зажим, рукопожатие
+at once - однажды
 hearse - катафалк
 tangle - запутывать
 remedy - средство
@@ -200,79 +203,80 @@ condemned - приговоренный
 behold - вот, созерцать
 facilitate - содействовать
 whip - кнут
-fossils - ископаемые
 orderlies - санитары
+fossils - ископаемые
 candid - беспристрастный, искренний
-glance - взгляд
-lurking - скрываясь
-frustrates - расстраивает
 nozzle - сопло, насадка
+frustrates - расстраивает
+lurking - скрываясь
+glance - взгляд
 maimed - искалеченный
 unanimous - единодушное
 endeavor - предприятие
-cuttlefish - каракатица
+disburse - проплачивать
 sprung - захмелевший, треснувший
+cuttlefish - каракатица
 hick - деревенщина
-cemetery - кладбище
 acolytes - служитель
+cemetery - кладбище
 discretion - осмотрительность
 dank - промозглый
 wedge - клин
 ultimate - окончательный
 ambushes - засады
 irreversible - необратимый
-strangling - задыхающийся
 noodles - лапша
+strangling - задыхающийся
 tenuous - разреженный
 curricular - внеклассных
 fling - брыкаться
-zipper - молния
 urbane - вежливый
+zipper - молния
 tranquility - спокойствие
-restraint - сдержанность
 yank - дергать
+restraint - сдержанность
 ingenuity - изобретательность
-anticipate - предвидеть
 hawk - ястреб
-awry - неправильно, косо
-vial - флакон
-resembling - похожий
+anticipate - предвидеть
 fence - забор
+resembling - похожий
+vial - флакон
+awry - неправильно, косо
 hunch - ломоть, предчувствие
 pacifies - умиротворяет
-wallop - поколотить
 zealot - фанатик
+wallop - поколотить
 extinction - вымирание
-spat - размолвка
-perceive - воспринимать
-curse - проклятие
 facial - лицевой
+curse - проклятие
+perceive - воспринимать
+spat - размолвка
 flair - чутье
 fruition - осуществление
 dungeon - темница
-popsicle - эскимо
 chunk - ломоть
+popsicle - эскимо
 cinder - пепел
-slaughter - резня
-gutter - водосточный желоб
 resort - курорт, прибежище
+gutter - водосточный желоб
+slaughter - резня
 atrocity - зверство
-weep - плакать
 tremble - дрожать
+weep - плакать
 retaliation - возмездие
 whammy - сглаз
 interagation - опрос
 porky - сальный
 deliberating - обсуждение
-fad - прихоть, причуда
 hunk - ломоть
+fad - прихоть, причуда
 mingle - смешиваться
 muzzle - морда
 dainty - лакомство
-scoop up - зачерпнуть
 devastated - опустошенный
-lad - парень
+scoop up - зачерпнуть
 tissue - ткань
+lad - парень
 escapade - авантюра
 slob - неряха
 proximity - близость
@@ -287,51 +291,51 @@ unicorn - единорог
 delusional - бредовый
 boost - повышение
 indignation - возмущение
-scholar - ученый
-chivalrous - рыцарский
 ally - союзник
+chivalrous - рыцарский
+scholar - ученый
 prosperity - процветание
 harness - упряжь
-plague - чума
 fragile - хрупкое
+plague - чума
 barrel - бочка
-allies - союзники
 villain - негодяй
+allies - союзники
 adjourned - приостанавливалось
-lapdog - болонка
 sloppy - неряшливый
-intimidate - запугивать
+lapdog - болонка
 vixen - мегера
+intimidate - запугивать
 spree - веселье
-pendant - кулон
 compels - принуждает
+pendant - кулон
 chevy - гнаться
-niece - племянница
 hethen - язычник
+niece - племянница
 spurned - отвергнутый
-mammal - млекопитающее
 thud - глухой звук
+mammal - млекопитающее
 impact - влияние
-repulsive - отталкивающий
 ankle - лодыжка
+repulsive - отталкивающий
 stomp - топать
-amplify - усиливать
-revive - возрождать
 gills - жабры
-whittle - строгать
-stunned - ошеломлен
+revive - возрождать
+amplify - усиливать
 rampage - буйство
+stunned - ошеломлен
+whittle - строгать
 cordially - сердечно
 butter - сливочное масло
 swell - набухать
-indigestions - расстройства желудка
 impunity - безнаказанность
+indigestions - расстройства желудка
 inflame - воспаляться
-carve - резать
 impart - придавать
-blossom - цвести
-crud - падла
+carve - резать
 belay - отставить
+crud - падла
+blossom - цвести
 feather - перо
 brawling - драки
 fuzzy - нечеткий
@@ -346,80 +350,81 @@ beggar - нищий
 ramified - разветвленный
 shrivel - высыхать
 caressing - ласкательный
-consolidate - укреплять
 implication - причастность
+consolidate - укреплять
 bullied - издеваются
 devote - посвятить
-parlor - кабинет
+denture - зубной протез
 bark - лай
-harbor - гавань
+parlor - кабинет
 rattle - погремушка
+harbor - гавань
 squabbling - склок
-chimney - дымоход
 cliff - утес, крутой обрыв
+chimney - дымоход
 excel - превосходить
 seagull - чайка
 intrepid - бесстрашный
 fret - размывать
 dashboard - приборная доска
-sturdy - крепкий
 procure - закупать
+sturdy - крепкий
 impartial - беспристрастный
 cherish - лелеять
-trail - след
-mellifluous - сладкозвучный
-boundary - граница
 looting - мародерство
-rambling - бессвязный, бродячий
+boundary - граница
+mellifluous - сладкозвучный
+trail - след
 virtue - добродетель
-imply - подразумевать
-implore - умолять
+rambling - бессвязный, бродячий
 vigorous - бодрый
+implore - умолять
+imply - подразумевать
 abetted - подстрекательство
 bun - булочка
 corporeal - телесный
 alleged - мнимый
 runt - коротышка
-pun - каламбур
 instill - внушать
-edgy - раздражительный
+pun - каламбур
 yield - уступать, доходность
+edgy - раздражительный
 sprouted - проросли
 profound - глубокий
-outlost - пережить
-shore - берег
 blackout - затемнение
-intertwined - переплетенный
-giddy - головокружительный
+shore - берег
+outlost - пережить
 reckon - рассчитывать
+giddy - головокружительный
+intertwined - переплетенный
 groggy - слабый
-twined - обвивать
 chaperone - сопровождать
-unleash - развязать
-vouch - поручиться
+twined - обвивать
 depicted - изображенный
+vouch - поручиться
+unleash - развязать
 resent - возмущаться
-hissing - шипение
 rankle - терзать
+hissing - шипение
 spike - колос, шип
-titillate - щекотать
 contagious - заразный
+titillate - щекотать
 cortex - кора головного мозга
 dabble - плескаться
 notorious - пресловутый
 stumble - спотыкаться
-choke - удушение
 rectify - исправлять
+choke - удушение
 pellets - гранулы
-absolve - освобождать
 emerge - всплывать
-docile - послушный
+absolve - освобождать
 delinquent - преступник
+docile - послушный
 carnage - резня
 flunk - провалить
-dismay - испуг
-menace - угроза
 mallet - колотушка
+menace - угроза
+dismay - испуг
 peril - подвергать опасности
 desecrate - осквернять
 astray - заблудившись
@@ -432,109 +437,112 @@ intrinsic - свойственный
 mundane - мирской
 turner - токарь
 bullies - хулиганами
-contamination - загрязнение
 leap - прыжок
+contamination - загрязнение
 keen - острый
-violin - скрипка
 anon - скоро
-freighter - грузовое судно
-retribution - воздаяние
+violin - скрипка
 lure - приманка
+retribution - воздаяние
+freighter - грузовое судно
 snatch - урвать
 stellar - звездный
-vault - свод, склеп, погреб
 mustard - горчичный
+vault - свод, склеп, погреб
 bulletproof - пуленепробиваемый
-eloquently - красноречиво
 impeccable - безупречный
+eloquently - красноречиво
 brothel - бордель
 aspersion - клевета
-plucking - выщипывание
 jiggle - покачивать
-guile - коварство
-ardent - пылкий
-exile - ссыльный
+plucking - выщипывание
 atonement - расплата
+exile - ссыльный
+ardent - пылкий
+guile - коварство
 synergy - взаимодействие
 ensue - вытекать, следовать
 monks - монахи
 strain - нагрузка
 significant - значительное
 decanter - графин
-booing - освистала
 ascending - по возрастанию
+booing - освистала
 twerp - хам
-oath - присяга
-stage - этап, стадия
 banishment - изгнание
+stage - этап, стадия
+oath - присяга
 grist - помол
 prowl - рыскать
 thug - головорез
-occupied - занятый
 unscathed - невредимый
+occupied - занятый
 crusade - крестовый поход
-arouse - пробуждать
-malarkey - чепуха
 specimen - образец
+malarkey - чепуха
+arouse - пробуждать
 reluctant - неохотный
-flu - грипп
-accommodate - вмещать
 faceted - граненый
+accommodate - вмещать
+flu - грипп
 breakout - разразиться
 knitting - вязание
 latency - задержка
 though - хоть
-redeem - выкупать
 fuse - предохранитель
-slash - хлестать, сокращать
+redeem - выкупать
 abide - соблюдать
-entails - влечет за собой
+slash - хлестать, сокращать
 tension - напряженность
+entails - влечет за собой
+gain - усиление
 vexing - раздражающий
 pantry - кладовая
-wealth - богатство
 utterly - вконец, крайне
-feasible - выполнимый
+wealth - богатство
 jaw - челюсть
+feasible - выполнимый
 dummy - манекен
-skew - скос
 ruse - хитрость
+skew - скос
 farewell - прощальный
 vain - тщеславный
-poverty - бедность
 slurp - чавкать
+poverty - бедность
 affections - привязанностей
 mill - мельница
 apprehension - опасение
 grasp - схватывание
-slam - хлопать
 flare - вспышка
+slam - хлопать
 sap - живица
 rap - стук, наказание
-hushed - приглушенным
 nook - закоулок
-waive - отказываться
+hushed - приглушенным
 eradicate - искоренять
-collaborative - совместный
+waive - отказываться
+omission - упущение
 prejutice - предубеждение
+collaborative - совместный
 sewer - сточная труба
-gravy - подливка
-dickens - черт
 malware - вредоносные программы
+dickens - черт
+gravy - подливка
 trunk - хобот,
 bid - предложение
 aid - помощь
-sobriquet - кличка
 afar - издалека
+sobriquet - кличка
 imminent - неизбежный
 cellar - погреб
 ogle - строить глазки
+geranium - герань
 slab - плита
-penitentiary - исправительный
-bulky - объемистый
 mansion - особняк
-inevitable - неизбежный
+bulky - объемистый
+penitentiary - исправительный
 envious - завистливый
+inevitable - неизбежный
 shrimp - креветка
 wreck - развалина
 meanwhile - между тем
@@ -550,108 +558,109 @@ tiresome - утомительный
 curdling - леденящий, свертываться
 bedrock - почва
 inflict - причинить
-fry - жарить
-newt - тритон
 compliance - соблюдение
+newt - тритон
+fry - жарить
 rebellion - бунт
 bewitch - заколдовывать
 scram - катись
-demented - безумный
 heel - пятка, каблук
+demented - безумный
 ambush - засада
 sneer - насмешка
 jolly - веселый
-brass - латунь
 outfit - снаряжение
+brass - латунь
 leather - натуральная кожа
-troops - войска
 clumsy - неуклюжий
-bump - удар
+troops - войска
 ponder - обдумывать
+bump - удар
 cahoot - соучастие
-accomplance - соучастник
 soggy - нудный
+accomplance - соучастник
 vicious - порочный
 squirm - извиваться
 restrictive - ограничительный
-sincere - искренний
 worship - поклонение
+sincere - искренний
 fornicate - блудить
-reliable - надежный
 superior - превосходящий
-cork - пробка
+reliable - надежный
 antiquated - устарелый
+cork - пробка
 condolences - соболезнование
-hint - намек
 torment - мучение
+hint - намек
 indulgent - снисходительный
 snuck - пробралась
 batch - партия
-fugitive - беглец
 salvation - спасение
+fugitive - беглец
 estranged - разобщенный
 patrimony - наследие
 obtain - получать
 velvety - бархатистый
-arrogance - высокомерие
 hunker - сидеть на корточках, старомодный
+arrogance - высокомерие
 curtain - занавес
-arcane - тайный
-affair - дело
-flippant - легкомысленный
 spook - привидение
-abyss - бездна
+flippant - легкомысленный
+affair - дело
+arcane - тайный
 mouthfeel - вкусового
+abyss - бездна
 tumors - опухоли
 quarrel - ссора
-kipper - копченая рыба
 mittens - рукавицы
-pretzel - кренделек
+kipper - копченая рыба
 perpetrated - совершаемых
+pretzel - кренделек
 drawers - подштанники
 endorce - одобрять
-tar - деготь
 flunky - лакей
+tar - деготь
 reeling - наматывание
 dread - страшиться
 courting - ухаживает
-hectic - беспокойный
 gore - запекшаяся кровь
+hectic - беспокойный
 geezer - старикашка
-infirmary - лазарет
 cozy - уютный
+infirmary - лазарет
 recess - углубление
-juncture - стык, соединение
 courage - храбрость
+juncture - стык, соединение
 astound - изумлять
 paddling - перемешивание
 aggravate - обострять
 slain - убитый
-loony - полоумный
 mongering - спекуляция
+loony - полоумный
 resentment - обида
-nurture - взрастить
-crack - трещина
 skedaddled - драпать
-depraved - развращенный
-rejoice - радоваться
+crack - трещина
+nurture - взрастить
 esteem - почитать
+rejoice - радоваться
+depraved - развращенный
 hack - мотыга
-heist - ограбление
-forsake - оставлять
-conquer - завоевать
 iffy - сомнительный
+conquer - завоевать
+forsake - оставлять
+heist - ограбление
 pinch - зажимать, щипать
-nappy - подгузник
 sack - мешок
+nappy - подгузник
 swag - халява
-evolve - эволюционировать
 posh - шикарный
+evolve - эволюционировать
 weasel - ласка
 deception - обман
-tantrum - вспышка гнева
 saddle - седло
+tantrum - вспышка гнева
 turmoil - смятение
+crimson - малиновый
 splendid - великолепный
 goon - громила
 stifled - подавленный
@@ -660,22 +669,22 @@ astonishing - удивительный
 fabulous - невероятный
 bounty - щедрость
 dapper - щеголеватый
-stash - копить
-manor - поместье
 magnificent - великолепный
+manor - поместье
+stash - копить
 sassy - нахальный
 thincessant - непрекращающийся
 egress - выход
 gutted - потрошат
-bodega - винный погребок
 lackadaisical - апатичный
-constitute - составлять
-hassle - стычка
+bodega - винный погребок
 aligned - выровненный
-dibs - фишки
+hassle - стычка
+constitute - составлять
 peeve - раздражение
-warden - смотритель
+dibs - фишки
 compound - соединение
+warden - смотритель
 walrus - морж
 bliss - блаженство
 peer - вглядываться
