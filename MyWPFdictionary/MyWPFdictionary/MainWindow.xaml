@@ -51,7 +51,7 @@
             </StackPanel>
 
             <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
-                <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add word" MinHeight="50" Width="100" Command="{Binding AddCommand}"
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add/Change word" MinHeight="50" Width="122" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
             <Grid>
