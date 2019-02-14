@@ -1,815 +1,816 @@
-warden - смотритель
-decay - распад
-thincessant - непрекращающийся
-tissue - ткань
-encumbered - обремененный
-soggy - нудный
-boundary - граница
-villain - негодяй
-sorrow - печаль
-bedrock - почва
-mansion - особняк
-weave - ткать
-superior - превосходящий
-stretch - протяжение
-deceive - обманывать
-clumsy - неуклюжий
-shrimp - креветка
-muzzle - морда
-slam - хлопать
-ingenuity - изобретательность
-smother - душить
-potion - зелье
-sonar - ультразвуковой локатор
-esteem - почитать
-choke - удушение
-anxiety - тревожность
-dimming - затемнение
-taunting - ядовитый
-slob - неряха
-dank - промозглый
-dabble - плескаться
-sobriquet - кличка
-ultimate - окончательный
-extinction - вымирание
-endorce - одобрять
-freighter - грузовое судно
-leather - натуральная кожа
-cordially - сердечно
-procure - закупать
-retribution - воздаяние
-recess - углубление
-faceted - граненый
-debacle - разгром, ледоход
-yank - дергать
+aspersion - клевета
+whammy - сглаз
 dainty - лакомство
-sincere - искренний
+rebellion - бунт
+meanwhile - между тем
+wit - остроумие
+abide - соблюдать
+raving - бесноватый
+chunk - ломоть
+gain - усиление
+platter - блюдо
+marshmallow - зефир
+vain - тщеславный
+scamper - носиться
+prodigy - одаренный
+malware - вредоносные программы
+slurp - чавкать
+ingenuity - изобретательность
+uttered - сказанный
+gore - запекшаяся кровь
+hunk - ломоть
+skid - занос
+looting - мародерство
+meticulous - дотошный, тщательный
+contestant - соперник
+snuck - пробралась
+wield - владеть
+belay - отставить
+inflict - причинить
+orderlies - санитары
+mouthfeel - вкусового
+ultimate - окончательный
+waylaid - подкараулил
+batch - партия
+unsettling - тревожащий
+worship - поклонение
+loot - добыча
+measly - жалкий
+inferior - низший
+skew - скос
+prominent - видный, известный
+rattle - погремушка
+synergy - взаимодействие
+porky - сальный
+curdling - леденящий, свертываться
+bullied - издеваются
+hunker - сидеть на корточках, старомодный
+tangle - запутывать
+hoof - копыто
 dibs - фишки
-bounty - щедрость
-detested - ненавидимый
+facial - лицевой
+hawk - ястреб
+deception - обман
+fruition - осуществление
+luscious - приторный
+fodder - фураж, корм
+aligned - выровненный
+diversity - разнообразие
+mittens - рукавицы
+limb - конечность
+cassock - ряса
+pinch - зажимать, щипать
+coerce - принуждать
+decimated - истребленный
+omission - упущение
+spew - блевать
+deviate - отклоняться
+endorce - одобрять
 cleave - раскалывать
-clot - сгусток
-owl - сова
-declare - объявлять
-reckoning - расплата
-loony - полоумный
-strain - нагрузка
-groggy - слабый
-eagle - орел
+chastity - целомудрие
+soldering - паяльный
+aggravate - обострять
+muzzle - морда
+smother - душить
+saddle - седло
+hearse - катафалк
+potion - зелье
+fragile - хрупкое
+taunting - ядовитый
+rectify - исправлять
+nitwit - простофиля
+desecrate - осквернять
+fuse - предохранитель
+rectangular - прямоугольный
+tremble - дрожать
+jiggle - покачивать
+tedium - скука
+cherish - лелеять
+dwell - обитать
+ruse - хитрость
+fence - забор
+allegedly - якобы
+tendril - завиток, усик
+dummy - манекен
+parlay - держать пари
+banishment - изгнание
+pacifies - умиротворяет
+edgy - раздражительный
+feverish - лихорадочный
+tenuous - разреженный
+abyss - бездна
+sustain - поддерживать
+bark - лай
+implication - причастность
+ambush - засада
+inflame - воспаляться
+peeve - раздражение
+bullies - хулиганами
+parlor - кабинет
+emerge - всплывать
+stooge - марионетка
+eject - выталкивать
+leap - прыжок
+vixen - мегера
+debacle - разгром, ледоход
+mediocre - посредственный
+blimp - дирижабль
+antiquated - устарелый
+hatch - люк
+stellar - звездный
+torment - мучение
+hethen - язычник
+incorrigible - неисправимый
+flock - стадо
+atonement - расплата
+remnant - остаток
+cliff - утес, крутой обрыв
+impartial - беспристрастный
+durable - прочный
+bounty - щедрость
+mongering - спекуляция
+intrepid - бесстрашный
+residing - проживающих
+noodles - лапша
+significant - значительное
+bludgeon - дубинка
+bewitch - заколдовывать
+courting - ухаживает
+retain - удерживать, приглашать
+squirm - извиваться
+trumpet - труба
+stray - бездомный, плутать
+roast - жарить
+tension - напряженность
+scram - катись
+straw - солома
+yield - уступать, доходность
+interagation - опрос
+unicorn - единорог
 beckon - манить
-penitentiary - исправительный
-plot - сюжет, график
-hood - капот, капюшон
+squad - команда
+trespassing - нарушение
+squat - приземистый
+clumsy - неуклюжий
+daisy - маргаритка
+sloppy - неряшливый
+esteem - почитать
+loaf - буханка
+persuasive - убедительный
+mustard - горчичный
+turner - токарь
+skedaddled - драпать
+swell - набухать
+ransom - выкуп
+fowl - домашняя птица
+tissue - ткань
+bowl - миска
+disburse - проплачивать
+ensue - вытекать, следовать
+fret - размывать
+tuck - складка
+dunce - раздолбай
+crack - трещина
+mill - мельница
+booing - освистала
+sprung - захмелевший, треснувший
+patrimony - наследие
+vexing - раздражающий
+tummy - животик
+escapade - авантюра
+abominations - мерзости
+afar - издалека
+snivelling - хныкать
+heel - пятка, каблук
+compliance - соблюдение
+abetted - подстрекательство
+tumors - опухоли
+fester - гноиться
+profound - глубокий
+eulogy - хвалебная речь
+wane - убывать
+astray - заблудившись
+chaperone - сопровождать
+comb - расческа
+fabulous - невероятный
+eluding - ускользает
+caterpillar - гусеница
+flunky - лакей
+knob - ручка, кнопка
+overture - увертюра
+tailpipe - выхлопная труба
+intimidate - запугивать
+carnage - резня
+ascending - по возрастанию
+boundary - граница
+plod - тащиться
+pave - вымостить, выстилать
+rejoice - радоваться
 gills - жабры
+prosperity - процветание
+posh - шикарный
+clasp - зажим, рукопожатие
+gauntlet - рукавица
+niece - племянница
+haste - спешка
+ledge - уступ
+compels - принуждает
+dapper - щеголеватый
+covet - жаждать
+owl - сова
+consuming - потребляющий
+courage - храбрость
+mansion - особняк
+reckon - рассчитывать
+deliberating - обсуждение
+thug - головорез
+affections - привязанностей
+ogle - строить глазки
+juncture - стык, соединение
+ferocity - свирепость
+anxiety - тревожность
+hunch - ломоть, предчувствие
+culprit - преступник
+curtain - занавес
+stump - пень
+wedge - клин
+consolidate - укреплять
+hail - град
+proximity - близость
+frowning - угрожающий
+sly - лукавый
+searing - жгучая
+rampage - буйство
+meddling - надоедливый
+villain - негодяй
+bobble - качающийся
+parting - расставание
+farewell - прощальный
+unscathed - невредимый
+devastated - опустошенный
+grumpy - сердитый
+diluted - разбавленный
+spade - копать лопатой
+crumb - крошка
+spike - колос, шип
+cough - кашель
+divine - божественный
+faculties - способности
+lucid - ясный
+rascal - мошенник
+vicious - порочный
+nook - закоулок
+reckoning - расплата
+illicit - незаконный
+devious - хитрый
+ash - пепел
+sprouted - проросли
+hood - капот, капюшон
+rife - изобилующий
+mallet - колотушка
+acolytes - служитель
+slam - хлопать
+virtue - добродетель
+curricular - внеклассных
+resembling - похожий
+nerd - ботан
+twerp - хам
+sucks - отстой
+estranged - разобщенный
+indignation - возмущение
+prejutice - предубеждение
+reluctant - неохотный
+remorse - раскаяние
+drain - истощать
+peer - вглядываться
+decay - распад
+eyelashes - ресницы
+knuckle - кулак
+declare - объявлять
+flare - вспышка
+slash - хлестать, сокращать
+encumbered - обремененный
+banshee - сирена воздушной тревоги
+beggar - нищий
+dank - промозглый
+knitting - вязание
+ramified - разветвленный
+yank - дергать
+invaded - вторгся
+resort - курорт, прибежище
+moist - влажный
+irreversible - необратимый
+ruckus - гам
+impact - влияние
+impart - придавать
+splatter - плескаться
+scum - сволочь
+prowl - рыскать
+vial - флакон
+weep - плакать
+iffy - сомнительный
+bedrock - почва
+giddy - головокружительный
+barrel - бочка
+squeal - визг
+hobble - ковылять
+despise - презирать
+breakout - разразиться
+cozy - уютный
+anticipate - предвидеть
+cork - пробка
+swag - халява
+impunity - безнаказанность
+collaborative - совместный
+instill - внушать
+steer - управлять
 sap - живица
 rap - стук, наказание
-cellar - погреб
-consort - гармонировать, обращаться
-incinerator - мусоросжигательная печь
-delusional - бредовый
-stern - кормовой, суровый
-dashboard - приборная доска
-stunned - ошеломлен
-hissing - шипение
-banishment - изгнание
-profound - глубокий
-spike - колос, шип
-overture - увертюра
-stifled - подавленный
-comb - расческа
-drain - истощать
-fester - гноиться
-boost - повышение
-constellation - созвездие
-urbane - вежливый
-pollen - пыльца
-mediocre - посредственный
-violin - скрипка
-uttered - сказанный
-cherish - лелеять
-astray - заблудившись
-aligned - выровненный
-swell - набухать
-callousness - бессердечность
-tar - деготь
-reverberate - отражаться
-thicken - утолщать
-cough - кашель
-sleeve - рукав
-divine - божественный
-scallywag - бездельник
-obtain - получать
-allegedly - якобы
-tense - время, напряженный
-tantrum - вспышка гнева
-cantina - столовая
-dread - страшиться
-skew - скос
-delightful - восхитительный
-lucid - ясный
-vanquish - побеждать
-weasel - ласка
-emerge - всплывать
-carve - резать
-mingle - смешиваться
-pendant - кулон
-haste - спешка
-remnant - остаток
-bid - предложение
-hectic - беспокойный
-aid - помощь
-bygones - былое
-crawl - ползать
-keen - острый
-nook - закоулок
-ambushes - засады
-ascending - по возрастанию
-flunky - лакей
-abdomen - живот
-thud - глухой звук
-outfit - снаряжение
-monks - монахи
-burglary - кража со взломом
-orchastrated - организовал
-benefactor - благодетель
-enlighten - просветить
-knuckle - кулак
-harsh - суровый
-deviate - отклоняться
-entails - влечет за собой
-incision - надрез
-loot - добыча
-ardent - пылкий
-confide - доверять
-escapade - авантюра
-iffy - сомнительный
-batch - партия
-hint - намек
-impetuous - порывистый
-evasive - уклончивый
-cemetery - кладбище
-meticulous - дотошный, тщательный
-denture - зубной протез
-endeavor - предприятие
-sprung - захмелевший, треснувший
-illicit - незаконный
-weep - плакать
-depraved - развращенный
-behold - вот, созерцать
-meddling - надоедливый
-cassock - ряса
-cog - зубец
-brothel - бордель
-popsicle - эскимо
-depicted - изображенный
-flair - чутье
-jog - бегать трусцой
-parting - расставание
-reluctant - неохотный
-faculties - способности
-retain - удерживать, приглашать
-stash - копить
-saddle - седло
-stooge - марионетка
-skedaddled - драпать
-devious - хитрый
-giddy - головокружительный
-sloppy - неряшливый
-cahoot - соучастие
-drawers - подштанники
-ingest - проглатывать
-immortal - бессмертный
-flare - вспышка
-eager - нетерпеливый, стремящийся
-bargained - выторговал
-afar - издалека
-patrimony - наследие
-atonement - расплата
-turmoil - смятение
-vixen - мегера
-consuming - потребляющий
-dungeon - темница
-nitwit - простофиля
-intimidate - запугивать
-compels - принуждает
-reeling - наматывание
-heel - пятка, каблук
-jaw - челюсть
-meanwhile - между тем
-homage - дань
-revel - упиваться
-raw - сырье, сырой
-parlay - держать пари
-bludgeon - дубинка
-flunk - провалить
-ambush - засада
-reproach - упрекать
-persuasive - убедительный
-turner - токарь
-dummy - манекен
-ingress - вход
-arsonist - поджигатель
-malicious - злонамеренный
-bodega - винный погребок
-cusp - выступ
-hethen - язычник
-stapling - сшивание
-snuck - пробралась
-decanter - графин
-squeal - визг
-collaborative - совместный
-flay - свежевать
-obscene - непристойный
-tedium - скука
-reckon - рассчитывать
-docile - послушный
-slay - сражать
-lace - шнурок
-slope - скат
-hick - деревенщина
-magnificent - великолепный
-stomp - топать
-loaf - буханка
-synergy - взаимодействие
-revive - возрождать
-squabbling - склок
-skunk - скунс
-porky - сальный
-scholar - ученый
-scamper - носиться
-trail - след
-pellets - гранулы
-spree - веселье
-impeccable - безупречный
-dunce - раздолбай
-gain - усиление
-brawling - драки
-resent - возмущаться
-lurking - скрываясь
-compound - соединение
-booing - освистала
-vain - тщеславный
-corrupt - развращать, продажный
-elicit - вызывать, добиваться
-apprehension - опасение
-blossom - цвести
-spook - привидение
-whammy - сглаз
-decimated - истребленный
-coerce - принуждать
-shore - берег
-implode - взрываться
-invaded - вторгся
-stray - бездомный, плутать
-slab - плита
-trunk - хобот,
-fragrant - душистый
-goofy - бестолковый
-tendril - завиток, усик
-straw - солома
-ogle - строить глазки
-mud - грязи
-diversity - разнообразие
-eradicate - искоренять
-ramified - разветвленный
-allies - союзники
-chevy - гнаться
-pretzel - кренделек
-beam - луч
-accommodate - вмещать
-fry - жарить
-cliff - утес, крутой обрыв
-slaughter - резня
-intrinsic - свойственный
-cork - пробка
-nappy - подгузник
-sting - ужалить
-nurture - взрастить
-arcane - тайный
-tension - напряженность
-devastated - опустошенный
-sprouted - проросли
-contestant - соперник
-hatch - люк
-antiquated - устарелый
-stint - скупиться
-agile - проворный
-desecrate - осквернять
-trumpet - труба
-constitute - составлять
-astound - изумлять
-slug - лентяй
-blackout - затемнение
-runt - коротышка
-curse - проклятие
-steer - управлять
-transmitted - передаваемое
-abbey - аббатство
-niece - племянница
-forsake - оставлять
-affections - привязанностей
-retaliation - возмездие
-guile - коварство
-prejutice - предубеждение
-plump - полнеть
-prowl - рыскать
-plums - сливы
-twined - обвивать
-grudge - недоброжелательство
-hail - град
-excel - превосходить
-worship - поклонение
-sly - лукавый
-stumble - спотыкаться
-ledge - уступ
-spew - блевать
-compassion - сострадание
-beggar - нищий
-dimwit - тупица
-affair - дело
-vigorous - бодрый
-geezer - старикашка
-fugitive - беглец
-ally - союзник
-ponder - обдумывать
-thrive - процветать
-fret - размывать
-crusade - крестовый поход
-aspersion - клевета
-flu - грипп
-harvest - урожай
-vat - чан
-wane - убывать
-vouch - поручиться
-intertwined - переплетенный
-corporeal - телесный
-pat - похлопывание
-blimp - дирижабль
-restraint - сдержанность
-barrel - бочка
-injured - ранен
-atrocity - зверство
-chunk - ломоть
-luscious - приторный
-mutilation - увечье
-consolidate - укреплять
-cortex - кора головного мозга
-walrus - морж
-ankle - лодыжка
-irreversible - необратимый
-wedge - клин
-knob - ручка, кнопка
-quaint - причудливый
-facilitate - содействовать
-hip - бедро
-banshee - сирена воздушной тревоги
-remedy - средство
-alleged - мнимый
-rehashing - перефразировать
-pinch - зажимать, щипать
-vial - флакон
-mustard - горчичный
-fuzzy - нечеткий
-waylaid - подкараулил
-chimney - дымоход
-crack - трещина
-waive - отказываться
-chivalrous - рыцарский
-ditch - ров
-firebugs - поджигатели
-manor - поместье
-poverty - бедность
-ferocity - свирепость
-cinder - пепел
-farewell - прощальный
-dismay - испуг
-hunch - ломоть, предчувствие
-newt - тритон
-quarrel - ссора
-eject - выталкивать
-resembling - похожий
-anticipate - предвидеть
-fuse - предохранитель
-bumpy - неровный
-mellifluous - сладкозвучный
-paddling - перемешивание
-leisure - досуг, свободный
-beacon - маяк
-acolytes - служитель
-tuck - складка
-knot - узел
-tummy - животик
-ruse - хитрость
-crimson - малиновый
-rife - изобилующий
-eluding - ускользает
-kipper - копченая рыба
-implore - умолять
-cradle - колыбель
-slurp - чавкать
-reprimand - выговор
-slain - убитый
-frustrates - расстраивает
-malware - вредоносные программы
-turd - дристун
-peeve - раздражение
-impartial - беспристрастный
-gutted - потрошат
-scourers - мочалки
-vicious - порочный
-squad - команда
-grasp - схватывание
-parlor - кабинет
-facial - лицевой
-vexing - раздражающий
-wield - владеть
-discretion - осмотрительность
-palaver - пустая болтовня
-tailpipe - выхлопная труба
-squat - приземистый
-accomplance - соучастник
-implication - причастность
-velvety - бархатистый
-exile - ссыльный
-wacky - чокнутый
-disburse - проплачивать
-despise - презирать
-rascal - мошенник
-rebellion - бунт
-tenuous - разреженный
-mining - добыча полезных ископаемых
-sustain - поддерживать
-sinking - тонущий
-outlost - пережить
-raccoon - енот
-malarkey - чепуха
-obstacle - препятствие
-glance - взгляд
-curtain - занавес
-lackadaisical - апатичный
-impunity - безнаказанность
-fruition - осуществление
-flock - стадо
-redeem - выкупать
-preliminary - предварительный
-agenda - повестка дня
-brass - латунь
-exaggerate - преувеличивать
-restrictive - ограничительный
-trident - трезубец
-flatter - льстить
-edgy - раздражительный
-you bet - еще бы
-mallet - колотушка
-goon - громила
-geranium - герань
-jolly - веселый
-rectify - исправлять
-tiresome - утомительный
-fragile - хрупкое
-indulgent - снисходительный
-thug - головорез
-dagger - кинжал
-whittle - строгать
-stump - пень
-abominations - мерзости
-spurned - отвергнутый
-speck - пятнышко
-jiggle - покачивать
-tangible - осязаемый
-reprieve - передышка
-jaded - измученный
-sneer - насмешка
-concussion - сотрясение
-cunning - коварный, хитрость
-perform - выполнять
-severely - сильно
-mayhem - нанесение увечья
-culprit - преступник
-titillate - щекотать
-mill - мельница
-outdate - устареть
-breakout - разразиться
-rejoice - радоваться
-seagull - чайка
-tombstone - надгробная плита
-fossils - ископаемые
-menace - угроза
-leap - прыжок
-launch - запуск
-wretch - негодяй
-cabal - интрига
-resentment - обида
-snivelling - хныкать
-swagger - развязность
-harness - упряжь
-durable - прочный
-hunk - ломоть
-impale - прокалывать
-moist - влажный
-unanimous - единодушное
-boundless - беспредельный
-delinquent - преступник
-gloat - злорадствовать
-instill - внушать
-gullet - пищевод
-though - хоть
-roast - жарить
-puberty - половая зрелость
-inevitable - неизбежный
-quarry - карьер
-indignation - возмущение
-unicorn - единорог
-scram - катись
-skulk - симулянт, скрываться
-prosperity - процветание
-utterly - вконец, крайне
-abacus - счеты
-raving - бесноватый
-proximity - близость
-conquer - завоевать
-gravy - подливка
-deliberating - обсуждение
-bobble - качающийся
-curdling - леденящий, свертываться
-gutter - водосточный желоб
-dapper - щеголеватый
-impact - влияние
-rankle - терзать
-impart - придавать
-envious - завистливый
-turnip - репа
-scribble - мазня
-demented - безумный
-vital - жизненно важный
-aisle - придел
-candid - беспристрастный, искренний
-remorse - раскаяние
-miseries - невзгоды
-mundane - мирской
-specimen - образец
-hassle - стычка
-compliance - соблюдение
-spat - размолвка
-cuttlefish - каракатица
-perceive - воспринимать
-snap - щелчок, треск
-oath - присяга
-toddler - ребенок, начинающий ходить
-rattle - погремушка
-shrivel - высыхать
-rambling - бессвязный, бродячий
-penance - покаяние
-squirm - извиваться
-peril - подвергать опасности
-adjourned - приостанавливалось
-knitting - вязание
-amplify - усиливать
-imminent - неизбежный
-impose - навязать
-thaw - оттепель
-snatch - урвать
-butter - сливочное масло
-descend - спускаться
-caressing - ласкательный
-ruckus - гам
-soldering - паяльный
-spade - копать лопатой
-vantage - преимущество
-astonishing - удивительный
-at once - однажды
-condescending - снисходительный
-fodder - фураж, корм
-throughout - на протяжении
-abetted - подстрекательство
-zipper - молния
-bun - булочка
-disturbance - нарушение, возмущение
-caterpillar - гусеница
-wrinkle - морщина
-fabulous - невероятный
-pun - каламбур
-fluctuation - колебание
-screech - визг
-breed - разводить
-ensue - вытекать, следовать
-rush - порыв
-abide - соблюдать
-arouse - пробуждать
-deck - колода, палуба
-covet - жаждать
-incorrigible - неисправимый
-payroll - платежная ведомость
-appeal - обращение
-noodles - лапша
-fence - забор
-abyss - бездна
-trespassing - нарушение
-deception - обман
-weasels - хорьки
-pave - вымостить, выстилать
-scorn - презирать
-sassy - нахальный
-nerd - ботан
-unscathed - невредимый
-splatter - плескаться
-inferior - низший
-clasp - зажим, рукопожатие
-traipse - тащиться
-posh - шикарный
-mittens - рукавицы
-wallop - поколотить
-yield - уступать, доходность
-feasible - выполнимый
-latency - задержка
-dull - тупой
-bark - лай
-whip - кнут
-twerp - хам
-bullied - издеваются
-bulky - объемистый
-feeble - слабый
-pacifies - умиротворяет
-fad - прихоть, причуда
-hearse - катафалк
-salvation - спасение
-plague - чума
-sewer - сточная труба
-lad - парень
-allegiance - верность
-hushed - приглушенным
-wit - остроумие
-comply - соблюдать
-rampage - буйство
-diluted - разбавленный
-clamor - ропот
-estranged - разобщенный
-tender - нежный
 nozzle - сопло, насадка
-bliss - блаженство
-resort - курорт, прибежище
-indigestions - расстройства желудка
-absolve - освобождать
-occupied - занятый
-juncture - стык, соединение
-stiff - жесткий
-vessel - судно
-grist - помол
-thus - таким образом
-captives - пленники
-belay - отставить
-struggling - борющийся
-looting - мародерство
-lean - опираться
-significant - значительное
-hobble - ковылять
-orderlies - санитары
-omission - упущение
-prominent - видный, известный
-viscosity - вязкость
-ransom - выкуп
-hunker - сидеть на корточках, старомодный
-rawhide - грубый
-inflict - причинить
-pantry - кладовая
-fling - брыкаться
-kettle - чайник
-infirmary - лазарет
-vow - клятва
-fornicate - блудить
-tow - буксировать, тащить
-plucking - выщипывание
-notorious - пресловутый
-lease - аренда
-leash - привязь
-flippant - легкомысленный
-splendid - великолепный
-anon - скоро
-condemned - приговоренный
-marshmallow - зефир
+squabbling - склок
+kipper - копченая рыба
+lace - шнурок
 slew - множество
-courting - ухаживает
-condolences - соболезнование
-residing - проживающих
-zealot - фанатик
-cozy - уютный
-slack - слабина, вялый
-virtue - добродетель
-mettle - лихость
-searing - жгучая
-interagation - опрос
-frowning - угрожающий
-peer - вглядываться
-feather - перо
-tranquility - спокойствие
-skid - занос
-troops - войска
-devote - посвятить
-accelerate - ускорять
-prodigy - одаренный
-eulogy - хвалебная речь
-vault - свод, склеп, погреб
-wealth - богатство
-frequently - часто
-stir - переполох, размешивать
-swag - халява
-limb - конечность
-eloquently - красноречиво
-scavenge - продувать, убирать
-addled - испорченный
-minx - шалунья
-hawk - ястреб
-blink - мерцать
-noble - благородный
-apprentice - подмастерье
-unleash - развязать
-squabble - перебранка
-evolve - эволюционировать
-flick - фильм
-mammal - млекопитающее
-measly - жалкий
-dickens - черт
-chisel - резец
-instant - мгновенный
-spear - копье
-martyr - мученик
-sturdy - крепкий
-ash - пепел
-crumb - крошка
-slender - стройный
-getting off - сойти
-harbor - гавань
-platter - блюдо
-feverish - лихорадочный
-awry - неправильно, косо
-hack - мотыга
-unsettling - тревожащий
-prophet - пророк
-sack - мешок
-strangling - задыхающийся
-bulletproof - пуленепробиваемый
-intrepid - бесстрашный
-torment - мучение
-acquainted - знакомый
-blend - смесь
-daisy - маргаритка
-scum - сволочь
-dwell - обитать
-whack - сильный удар
-tumors - опухоли
-maimed - искалеченный
-sucks - отстой
-chaperone - сопровождать
-imply - подразумевать
-gauntlet - рукавица
-ward - подопечный
-tremble - дрожать
-fowl - домашняя птица
-egress - выход
-bowl - миска
-orchard - фруктовый сад
-strolling - прогуливающийся
-crud - падла
-courage - храбрость
-solemn - торжественный
-inflame - воспаляться
-commencing - начинающегося
-chastity - целомудрие
-contamination - загрязнение
-likewise - подобно, более того
 lure - приманка
-wreck - развалина
-sufficient - достаточно
-stage - этап, стадия
-scoop up - зачерпнуть
-rectangular - прямоугольный
-repulsive - отталкивающий
-recluse - отшельник
-stellar - звездный
-grumpy - сердитый
-slash - хлестать, сокращать
-perplexed - недоумевали
-eyelashes - ресницы
-affirm - утверждать
-heist - ограбление
-curricular - внеклассных
-plod - тащиться
-tangle - запутывать
-mouthfeel - вкусового
-scrawny - тощий
-aggravate - обострять
-bullies - хулиганами
-mongering - спекуляция
-bewitch - заколдовывать
-carnage - резня
-gore - запекшаяся кровь
+mundane - мирской
+urbane - вежливый
+ally - союзник
+fluctuation - колебание
+gloat - злорадствовать
+thrive - процветать
+ingress - вход
+sassy - нахальный
+breed - разводить
+compassion - сострадание
+arsonist - поджигатель
+fossils - ископаемые
+geranium - герань
+hint - намек
+curse - проклятие
+menace - угроза
+cuttlefish - каракатица
+popsicle - эскимо
+whip - кнут
+cradle - колыбель
+thicken - утолщать
+latency - задержка
+rankle - терзать
+prophet - пророк
+splendid - великолепный
+stapling - сшивание
+envious - завистливый
+pantry - кладовая
+trail - след
+zealot - фанатик
+lean - опираться
+wrinkle - морщина
+deceive - обманывать
+monks - монахи
+payroll - платежная ведомость
+tender - нежный
+tantrum - вспышка гнева
+carve - резать
+newt - тритон
+impeccable - безупречный
+drawers - подштанники
+weasel - ласка
+dickens - черт
+utterly - вконец, крайне
+geezer - старикашка
+thaw - оттепель
+getting off - сойти
+preliminary - предварительный
+blend - смесь
+quaint - причудливый
+indigestions - расстройства желудка
+compound - соединение
+snatch - урвать
+harbor - гавань
+struggling - борющийся
+lackadaisical - апатичный
+traipse - тащиться
+awry - неправильно, косо
+hassle - стычка
+pellets - гранулы
+cusp - выступ
+ankle - лодыжка
+bliss - блаженство
 arrogance - высокомерие
-perpetrated - совершаемых
+severely - сильно
+salvation - спасение
+crud - падла
+addled - испорченный
+hip - бедро
+wacky - чокнутый
+eager - нетерпеливый, стремящийся
+stifled - подавленный
+trunk - хобот,
+zipper - молния
+slob - неряха
+flick - фильм
+vault - свод, склеп, погреб
+stern - кормовой, суровый
+malarkey - чепуха
+impale - прокалывать
+frustrates - расстраивает
+soggy - нудный
+cunning - коварный, хитрость
+wretch - негодяй
+groggy - слабый
+bargained - выторговал
+blackout - затемнение
+agile - проворный
+impetuous - порывистый
+acquainted - знакомый
+thus - таким образом
+palaver - пустая болтовня
+mud - грязи
+shrimp - креветка
+abbey - аббатство
+hissing - шипение
+eloquently - красноречиво
+malicious - злонамеренный
+choke - удушение
+burglary - кража со взломом
+immortal - бессмертный
+quarrel - ссора
+hack - мотыга
+appeal - обращение
+sack - мешок
+abacus - счеты
+gutter - водосточный желоб
+faceted - граненый
+scourers - мочалки
+harness - упряжь
+turd - дристун
+slender - стройный
+anon - скоро
+mellifluous - сладкозвучный
+conquer - завоевать
+mayhem - нанесение увечья
 contagious - заразный
-stilettos - туфли на шпильке
-lapdog - болонка
-spry - проворный
-bump - удар
+exile - ссыльный
+denture - зубной протез
+weave - ткать
+restraint - сдержанность
+condescending - снисходительный
+discretion - осмотрительность
+contamination - загрязнение
+endeavor - предприятие
+butter - сливочное масло
+raccoon - енот
+revive - возрождать
+thincessant - непрекращающийся
+reproach - упрекать
+forsake - оставлять
+pendant - кулон
+ditch - ров
+beam - луч
+stunned - ошеломлен
+homage - дань
+magnificent - великолепный
+comply - соблюдать
+chimney - дымоход
+flay - свежевать
+reprimand - выговор
+swagger - развязность
+tranquility - спокойствие
+benefactor - благодетель
+slay - сражать
+amplify - усиливать
+snap - щелчок, треск
+accommodate - вмещать
+incision - надрез
+reverberate - отражаться
+retribution - воздаяние
+maimed - искалеченный
+eradicate - искоренять
+remedy - средство
+cahoot - соучастие
+spurned - отвергнутый
+velvety - бархатистый
+penance - покаяние
+commencing - начинающегося
+twined - обвивать
+gutted - потрошат
+recess - углубление
+crawl - ползать
+adjourned - приостанавливалось
+obtain - получать
+abdomen - живот
+vigorous - бодрый
+chivalrous - рыцарский
+ponder - обдумывать
+tombstone - надгробная плита
+squabble - перебранка
+transmitted - передаваемое
+apprehension - опасение
+spook - привидение
+tangible - осязаемый
+constellation - созвездие
+bumpy - неровный
+apprentice - подмастерье
+allies - союзники
+stage - этап, стадия
+solemn - торжественный
+fuzzy - нечеткий
+flair - чутье
+clamor - ропот
+sleeve - рукав
+shore - берег
+freighter - грузовое судно
+mining - добыча полезных ископаемых
+scavenge - продувать, убирать
+stomp - топать
+rush - порыв
+paddling - перемешивание
+sting - ужалить
+stint - скупиться
+launch - запуск
+dagger - кинжал
+perplexed - недоумевали
+egress - выход
+slope - скат
+slack - слабина, вялый
+accomplance - соучастник
+lurking - скрываясь
+hick - деревенщина
+slab - плита
+strolling - прогуливающийся
+behold - вот, созерцать
+reprieve - передышка
+entails - влечет за собой
+dashboard - приборная доска
+constitute - составлять
+crimson - малиновый
+oath - присяга
+trident - трезубец
+slick - скользкий
+demented - безумный
+harvest - урожай
+devote - посвятить
+violin - скрипка
+chisel - резец
+pollen - пыльца
+sewer - сточная труба
+perpetrated - совершаемых
+perform - выполнять
+weasels - хорьки
+sufficient - достаточно
+fry - жарить
+concussion - сотрясение
+enlighten - просветить
+ardent - пылкий
+agenda - повестка дня
+redeem - выкупать
+feather - перо
+scribble - мазня
+bulky - объемистый
+sonar - ультразвуковой локатор
+excel - превосходить
+mingle - смешиваться
+knot - узел
+thud - глухой звук
+intertwined - переплетенный
+screech - визг
+slaughter - резня
+scrawny - тощий
+depicted - изображенный
+fugitive - беглец
+poverty - бедность
+inevitable - неизбежный
+at once - однажды
+imminent - неизбежный
+flunk - провалить
+jaw - челюсть
+guile - коварство
+raw - сырье, сырой
+lease - аренда
+cinder - пепел
+leash - привязь
+you bet - еще бы
+harsh - суровый
+gravy - подливка
+gullet - пищевод
+extinction - вымирание
+stir - переполох, размешивать
+slug - лентяй
+loony - полоумный
+procure - закупать
+accelerate - ускорять
+brawling - драки
+glance - взгляд
+hushed - приглушенным
+plucking - выщипывание
+perceive - воспринимать
+sneer - насмешка
+rehashing - перефразировать
+feeble - слабый
+seagull - чайка
+dimwit - тупица
+dread - страшиться
+eagle - орел
+dungeon - темница
+retaliation - возмездие
+firebugs - поджигатели
+warden - смотритель
+fragrant - душистый
+dull - тупой
+pretzel - кренделек
+obscene - непристойный
+sincere - искренний
+leather - натуральная кожа
+frequently - часто
+noble - благородный
+miseries - невзгоды
+flu - грипп
+tar - деготь
+manor - поместье
+goofy - бестолковый
+allegiance - верность
 mute - немой
-hoof - копыто
+slain - убитый
+wreck - развалина
+scoop up - зачерпнуть
+stiff - жесткий
+outdate - устареть
+resent - возмущаться
+obstacle - препятствие
+blossom - цвести
+alleged - мнимый
+consort - гармонировать, обращаться
+fornicate - блудить
+jaded - измученный
+plump - полнеть
+plums - сливы
+shrivel - высыхать
+evasive - уклончивый
+flippant - легкомысленный
+boundless - беспредельный
+impose - навязать
+corrupt - развращать, продажный
+cemetery - кладбище
+stilettos - туфли на шпильке
+puberty - половая зрелость
+penitentiary - исправительный
+turmoil - смятение
+bodega - винный погребок
+recluse - отшельник
+whittle - строгать
+occupied - занятый
+absolve - освобождать
+ambushes - засады
+notorious - пресловутый
+restrictive - ограничительный
+likewise - подобно, более того
+flatter - льстить
+dimming - затемнение
+minx - шалунья
+dismay - испуг
+condolences - соболезнование
+cellar - погреб
+aisle - придел
+waive - отказываться
+chevy - гнаться
+lapdog - болонка
+implore - умолять
+kettle - чайник
+injured - ранен
+condemned - приговоренный
+bump - удар
+specimen - образец
+vessel - судно
+scallywag - бездельник
+astonishing - удивительный
+resentment - обида
+elicit - вызывать, добиваться
+unanimous - единодушное
+cordially - сердечно
+mettle - лихость
+outlost - пережить
+corporeal - телесный
+affair - дело
+detested - ненавидимый
+sturdy - крепкий
+nurture - взрастить
+brothel - бордель
+repulsive - отталкивающий
+imply - подразумевать
+arouse - пробуждать
+fad - прихоть, причуда
+lad - парень
+delinquent - преступник
+reeling - наматывание
+bygones - былое
+superior - превосходящий
+spree - веселье
+throughout - на протяжении
+titillate - щекотать
+cantina - столовая
+sinking - тонущий
+cortex - кора головного мозга
+infirmary - лазарет
+astound - изумлять
+whack - сильный удар
+viscosity - вязкость
+feasible - выполнимый
+bulletproof - пуленепробиваемый
+grasp - схватывание
+disturbance - нарушение, возмущение
+ward - подопечный
+exaggerate - преувеличивать
+stash - копить
+outfit - снаряжение
+dabble - плескаться
+sorrow - печаль
+hectic - беспокойный
+strain - нагрузка
+descend - спускаться
+grist - помол
+vat - чан
+wallop - поколотить
+pat - похлопывание
+orchastrated - организовал
+plague - чума
+scorn - презирать
+ingest - проглатывать
+strangling - задыхающийся
+implode - взрываться
+martyr - мученик
+quarry - карьер
+walrus - морж
+vanquish - побеждать
+indulgent - снисходительный
+brass - латунь
+bun - булочка
+goon - громила
+vantage - преимущество
+turnip - репа
+though - хоть
+skunk - скунс
+incinerator - мусоросжигательная печь
+callousness - бессердечность
+pun - каламбур
+troops - войска
+depraved - развращенный
+vital - жизненно важный
+tiresome - утомительный
+boost - повышение
+wealth - богатство
+peril - подвергать опасности
+delusional - бредовый
+caressing - ласкательный
+captives - пленники
+grudge - недоброжелательство
+cabal - интрига
+nappy - подгузник
+jolly - веселый
+vouch - поручиться
+rawhide - грубый
+speck - пятнышко
+unleash - развязать
+decanter - графин
+keen - острый
+delightful - восхитительный
+facilitate - содействовать
+beacon - маяк
+instant - мгновенный
 reliable - надежный
+skulk - симулянт, скрываться
+intrinsic - свойственный
+mutilation - увечье
+confide - доверять
+leisure - досуг, свободный
+clot - сгусток
+orchard - фруктовый сад
+crusade - крестовый поход
+stumble - спотыкаться
+spry - проворный
+tense - время, напряженный
+cog - зубец
+plot - сюжет, график
+arcane - тайный
+jog - бегать трусцой
+evolve - эволюционировать
+fling - брыкаться
+stretch - протяжение
+revel - упиваться
+affirm - утверждать
+scholar - ученый
+spear - копье
+bid - предложение
+aid - помощь
+runt - коротышка
+mammal - млекопитающее
+deck - колода, палуба
+rambling - бессвязный, бродячий
+spat - размолвка
+vow - клятва
+tow - буксировать, тащить
+docile - послушный
+toddler - ребенок, начинающий ходить
+candid - беспристрастный, искренний
+heist - ограбление
+blink - мерцать
+atrocity - зверство
+sobriquet - кличка
