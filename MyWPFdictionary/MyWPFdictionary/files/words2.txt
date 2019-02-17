@@ -49,6 +49,7 @@ tangle - запутывать
 hoof - копыто
 dibs - фишки
 facial - лицевой
+glowing - пылающий
 hawk - ястреб
 deception - обман
 fruition - осуществление
@@ -96,6 +97,7 @@ parlay - держать пари
 banishment - изгнание
 pacifies - умиротворяет
 edgy - раздражительный
+sling - строп, швырять
 feverish - лихорадочный
 tenuous - разреженный
 abyss - бездна
@@ -105,6 +107,7 @@ implication - причастность
 ambush - засада
 inflame - воспаляться
 peeve - раздражение
+curious - любопытный
 bullies - хулиганами
 parlor - кабинет
 emerge - всплывать
@@ -123,6 +126,7 @@ hethen - язычник
 incorrigible - неисправимый
 flock - стадо
 atonement - расплата
+undermine - подрывать
 remnant - остаток
 cliff - утес, крутой обрыв
 impartial - беспристрастный
@@ -168,6 +172,7 @@ bowl - миска
 disburse - проплачивать
 ensue - вытекать, следовать
 fret - размывать
+mandatory - обязательный
 tuck - складка
 dunce - раздолбай
 crack - трещина
@@ -186,6 +191,8 @@ compliance - соблюдение
 abetted - подстрекательство
 tumors - опухоли
 fester - гноиться
+impervious - непроницаемый
+solitary - уединенный
 profound - глубокий
 eulogy - хвалебная речь
 wane - убывать
@@ -213,11 +220,14 @@ clasp - зажим, рукопожатие
 gauntlet - рукавица
 niece - племянница
 haste - спешка
+fathom - вникать
 ledge - уступ
 compels - принуждает
+buzzing - жужжание
 dapper - щеголеватый
 covet - жаждать
 owl - сова
+spite - озлобленность
 consuming - потребляющий
 courage - храбрость
 mansion - особняк
@@ -226,6 +236,7 @@ deliberating - обсуждение
 thug - головорез
 affections - привязанностей
 ogle - строить глазки
+vetting - проверка
 juncture - стык, соединение
 ferocity - свирепость
 anxiety - тревожность
@@ -250,8 +261,10 @@ unscathed - невредимый
 devastated - опустошенный
 grumpy - сердитый
 diluted - разбавленный
+stain - пятно
 spade - копать лопатой
 crumb - крошка
+debrief - опрашивать о выполнении задания
 spike - колос, шип
 cough - кашель
 divine - божественный
@@ -262,6 +275,7 @@ vicious - порочный
 nook - закоулок
 reckoning - расплата
 illicit - незаконный
+biased - пристрастный
 devious - хитрый
 ash - пепел
 sprouted - проросли
@@ -288,6 +302,7 @@ eyelashes - ресницы
 knuckle - кулак
 declare - объявлять
 flare - вспышка
+shank - стержень, голень
 slash - хлестать, сокращать
 encumbered - обремененный
 banshee - сирена воздушной тревоги
@@ -315,6 +330,7 @@ barrel - бочка
 squeal - визг
 hobble - ковылять
 despise - презирать
+allegation - утверждение
 breakout - разразиться
 cozy - уютный
 anticipate - предвидеть
@@ -324,6 +340,7 @@ impunity - безнаказанность
 collaborative - совместный
 instill - внушать
 steer - управлять
+incarceration - ущемление
 sap - живица
 rap - стук, наказание
 nozzle - сопло, насадка
@@ -331,6 +348,7 @@ squabbling - склок
 kipper - копченая рыба
 lace - шнурок
 slew - множество
+motorcade - автоколонна
 lure - приманка
 mundane - мирской
 urbane - вежливый
@@ -383,8 +401,10 @@ preliminary - предварительный
 blend - смесь
 quaint - причудливый
 indigestions - расстройства желудка
+funnel - воронка, утекают
 compound - соединение
 snatch - урвать
+whiff - дуновение
 harbor - гавань
 struggling - борющийся
 lackadaisical - апатичный
@@ -414,6 +434,7 @@ malarkey - чепуха
 impale - прокалывать
 frustrates - расстраивает
 soggy - нудный
+chalk - мел
 cunning - коварный, хитрость
 wretch - негодяй
 groggy - слабый
@@ -454,6 +475,7 @@ denture - зубной протез
 weave - ткать
 restraint - сдержанность
 condescending - снисходительный
+soil - почва
 discretion - осмотрительность
 contamination - загрязнение
 endeavor - предприятие
@@ -496,6 +518,7 @@ gutted - потрошат
 recess - углубление
 crawl - ползать
 adjourned - приостанавливалось
+mobster - гангстер
 obtain - получать
 abdomen - живот
 vigorous - бодрый
@@ -539,14 +562,15 @@ slab - плита
 strolling - прогуливающийся
 behold - вот, созерцать
 reprieve - передышка
+chanted - скандировала
 entails - влечет за собой
 dashboard - приборная доска
 constitute - составлять
 crimson - малиновый
 oath - присяга
 trident - трезубец
-slick - скользкий
 demented - безумный
+slick - скользкий
 harvest - урожай
 devote - посвятить
 violin - скрипка
@@ -603,6 +627,7 @@ glance - взгляд
 hushed - приглушенным
 plucking - выщипывание
 perceive - воспринимать
+invincible - непобедимый
 sneer - насмешка
 rehashing - перефразировать
 feeble - слабый
@@ -639,6 +664,7 @@ obstacle - препятствие
 blossom - цвести
 alleged - мнимый
 consort - гармонировать, обращаться
+demise - кончина
 fornicate - блудить
 jaded - измученный
 plump - полнеть
@@ -652,10 +678,12 @@ corrupt - развращать, продажный
 cemetery - кладбище
 stilettos - туфли на шпильке
 puberty - половая зрелость
+frock - платье
 penitentiary - исправительный
 turmoil - смятение
 bodega - винный погребок
 recluse - отшельник
+mitigating - смягчающим
 whittle - строгать
 occupied - занятый
 absolve - освобождать
@@ -663,11 +691,13 @@ ambushes - засады
 notorious - пресловутый
 restrictive - ограничительный
 likewise - подобно, более того
+empathy - сопереживание
 flatter - льстить
 dimming - затемнение
 minx - шалунья
 dismay - испуг
 condolences - соболезнование
+siblings - братья и сестры
 cellar - погреб
 aisle - придел
 waive - отказываться
@@ -726,27 +756,28 @@ sorrow - печаль
 hectic - беспокойный
 strain - нагрузка
 descend - спускаться
-grist - помол
 vat - чан
+grist - помол
 wallop - поколотить
 pat - похлопывание
 orchastrated - организовал
 plague - чума
 scorn - презирать
 ingest - проглатывать
-strangling - задыхающийся
 implode - взрываться
-martyr - мученик
+strangling - задыхающийся
 quarry - карьер
+martyr - мученик
 walrus - морж
 vanquish - побеждать
 indulgent - снисходительный
+whopper - громадина, наглая ложь
 brass - латунь
 bun - булочка
 goon - громила
 vantage - преимущество
-turnip - репа
 though - хоть
+turnip - репа
 skunk - скунс
 incinerator - мусоросжигательная печь
 callousness - бессердечность
@@ -756,30 +787,33 @@ depraved - развращенный
 vital - жизненно важный
 tiresome - утомительный
 boost - повышение
-wealth - богатство
 peril - подвергать опасности
+wealth - богатство
 delusional - бредовый
 caressing - ласкательный
 captives - пленники
 grudge - недоброжелательство
 cabal - интрига
 nappy - подгузник
-jolly - веселый
 vouch - поручиться
+jolly - веселый
 rawhide - грубый
 speck - пятнышко
+persecution - преследование
+toss - метание, жеребьевка
 unleash - развязать
 decanter - графин
-keen - острый
 delightful - восхитительный
+keen - острый
 facilitate - содействовать
 beacon - маяк
 instant - мгновенный
 reliable - надежный
 skulk - симулянт, скрываться
 intrinsic - свойственный
-mutilation - увечье
 confide - доверять
+mutilation - увечье
+neglect - пренебрежение
 leisure - досуг, свободный
 clot - сгусток
 orchard - фруктовый сад
@@ -792,14 +826,15 @@ plot - сюжет, график
 arcane - тайный
 jog - бегать трусцой
 evolve - эволюционировать
-fling - брыкаться
 stretch - протяжение
+fling - брыкаться
 revel - упиваться
 affirm - утверждать
 scholar - ученый
 spear - копье
 bid - предложение
 aid - помощь
+skim - обезжиренное
 runt - коротышка
 mammal - млекопитающее
 deck - колода, палуба
@@ -811,6 +846,7 @@ docile - послушный
 toddler - ребенок, начинающий ходить
 candid - беспристрастный, искренний
 heist - ограбление
-blink - мерцать
 atrocity - зверство
+blink - мерцать
+springing - подпружинивание
 sobriquet - кличка
