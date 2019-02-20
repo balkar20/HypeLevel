@@ -57,7 +57,7 @@ namespace MyWPFdictionary
 
         public IDictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
         {
-            ObservableConcurrentDictionary<string, string> observableConcurrentDictionary = new ObservableConcurrentDictionary<string, string>();
+            //ObservableConcurrentDictionary<string, string> observableConcurrentDictionary = new ObservableConcurrentDictionary<string, string>();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
@@ -72,14 +72,14 @@ namespace MyWPFdictionary
                     var word = groups[1].ToString().ToLower();
                     var translate = groups[3].ToString().ToLower();
 
-                    if (!observableConcurrentDictionary.ContainsKey(word) && !string.IsNullOrWhiteSpace(word))
+                    if (!dictionary.ContainsKey(word) && !string.IsNullOrWhiteSpace(word))
                     {
-                        observableConcurrentDictionary.Add(word, translate);
+                        dictionary.Add(word, translate);
                     }
                 }
             }
 
-            return observableConcurrentDictionary;
+            return dictionary;
         }
     }
 }
