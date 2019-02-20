@@ -1,4 +1,4 @@
-﻿aspersion - клевета
+aspersion - клевета
 whammy - сглаз
 dainty - лакомство
 rebellion - бунт
@@ -894,3 +894,4 @@ blink - мерцать
 atrocity - зверство
 springing - подпружинивание
 sobriquet - кличка
+prime - основной, простое число
