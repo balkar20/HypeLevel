@@ -168,6 +168,9 @@ namespace MyWPFdictionary
                 if (!dictionary.ContainsKey(word))
                 {
                     dictionary.Add(word, translate);
+                    string keyForRevert = revertDictionary.ContainsKey(translate) ?
+                        $"{translate}+" : translate;
+                    revertDictionary.Add(keyForRevert, word);
                     ShowCollection.Add($"{word.ToLower()} - {translate.ToLower()}");
                 }
                 else if (dictionary.ContainsKey(word))
