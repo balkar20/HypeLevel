@@ -895,3 +895,31 @@ atrocity - зверство
 springing - подпружинивание
 sobriquet - кличка
 prime - основной, простое число
+handicapped - инвалид
+bosh - вздор
+inquest - расследование, дознание
+shove - совать
+bollocks - ерунда
+momentum - импульс
+idle - вхолостую
+recycling - повторное использование
+recycled - переработаны
+surplus - избыток
+leer - смотреть искоса
+leery - подозрительный
+slap - пощечина
+looming - надвигающийся
+batter - долбить
+kernel - ядро
+startup - запускать
+feature - особенность
+inquirie - запрос
+intercept - перехват
+standalone - автономный
+surface - поверхность
+capabilities - возможности
+empower - уполномочивать
+prerequisites - предпосылки
+due - в связи, должное
+either - также, или, любой
+entry - запись, входной
