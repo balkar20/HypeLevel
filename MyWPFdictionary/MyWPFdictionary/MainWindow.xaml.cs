@@ -17,7 +17,7 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words2.txt"));
+            DataContext = new AppViewModel(new WordRepository(), FileHelper.ReadAsListString(typeof(MainWindow), "./files/words.txt"));
             this.Closing += OnClosing;
             this.Loaded += OnLoaded;
         }
