@@ -62,3 +62,14 @@ flog - сечь
 clue - подсказка
 dilate - распространяться
 plodding - усидчивый, трудолюбивый
+pastries - выпечка
+swarm - рой
+deferred - отсроченный
+defer - откладывать
+omit - пропускать
+baton - дубинка
+mourning - траур
+reckless - опрометчивый
+atoning - искупительная
+incentive - стимул
+provenance - происхождение
