@@ -13,25 +13,35 @@ namespace MyWPFdictionary
 {
     public class AppViewModel : DependencyObject, INotifyPropertyChanged
     {
-        public AppViewModel(WordRepository repository, List<string> rowCollectionList)
+        public AppViewModel(WordRepository repository)
         {
             selectedWord = new WordWithTranslate {Word = "", Translate = ""};
             this.repository = repository;
-            ShowCollection = new ObservableCollection<string>(rowCollectionList
-                .Select(w => w.ToLower()));
+            
             FindedCollection = new ObservableCollection<string>();
-            dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
-            revertDictionary = ReverseDictionary(dictionary);
+            filesnames = repository.GetAvailibaleWordsLists();
+            fileNamesDictionary = FileHelper.CreateFileNamesDictinary(filesnames);
+            Filesnames = new ObservableCollection<string>(fileNamesDictionary.Keys);
+            ShowCollection = new ObservableCollection<string>();
+            dictionary = new Dictionary<string, string>();
+            revertDictionary = new Dictionary<string, string>();
+            SelectedFile = fileNamesDictionary.Keys.First();
         }
 
+        private bool isFirstChange;
+        private bool isCurrntDictionaryChanged;
+        private string[] filesnames;
         private WordWithTranslate selectedWord;
         private string findedTranslate;
+        private string selectedFile;
         private readonly WordRepository repository;
         private IDictionary<string, string> dictionary;
         private IDictionary<string, string> revertDictionary;
+        private IDictionary<string, string> fileNamesDictionary;
 
         public ObservableCollection<string> ShowCollection { get; set; }
         public ObservableCollection<string> FindedCollection { get; set; }
+        public ObservableCollection<string> Filesnames { get; set; }
         
         public WordWithTranslate SelectedWord
         {
@@ -53,6 +63,24 @@ namespace MyWPFdictionary
             {
                 findedTranslate = value;
                 OnPropertyChanged("FindedTranslate");
+            }
+        }
+
+        public string SelectedFile
+        {
+            get
+            {
+                return selectedFile; 
+            }
+            set
+            {
+                selectedFile = value;
+                ChangeShowCollectionAndDictionary(
+                    FileHelper.ReadAsListString(typeof(AppViewModel),
+                    $"./files/{selectedFile}.txt"));
+                dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
+                revertDictionary = ReverseDictionary(dictionary);
+                OnPropertyChanged("SelectedFile");
             }
         }
 
@@ -152,7 +180,7 @@ namespace MyWPFdictionary
                 return saveChangesCommand ??
                        (saveChangesCommand = new RelayCommand(obj =>
                        {
-                           repository.SaveChanges(dictionary);
+                           repository.SaveChanges(dictionary, $"{selectedFile}.txt");
                        }));
             }
         }
@@ -216,6 +244,23 @@ namespace MyWPFdictionary
             }
 
             return result;
+        }
+
+        public void ChangeShowCollectionAndDictionary(ICollection<string> collection)
+        {
+            ShowCollection.Clear();
+            dictionary.Clear();
+            revertDictionary.Clear();
+            foreach (var item in collection)
+            {
+                ShowCollection.Add(item);
+            }
+
+            //if (!isFirstChange)
+            //{
+            //    repository.SaveChanges(dictionary, $"{selectedFile}.txt");
+            //    isFirstChange = !isFirstChange;
+            //}
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

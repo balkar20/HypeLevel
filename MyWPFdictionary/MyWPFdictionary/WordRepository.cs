@@ -3,6 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
 using System.Reactive.Linq;
 using System.Text.RegularExpressions;
 using MyWPFdictionary.Helpers;
@@ -13,9 +14,18 @@ namespace MyWPFdictionary
     {
         private static int addedCounter = 0;
 
-        public void SaveChanges(IDictionary<string, string> wordsTranslates)
+        public string[] GetAvailibaleWordsLists()
         {
-            string rootPath = FileHelper.GetPathForRoot("files/words.txt");
+            string rootPath = FileHelper.GetPathForRoot("files\\");
+            var files = Directory.GetFiles(rootPath)
+                .Where(s => s.EndsWith(".txt")).ToArray();
+
+            return files;
+        }
+
+        public void SaveChanges(IDictionary<string, string> wordsTranslates, string file)
+        {
+            string rootPath = FileHelper.GetPathForRoot($"files/{file}");
             using (StreamWriter writer = new StreamWriter(rootPath))
             {
                 foreach (var keyValuePair in wordsTranslates)

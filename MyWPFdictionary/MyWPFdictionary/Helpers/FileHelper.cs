@@ -3,6 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text;
 
 namespace MyWPFdictionary.Helpers
 {
@@ -40,15 +41,28 @@ namespace MyWPFdictionary.Helpers
                 {
                     while (reader.Peek() >= 0)
                     {
-                        string line = reader.ReadLine();
+                        string line = reader.ReadLine().Normalize();
                         if (!string.IsNullOrWhiteSpace(line))
                         {
+                            
                             lines.Add(line.ToLower());
                         }
                     }
                     return lines;
                 }
             }
+        }
+
+        public static IDictionary<string, string> CreateFileNamesDictinary(string[] fileNames)
+        {
+            Dictionary<string, string> result = new Dictionary<string, string>();
+
+            foreach (var fileName in fileNames)
+            {
+                result.Add(Path.GetFileNameWithoutExtension(fileName), fileName);
+            }
+
+            return result;
         }
 
         public static Stream ReadAsStream(Type type, string path)

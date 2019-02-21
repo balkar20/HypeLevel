@@ -33,7 +33,7 @@
                 <TextBlock>Translate:</TextBlock>
             </StackPanel>
             <StackPanel Height="50" Orientation="Horizontal">
-                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="130" >
+                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
@@ -47,7 +47,7 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="130"></TextBox>
+                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
             </StackPanel>
 
             <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
@@ -63,9 +63,7 @@
                     <ListBox Height="500" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Height="500" Background="Chocolate" Orientation="Vertical">
-                    <TextBlock ></TextBlock>
-                    <TextBox ></TextBox>
-                    <Button ></Button>
+                    <ComboBox ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
                 </StackPanel>
             </Grid>
             
