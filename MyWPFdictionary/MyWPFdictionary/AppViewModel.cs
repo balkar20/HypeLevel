@@ -26,9 +26,10 @@ namespace MyWPFdictionary
             dictionary = new Dictionary<string, string>();
             revertDictionary = new Dictionary<string, string>();
             SelectedFile = fileNamesDictionary.Keys.First();
+            wasChanged = false;
         }
 
-        private bool isFirstChange;
+        private bool wasChanged;
         private bool isCurrntDictionaryChanged;
         private string[] filesnames;
         private WordWithTranslate selectedWord;
@@ -74,6 +75,10 @@ namespace MyWPFdictionary
             }
             set
             {
+                if (!string.IsNullOrWhiteSpace(selectedFile))
+                {
+                    repository.SaveChanges(dictionary, $"{selectedFile}.txt");
+                }
                 selectedFile = value;
                 ChangeShowCollectionAndDictionary(
                     FileHelper.ReadAsListString(typeof(AppViewModel),
@@ -99,6 +104,7 @@ namespace MyWPFdictionary
                             && !string.IsNullOrWhiteSpace(word.Translate))
                            {
                                AddWordWithTranslate(word.Word, word.Translate);
+                               wasChanged = true;
                            }
                        }));
             }
@@ -255,13 +261,12 @@ namespace MyWPFdictionary
             {
                 ShowCollection.Add(item);
             }
-
-            //if (!isFirstChange)
-            //{
-            //    repository.SaveChanges(dictionary, $"{selectedFile}.txt");
-            //    isFirstChange = !isFirstChange;
-            //}
         }
+
+        //private void Savechanges()
+        //{
+        //        repository.SaveChanges(dictionary, $"{selectedFile}.txt");
+        //}
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
