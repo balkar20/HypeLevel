@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text;
 
@@ -30,27 +31,9 @@ namespace MyWPFdictionary.Helpers
         public static List<string> ReadAsListString(Type type, string path)
         {
             List<string> lines = new List<string>();
-            using (var resourceStream = ReadAsStream(type, path))
-            {
-                if (resourceStream == null)
-                {
-                    throw new Exception($"Embedded resource '{path}' was not found.");
-                }
-
-                using (var reader = new StreamReader(resourceStream))
-                {
-                    while (reader.Peek() >= 0)
-                    {
-                        string line = reader.ReadLine().Normalize();
-                        if (!string.IsNullOrWhiteSpace(line))
-                        {
-                            
-                            lines.Add(line.ToLower());
-                        }
-                    }
-                    return lines;
-                }
-            }
+            string rootPath = GetPathForRoot($"files/{path}");
+            lines = File.ReadAllLines(rootPath).ToList();
+            return lines;
         }
 
         public static IDictionary<string, string> CreateFileNamesDictinary(string[] fileNames)

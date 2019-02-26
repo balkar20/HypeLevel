@@ -82,7 +82,7 @@ namespace MyWPFdictionary
                 selectedFile = value;
                 ChangeShowCollectionAndDictionary(
                     FileHelper.ReadAsListString(typeof(AppViewModel),
-                    $"./files/{selectedFile}.txt"));
+                    $"{selectedFile}.txt"));
                 dictionary = repository.GetWordsDictionaryFromText(ShowCollection);
                 revertDictionary = ReverseDictionary(dictionary);
                 OnPropertyChanged("SelectedFile");
