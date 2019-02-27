@@ -210,3 +210,36 @@ senile - старческий
 bugger - мудак
 churning - вспенивание, сбивать
 flap - махать, лоскут, створка
+encroach - посягать
+involve - включать, вовлекать
+overripe - переспелый
+poll - опрос
+workflow - рабочий процесс
+expose - разоблачать, подвергать
+loosely - свободно
+coupled - слабо связанный
+interoperability - совместимость
+essence - сущность
+versus - против
+comprise - включать, содержать
+corresponding - соответствующий
+excess - избыток
+overwhelm - сокрушать, подавлять
+tampering - подделка
+integrity - целостность
+complexity - сложность
+greeting - приветствие
+purchase - приобретение
+carry - нести
+convey - передавать
+therefore - следовательно
+foul - грязный, нечестно
+coping - справляясь
+dispute - спор
+transferable - переводный
+cucumber - огурец
+underlying - лежащий в основе
+correlate - соотносить
+revolve - вращаться
+robust - крепкий
+trait - черта характера
