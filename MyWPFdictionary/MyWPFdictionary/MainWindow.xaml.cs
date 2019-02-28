@@ -17,12 +17,12 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
+            OnLoaded();
             DataContext = new AppViewModel(new WordRepository());
             this.Closing += OnClosing;
-            this.Loaded += OnLoaded;
         }
 
-        private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
+        private void OnLoaded()
         {
             try
             {
