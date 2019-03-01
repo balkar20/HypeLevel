@@ -216,8 +216,7 @@ overripe - переспелый
 poll - опрос
 workflow - рабочий процесс
 expose - разоблачать, подвергать
-loosely - свободно
-coupled - слабо связанный
+loosely coupled - слабо связанный
 interoperability - совместимость
 essence - сущность
 versus - против
@@ -260,8 +259,8 @@ infantile - детский
 bowel - кишка
 consecutive - последовательный
 deflect - отклонять
-commencing - начинающегося
-saucer - блюдце, поддонник
-acknowledge - признавать, подтверждать
-alloy - сплав
-interloper - человек, вмешивающийся в чужие дела
+lamb - ягненок
+transmit - передавать
+predators - хищников
+lawn - лужайка
+prom - выпускной вечер
