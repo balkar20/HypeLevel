@@ -271,7 +271,7 @@ ramp - скат, бросаться, угрожать
 shoddy - дрянной
 stale - несвежий
 ambivalent - двойственное
-seemingly - по-видимому
+seemingly - по
 digestible - усваиваемый
 venom - яд, злоба
 cantaloupe - мускусная дыня
