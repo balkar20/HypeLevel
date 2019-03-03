@@ -69,7 +69,7 @@ namespace MyWPFdictionary
         {
             //ObservableConcurrentDictionary<string, string> observableConcurrentDictionary = new ObservableConcurrentDictionary<string, string>();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
-            string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,\s]+)";
+            string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,--–—\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
             
             foreach (var line in lines)
