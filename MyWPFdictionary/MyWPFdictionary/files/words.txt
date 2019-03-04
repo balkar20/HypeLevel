@@ -320,3 +320,6 @@ deterioration - ухудшение
 reconnaissance - разведывательный
 sketch - эскиз, набросок
 encounter - столкновение
+grit - зернистость
+pooch - дворняжка
+obtrusive - навязчивость
