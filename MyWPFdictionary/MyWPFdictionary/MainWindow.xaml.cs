@@ -28,7 +28,8 @@ namespace MyWPFdictionary
             {
                 string pathForGit = FileHelper.GetPathForRoot("files/");
                 string path = FileHelper.GetPathForRoot("files/gitPull.bat");
-                Process.Start(path, pathForGit);
+                Process ps = Process.Start(path, pathForGit);
+                ps.WaitForExit();
             }
             catch (Exception e)
             {
