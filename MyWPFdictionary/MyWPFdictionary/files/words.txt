@@ -323,3 +323,29 @@ encounter - столкновение
 grit - зернистость
 pooch - дворняжка
 obtrusive - навязчивость
+snub - курносый
+feast - пир
+constriction - стягивание, сужение
+tribe - племя
+dung - помет
+cougar - пума
+hut - хижина
+tripped - сработал
+gruel - кашица
+coast - побережье
+swift - быстрый
+kinsmen - сородичи
+bestow - даровать
+covenant - завет
+sponge - губка
+flinch - вздрогнуть
+perks - надбавки
+peasant - крестьянин
+hurl - метать
+temple - храм
+perceptive - восприимчивый
+descent - спуск
+pace - темп
+prance - прыгать, гордая походка
+stone - камень
+insolence - наглость
