@@ -349,3 +349,7 @@ pace - темп
 prance - прыгать, гордая походка
 stone - камень
 insolence - наглость
+scaffold - строительные леса
+drawbacks - недостатки
+cater - угождать
+bifurcate - раздваиваться
