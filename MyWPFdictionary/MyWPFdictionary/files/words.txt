@@ -353,3 +353,37 @@ scaffold - строительные леса
 drawbacks - недостатки
 cater - угождать
 bifurcate - раздваиваться
+outbound - исходящий
+enhancement - усиление
+frisky - резвый, игривый
+attract - привлекать
+conform - соответствовать
+properly - должным образом
+gracefully - изящно
+recipient - получатель
+contribution - вклад
+rate - ставка, темп
+outlet - выход
+revenue - доход
+plethora - изобилие
+uphold - поддерживать, придерживаться
+pile - куча
+peculiar - своеобразный
+inflate - раздувать
+survey - опрос, обзор
+inbound - прибывающий
+spindle - веретено
+skewer - шампур, вертел
+oak - дуб
+howl - вой
+fetch - получать, приносить
+kin - родня
+smear - мазать
+intestines - кишечник
+swirling - завихрение
+discard - отбрасывать
+volatile - летучий, изменчивый
+spleen - селезенка
+charmer - чародейка
+manifestation - проявление
+dementia - слабоумие
