@@ -495,3 +495,26 @@ infiltrate - проникать
 hoe - мотыга
 faintest - тусклых
 groan - стон, скрип
+ammo - боеприпасы
+resupply - пополнение запасов
+sump - отстойник
+revving - оборотистый
+valiant - доблестный
+chamomile - ромашка
+connoisseur - знаток
+coal - уголь
+beholden - признательный
+derelict - покинутый
+moose - лось
+endow - наделять
+rotation - вращение, поворот, чередование
+ridden - охваченном
+crippled - калека, изувеченный
+proponent - сторонник
+effort - усилие
+wreak - посеять
+twofold - вдвое
+defiance - неповиновение
+subdue - подчинять
+wallow - барахтаться
+vindicate - реабилитировать
