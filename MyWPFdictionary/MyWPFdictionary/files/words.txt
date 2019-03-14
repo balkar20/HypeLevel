@@ -482,3 +482,11 @@ resupply - пополнение запасов
 sump - отстойник
 revving - оборотистый
 valiant - доблестный
+chamomile - ромашка
+connoisseur - знаток
+coal - уголь
+beholden - признательный
+derelict - покинутый
+moose - лось
+endow - наделять
+rotation - вращение, поворот, чередование
