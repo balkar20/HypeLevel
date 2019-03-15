@@ -518,3 +518,5 @@ defiance - неповиновение
 subdue - подчинять
 wallow - барахтаться
 vindicate - реабилитировать
+sensible - здравомыслящий
+carpentry - плотничные работы
