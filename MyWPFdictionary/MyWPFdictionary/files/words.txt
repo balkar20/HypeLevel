@@ -520,3 +520,4 @@ wallow - барахтаться
 vindicate - реабилитировать
 sensible - здравомыслящий
 carpentry - плотничные работы
+mellow - сочный
