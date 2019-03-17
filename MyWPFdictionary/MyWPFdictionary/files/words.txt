@@ -529,3 +529,4 @@ catering - общественное питание
 pancake - блин
 dispose - располагать
 indirection - косвенность
+sleight - ловкость
