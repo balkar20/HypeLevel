@@ -17,6 +17,7 @@ namespace MyWPFdictionary
         public MainWindow()
         {
             InitializeComponent();
+            this.
             OnLoaded();
             DataContext = new AppViewModel(new WordRepository());
             this.Closing += OnClosing;
