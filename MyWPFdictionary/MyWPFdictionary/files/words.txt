@@ -528,3 +528,4 @@ lull - затишье, усыпить
 catering - общественное питание
 pancake - блин
 dispose - располагать
+indirection - косвенность
