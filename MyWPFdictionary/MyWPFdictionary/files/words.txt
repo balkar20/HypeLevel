@@ -530,3 +530,8 @@ pancake - блин
 dispose - располагать
 indirection - косвенность
 sleight - ловкость
+grocery - продуктовый
+chump - башка
+tweak - щипать
+redundancy - избыточность
+erratic - неустойчивый, беспорядочный
