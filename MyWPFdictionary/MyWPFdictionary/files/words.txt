@@ -535,3 +535,6 @@ chump - башка
 tweak - щипать
 redundancy - избыточность
 erratic - неустойчивый, беспорядочный
+relapse - рецидив
+loam - суглинок
+lapse - упущение
