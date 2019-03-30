@@ -569,3 +569,5 @@ raft - плот
 exert - напрягать
 latrine - уборная
 slander - клевета
+intricacy - запутанность
+relinquish - отказываться
