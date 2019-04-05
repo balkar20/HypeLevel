@@ -1,2 +1,4 @@
 treason - измена
 venal - продажный
+brief - краткое
+grass - трава
