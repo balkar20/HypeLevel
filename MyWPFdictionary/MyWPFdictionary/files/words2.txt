@@ -19,3 +19,4 @@ inure - приучать
 sentinel - страж
 wheat - пшеница
 oblivious - забывающий
+scavenge - продувать
