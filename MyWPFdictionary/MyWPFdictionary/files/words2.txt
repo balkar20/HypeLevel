@@ -20,3 +20,4 @@ sentinel - страж
 wheat - пшеница
 oblivious - забывающий
 scavenge - продувать
+comprehend - постигать
