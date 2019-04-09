@@ -21,3 +21,5 @@ wheat - пшеница
 oblivious - забывающий
 scavenge - продувать
 comprehend - постигать
+assiduous - прилежный
+inexorable - неумолимый
