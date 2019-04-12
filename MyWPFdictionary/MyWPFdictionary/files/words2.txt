@@ -37,3 +37,6 @@ intricate - запутанный
 engulf - поглощать
 vested - законный
 persistence - упорство
+encased - облицованный
+suffocate - задыхаться
+shaft - вал
