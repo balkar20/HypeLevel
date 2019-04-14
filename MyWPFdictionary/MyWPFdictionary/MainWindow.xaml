@@ -37,7 +37,7 @@
                 <TextBlock>Translate:</TextBlock>
             </StackPanel>
             <StackPanel Height="50" Orientation="Horizontal">
-                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="UIElement_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
+                <TextBox BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
@@ -51,11 +51,11 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Name="txbx_translate" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
+                <TextBox Name="txbx_translate" KeyDown="Txbx_translate_OnKeyDown" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
             </StackPanel>
 
             <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
-                <Button HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add/Change word" MinHeight="50" Width="122" Command="{Binding AddCommand}"
+                <Button Name="btn_create" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add/Change word" MinHeight="50" Width="122" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
             <Grid>

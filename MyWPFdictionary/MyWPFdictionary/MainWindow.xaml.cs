@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Windows;
+using System.Windows.Input;
 using MyWPFdictionary.Helpers;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
 using MessageBox = System.Windows.MessageBox;
@@ -61,7 +62,7 @@ namespace MyWPFdictionary
             }
         }
 
-        private void UIElement_OnKeyUp(object sender, KeyEventArgs e)
+        private void txbxWord_OnKeyUp(object sender, KeyEventArgs e)
         {
             string text = ((TextBox)sender).Text;
             var context = ((AppViewModel)DataContext);
@@ -69,9 +70,24 @@ namespace MyWPFdictionary
             {
                 context.FindedCollection.Clear();
             }
+
+            if (e.Key == Key.Right)
+            {
+                txbx_translate.Focus();
+                e.Handled = true;
+            }
             context.SearchCommand.Execute(text);
             context.SearchForCollectionCommand.Execute(text);
+        }
 
+        private void Txbx_translate_OnKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                var context = ((AppViewModel)DataContext);
+                context.AddCommand.Execute(context.SelectedWord);
+                e.Handled = true;
+            }
         }
     }
 }
