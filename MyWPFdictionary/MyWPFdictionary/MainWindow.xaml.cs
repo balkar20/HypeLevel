@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using MyWPFdictionary.Helpers;
@@ -70,8 +71,8 @@ namespace MyWPFdictionary
             {
                 context.FindedCollection.Clear();
             }
-
-            if (e.Key == Key.Right)
+            int caretInsdex = txtbx_word.CaretIndex;
+            if (e.Key == Key.Right && txtbx_word.CaretIndex == text.Length)
             {
                 txbx_translate.Focus();
                 e.Handled = true;
