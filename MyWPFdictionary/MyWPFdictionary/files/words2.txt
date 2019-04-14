@@ -64,3 +64,9 @@ repel - отталкивать
 consent - согласие
 tackle - снасти
 strangler - душитель
+tase - поражать электрошоком
+spark - искра
+hamper - затруднять
+snazzy - броский
+slump - резкое падение
+praise - хвалить
