@@ -71,14 +71,22 @@ namespace MyWPFdictionary
             {
                 context.FindedCollection.Clear();
             }
-            int caretInsdex = txtbx_word.CaretIndex;
-            if (e.Key == Key.Right && txtbx_word.CaretIndex == text.Length)
+
+            context.SearchCommand.Execute(text);
+            context.SearchForCollectionCommand.Execute(text);
+        }
+
+
+        private void txbxWord_OnKeyDown(object sender, KeyEventArgs e)
+        {
+            string text = ((TextBox)sender).Text;
+            var context = ((AppViewModel)DataContext);
+
+            if (e.Key == Key.Right && txtbx_word.CaretIndex >= text.Length)
             {
                 txbx_translate.Focus();
                 e.Handled = true;
             }
-            context.SearchCommand.Execute(text);
-            context.SearchForCollectionCommand.Execute(text);
         }
 
         private void Txbx_translate_OnKeyDown(object sender, KeyEventArgs e)

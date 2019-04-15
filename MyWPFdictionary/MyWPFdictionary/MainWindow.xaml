@@ -37,7 +37,7 @@
                 <TextBlock>Translate:</TextBlock>
             </StackPanel>
             <StackPanel Height="50" Orientation="Horizontal">
-                <TextBox Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
+                <TextBox Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20" PreviewKeyDown="txbxWord_OnKeyDown"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
