@@ -82,3 +82,7 @@ tier - ярус
 tipsy - подвыпивший
 maverick - инакомыслящий
 maple - кленовый
+trial - пробный
+yawn - зевать
+whale - кит
+edible - съедобный
