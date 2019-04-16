@@ -86,3 +86,6 @@ trial - пробный
 yawn - зевать
 whale - кит
 edible - съедобный
+instigate - подстрекать
+holster - кобура
+jammed - зажатый
