@@ -89,3 +89,6 @@ edible - съедобный
 instigate - подстрекать
 holster - кобура
 jammed - зажатый
+behalf - от имени
+pox - сифилис
+forge - ковать
