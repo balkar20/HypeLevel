@@ -92,3 +92,6 @@ jammed - зажатый
 behalf - от имени
 pox - сифилис
 forge - ковать
+tide - волна
+pagan - язычник
+clause - пункт, оговорка
