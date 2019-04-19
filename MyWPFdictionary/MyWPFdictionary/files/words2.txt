@@ -95,3 +95,4 @@ forge - ковать
 tide - волна
 pagan - язычник
 clause - пункт, оговорка
+deprecate - протестовать
