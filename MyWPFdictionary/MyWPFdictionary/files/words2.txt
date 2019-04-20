@@ -96,3 +96,10 @@ tide - волна
 pagan - язычник
 clause - пункт, оговорка
 deprecate - протестовать
+amber - янтарный
+strength - прочность
+stable - конюшни
+plunder - расхищение
+wasp - оса
+pledge - залог
+charcoal - уголь
