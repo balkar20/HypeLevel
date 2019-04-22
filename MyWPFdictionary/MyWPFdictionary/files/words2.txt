@@ -125,3 +125,4 @@ scold - ругать
 inadvertently - ненароком
 convention - условность
 delimit - определять границы
+arbitrary - произвольный
