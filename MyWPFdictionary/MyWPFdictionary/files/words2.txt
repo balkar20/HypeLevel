@@ -140,3 +140,9 @@ chapel - часовня
 dangle - мотаться, болтаться
 gnat - комар
 timber - лесоматериалы
+coarse - грубый
+faring - поживает
+consolation - утешение
+scabbard - ножны
+substantial - существенный
+fur - мех
