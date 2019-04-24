@@ -148,3 +148,6 @@ substantial - существенный
 fur - мех
 sanctuary - святилище
 satnav - спутниковая навигация
+preach - проповедовать
+cope - справиться
+puddle - лужа
