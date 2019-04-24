@@ -147,3 +147,4 @@ scabbard - ножны
 substantial - существенный
 fur - мех
 sanctuary - святилище
+satnav - спутниковая навигация
