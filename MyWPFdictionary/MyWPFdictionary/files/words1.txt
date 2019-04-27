@@ -360,7 +360,7 @@ impunity - безнаказанность
 collaborative - совместный
 instill - внушать
 steer - управлять
-incarceration - ущемление
+incarceration - ущемление, заключение
 sap - живица
 rap - стук, наказание
 nozzle - сопло, насадка
