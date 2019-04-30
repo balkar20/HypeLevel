@@ -181,3 +181,5 @@ wildcard - подстановочные
 stow - набивать
 purgatory - чистилище
 gulf - залив, пропасть
+archer - лучник
+tarnish - потускнение
