@@ -183,3 +183,15 @@ purgatory - чистилище
 gulf - залив, пропасть
 archer - лучник
 tarnish - потускнение
+stale - несвежий
+dough - тесто
+oar - весло
+weary - утомленный
+shrill - пронзительный
+thy - твой
+thigh - бедро
+bitter - горький
+enthrall - увлекать
+ordeal - тяжелое испытание
+boast - хвастовство
+tunic - китель
