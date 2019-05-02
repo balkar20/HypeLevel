@@ -209,3 +209,7 @@ rogue - жулик
 fertile - плодородный
 chide - бранить
 daunt - запугивать
+plow - плуг
+incarnation - воплощение
+wither - увядать
+devise - разрабатывать
