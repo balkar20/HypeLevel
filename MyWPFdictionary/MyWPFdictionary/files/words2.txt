@@ -208,3 +208,4 @@ onward - далее
 rogue - жулик
 fertile - плодородный
 chide - бранить
+daunt - запугивать
