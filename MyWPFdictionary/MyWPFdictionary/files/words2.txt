@@ -216,3 +216,10 @@ devise - разрабатывать
 hazard - опасность
 ripe - созревший
 barren - бесплодный
+haggling - спорящий
+wheeze - хрип
+rile - сердить
+bow - лук
+refrain - воздерживаться
+revoke - отзывать
+outcast - отверженный
