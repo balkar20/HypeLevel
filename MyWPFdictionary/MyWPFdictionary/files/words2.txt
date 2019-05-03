@@ -213,3 +213,6 @@ plow - плуг
 incarnation - воплощение
 wither - увядать
 devise - разрабатывать
+hazard - опасность
+ripe - созревший
+barren - бесплодный
