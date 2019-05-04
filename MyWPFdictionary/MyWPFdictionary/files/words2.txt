@@ -223,3 +223,8 @@ bow - лук
 refrain - воздерживаться
 revoke - отзывать
 outcast - отверженный
+consistent - последовательный
+albeit - хотя
+shackle - сковывать
+rescind - расторгать
+dispensing - раздаточный
