@@ -228,3 +228,5 @@ albeit - хотя
 shackle - сковывать
 rescind - расторгать
 dispensing - раздаточный
+drafty - сквозистый
+missus - жена
