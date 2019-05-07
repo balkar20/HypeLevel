@@ -573,3 +573,5 @@ intricacy - запутанность
 relinquish - отказываться
 shout - окрик
 orifices - отверстия
+walnut - грецкий орех
+amalgamation - укрупнение
