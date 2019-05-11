@@ -326,7 +326,7 @@ dimple - ямочка
 prosthetics - протезирование
 gasp - удушье
 extinguish - тушить, гасить
-colllide - сталкиваться
+collide - сталкиваться
 slogging - упорный
 asparagus - спаржа
 plumbing - водопровод
