@@ -364,3 +364,29 @@ incapacitate - выводить из строя
 lollygag - бездельничать
 cilantro - кинза
 lookout - быть осторожным
+coil - катушка
+confound - смешивать
+emitting - излучающий
+speculate - размышлять
+ravel - запутывать
+flyby - пролет, облет
+saucer - блюдце
+debris - мусор, обломки
+acknowledge - признавать
+discern - различать
+insignia - знаки
+thruster - толкатель
+obscure - смутный, безвестный
+withdraw - изымать, отзывать
+whim - прихоть
+warp - деформироваться
+yearn - тосковать
+finesse - тонкость
+impede - затруднять
+disarray - беспорядок, смятение
+dissuade - разубеждать
+mutiny - мятеж
+platitude - банальность
+muck - дрянь
+sickbay - лазарет
+herald - вестник
