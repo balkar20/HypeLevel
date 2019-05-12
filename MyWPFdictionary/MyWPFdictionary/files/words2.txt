@@ -390,3 +390,39 @@ platitude - банальность
 muck - дрянь
 sickbay - лазарет
 herald - вестник
+jinx - приносить несчастье
+sparrow - воробей
+spank - шлепок
+tint - оттенок
+perpetual - бессрочный, вечный
+multifaceted - многогранный
+pike - щука
+perch - окунь
+jellyfish - медуза
+crane - журавль
+stork - аист
+falcon - сокол
+swallow - ласточка
+tomtit - синица
+calf - теленок
+moth - мотылек, моль
+beetle - жук
+centipede - сороконожка
+fangs - клыки
+mane - грива
+trim - отделка, подрезать
+parley - переговоры
+stall - стойло, киоск
+swish - свист, рассекать
+pertinent - уместный
+suspense - неизвестность, ожидание
+extortion - вымогательство
+swoop - налетать
+sham - фиктивный
+contingency - непредвиденные обстоятельства
+duffel - спортивный костюм
+wack - ненормальный
+husky - хриплый
+husk - шелуха
+blare - вопить
+decease - кончина
