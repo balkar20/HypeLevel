@@ -463,3 +463,6 @@ borough - район
 dissipate - рассеивать
 croon - напевать
 abhor - ненавидеть
+sully - пятнать
+dinghy - шлюпка
+constrained - ограничен
