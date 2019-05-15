@@ -466,3 +466,10 @@ abhor - ненавидеть
 sully - пятнать
 dinghy - шлюпка
 constrained - ограничен
+pulpit - кафедра
+enact - предписывать
+bulb - лампочка
+surge - волна, повышение
+stampede - паническое бегство
+sprain - растяжение связок
+floss - зубочистка
