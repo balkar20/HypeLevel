@@ -479,3 +479,4 @@ prey - добыча
 exonerate - реабилитировать
 redundant - избыточный
 malign - злокачественный, клеветать
+sumptuous - пышный
