@@ -485,3 +485,4 @@ tussle - драка
 loophole - лазейка
 tatter - лохмотья
 varsity - университет
+holistic - целостный
