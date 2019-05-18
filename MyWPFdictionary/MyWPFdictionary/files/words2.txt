@@ -480,3 +480,8 @@ exonerate - реабилитировать
 redundant - избыточный
 malign - злокачественный, клеветать
 sumptuous - пышный
+posse - отряд
+tussle - драка
+loophole - лазейка
+tatter - лохмотья
+varsity - университет
