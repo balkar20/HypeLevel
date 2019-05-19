@@ -73,7 +73,15 @@
                 <StackPanel Grid.Column="1" Orientation="Vertical">
                     <TextBox Height="30" Name="txbx_setName">Name</TextBox>
                     <Button Height="35" Click="ButtonBase_OnClick">AddSet</Button>
-                    <ComboBox ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox Grid.Column="0" ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
+                        <TextBlock Grid.Column="1" Text="{Binding ShowCollection.Count}"></TextBlock>
+                    </Grid>
+                    
                 </StackPanel>
             </Grid>
             
