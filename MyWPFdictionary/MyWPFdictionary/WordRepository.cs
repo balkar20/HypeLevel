@@ -67,7 +67,6 @@ namespace MyWPFdictionary
 
         public IDictionary<string, string> GetWordsDictionaryFromText(ICollection<string> lines)
         {
-            //ObservableConcurrentDictionary<string, string> observableConcurrentDictionary = new ObservableConcurrentDictionary<string, string>();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             string pattern = @"([a-zA-Z\s]+)(\s[--–—]\s+)([а-яА-ЯёЁ,--–—\s]+)";
             Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
