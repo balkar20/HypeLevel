@@ -26,18 +26,24 @@
         
 
     </Window.Resources>
-    <Grid >
+    <Grid Background="IndianRed">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel MinHeight="700"  Background="IndianRed"  VerticalAlignment="Top"  Orientation="Vertical" Grid.Column="0" >
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Margin="0 0 95 0">Word:</TextBlock>
-                <TextBlock>Translate:</TextBlock>
-            </StackPanel>
-            <StackPanel Height="50" Orientation="Horizontal">
-                <TextBox Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20" PreviewKeyDown="txbxWord_OnKeyDown"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" >
+        <StackPanel Background="IndianRed"  VerticalAlignment="Top"  Orientation="Vertical" Grid.Column="0" >
+            <Grid Height="50" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Margin="0 0 95 0">Word:</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" >Translate:</TextBlock>
+                <TextBox  Grid.Row="1" Grid.Column="0" Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20" PreviewKeyDown="txbxWord_OnKeyDown"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
                     <i:Interaction.Triggers>
                         <i:EventTrigger EventName="LostFocus">
                             <i:InvokeCommandAction
@@ -51,24 +57,22 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Name="txbx_translate" KeyDown="Txbx_translate_OnKeyDown" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
-            </StackPanel>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="txbx_translate" KeyDown="Txbx_translate_OnKeyDown" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
 
-            <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Width="238" Height="100">
-                <Button Name="btn_create" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Aqua" Content="Add/Change word" MinHeight="50" Width="122" Command="{Binding AddCommand}"
+            <StackPanel HorizontalAlignment="Stretch" >
+                <Button Name="btn_create"  Background="Aqua" Content="Add/Change word" MinHeight="50" Command="{Binding AddCommand}"
                         CommandParameter="{Binding Path=SelectedWord}"></Button>
             </StackPanel>
-            <Grid>
+            <Grid VerticalAlignment="Stretch" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <StackPanel Grid.Column="0" Height="500" Background="Chocolate" Orientation="Vertical">
-                    <ListBox Height="500" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
-                </StackPanel>
-                <StackPanel Grid.Column="1" Height="500" Background="Chocolate" Orientation="Vertical">
-                    <Button Height="35" Click="ButtonBase_OnClick">AddSet</Button>
+                <ListBox Background="Beige"  Grid.Column="0" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
+                <StackPanel Grid.Column="1" Orientation="Vertical">
                     <TextBox Height="30" Name="txbx_setName">Name</TextBox>
+                    <Button Height="35" Click="ButtonBase_OnClick">AddSet</Button>
                     <ComboBox ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
                 </StackPanel>
             </Grid>

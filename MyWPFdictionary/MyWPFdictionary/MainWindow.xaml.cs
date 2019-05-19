@@ -105,17 +105,23 @@ namespace MyWPFdictionary
             var file = txbx_setName.Text;
             string rootPath = FileHelper.GetPathForRoot($"files/{file}");
             var context = ((AppViewModel)DataContext);
-            try
+            string messageBoxText = $"Do you wannt to add set:{file}?";
+            string caption = "Changing word";
+            MessageBoxButton button = MessageBoxButton.YesNo;
+            MessageBoxImage icon = MessageBoxImage.Question;
+            MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+            if (result == MessageBoxResult.Yes)
             {
-                File.Create($"{rootPath}.txt");
-                context.Filesnames.Add(txbx_setName.Text);
+                try
+                {
+                    File.Create($"{rootPath}.txt");
+                    context.Filesnames.Add(txbx_setName.Text);
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show(exception.ToString());
+                }
             }
-            catch (Exception exception)
-            {
-                MessageBox.Show(exception.ToString());
-            }
-
-
 
         }
     }
