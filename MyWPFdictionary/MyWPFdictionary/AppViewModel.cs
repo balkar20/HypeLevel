@@ -263,11 +263,6 @@ namespace MyWPFdictionary
             }
         }
 
-        //private void Savechanges()
-        //{
-        //        repository.SaveChanges(dictionary, $"{selectedFile}.txt");
-        //}
-
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
