@@ -491,3 +491,5 @@ elope - сбежать
 motto - девиз
 fledge - оперять
 crutch - костыль
+insulate - изолировать
+squint - косоглазие, щуриться
