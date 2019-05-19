@@ -71,7 +71,7 @@
                 </Grid.ColumnDefinitions>
                 <ListBox Background="Beige"  Grid.Column="0" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
                 <StackPanel Grid.Column="1" Orientation="Vertical">
-                    <TextBox Height="30" Name="txbx_setName">Name</TextBox>
+                    <TextBox Height="30" Name="txbx_setName">SetName</TextBox>
                     <Button Height="35" Click="ButtonBase_OnClick">AddSet</Button>
                     <Grid>
                         <Grid.ColumnDefinitions>
