@@ -67,6 +67,8 @@
                     <ListBox Height="500" ItemsSource="{Binding FindedCollection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ></ListBox>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Height="500" Background="Chocolate" Orientation="Vertical">
+                    <Button Height="35" Click="ButtonBase_OnClick">AddSet</Button>
+                    <TextBox Height="30" Name="txbx_setName">Name</TextBox>
                     <ComboBox ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
                 </StackPanel>
             </Grid>

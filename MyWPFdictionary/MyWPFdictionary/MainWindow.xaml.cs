@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
@@ -97,6 +98,25 @@ namespace MyWPFdictionary
                 context.AddCommand.Execute(context.SelectedWord);
                 e.Handled = true;
             }
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            var file = txbx_setName.Text;
+            string rootPath = FileHelper.GetPathForRoot($"files/{file}");
+            var context = ((AppViewModel)DataContext);
+            try
+            {
+                File.Create($"{rootPath}.txt");
+                context.Filesnames.Add(txbx_setName.Text);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.ToString());
+            }
+
+
+
         }
     }
 }
