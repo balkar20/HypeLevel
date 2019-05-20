@@ -496,3 +496,5 @@ squint - косоглазие, щуриться
 complement - дополнение
 prone - склонный
 fluster - волновать
+macabre - мрачный
+incurring - подвергаясь
