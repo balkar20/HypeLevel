@@ -445,7 +445,7 @@ hip - бедро
 wacky - чокнутый
 eager - нетерпеливый, стремящийся
 stifled - подавленный
-trunk - хобот,
+trunk - хобот
 merchandise - товар
 zipper - молния
 slob - неряха
