@@ -11,3 +11,4 @@ whereabouts - местонахождение
 inning - подача
 infertility - бесплодие
 taunt - насмешка
+typo - опечатка
