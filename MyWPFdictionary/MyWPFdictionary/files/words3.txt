@@ -12,3 +12,6 @@ inning - подача
 infertility - бесплодие
 taunt - насмешка
 typo - опечатка
+roost - насест
+exiting - выход
+markdown - уценка
