@@ -15,3 +15,4 @@ typo - опечатка
 roost - насест
 exiting - выход
 markdown - уценка
+cert - верняк
