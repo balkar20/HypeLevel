@@ -16,3 +16,6 @@ roost - насест
 exiting - выход
 markdown - уценка
 cert - верняк
+tenure - владение
+pork - свинина
+perky - самоуверенный
