@@ -575,3 +575,5 @@ shout - окрик
 orifices - отверстия
 walnut - грецкий орех
 amalgamation - укрупнение
+pompous - напыщенный
+negligent - нерадивый

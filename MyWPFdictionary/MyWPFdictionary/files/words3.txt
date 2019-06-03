@@ -55,3 +55,6 @@ prolong - продлить
 pristine - нетронутый
 coitus - совокупление
 cognition - познание
+craftsmanship - мастерство
+abduct - похищать
+pitch - подача
