@@ -58,3 +58,7 @@ cognition - познание
 craftsmanship - мастерство
 abduct - похищать
 pitch - подача
+snapshot - снимок
+precedence - старшинство
+whimsical - капризный
+alleviate - смягчать
