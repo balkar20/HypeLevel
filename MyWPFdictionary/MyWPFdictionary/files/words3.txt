@@ -55,3 +55,5 @@ prolong - продлить
 pristine - нетронутый
 coitus - совокупление
 cognition - познание
+snapshot - снимок
+precedence - старшинство
