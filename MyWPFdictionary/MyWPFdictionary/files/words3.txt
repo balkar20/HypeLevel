@@ -63,3 +63,4 @@ precedence - старшинство
 whimsical - капризный
 alleviate - смягчать
 chore - случайная работа
+sanitize - дезинфицировать
