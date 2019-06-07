@@ -95,3 +95,5 @@ brevity - краткость
 impound - конфисковать
 harelip - заячья губа
 sedge - камыш
+parishioner - прихожанин
+ledger - главная книга
