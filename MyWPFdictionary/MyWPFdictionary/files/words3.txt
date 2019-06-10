@@ -133,3 +133,6 @@ plash - плеск
 beset - осаждать
 rustling - шорох
 benevolent - благожелательный
+plunger - поршень
+deliberation - обсуждение
+detriment - ущерб
