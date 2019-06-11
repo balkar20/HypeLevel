@@ -136,3 +136,6 @@ benevolent - благожелательный
 plunger - поршень
 deliberation - обсуждение
 detriment - ущерб
+morose - угрюмый
+easter - пасха
+veracity - достоверность
