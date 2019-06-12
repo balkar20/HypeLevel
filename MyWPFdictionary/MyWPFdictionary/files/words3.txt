@@ -139,3 +139,19 @@ detriment - ущерб
 morose - угрюмый
 easter - пасха
 veracity - достоверность
+buckle - пряжка
+grits - овсянка
+shun - гнушаться
+carter - возчик
+inebriate - алкоголик
+admonish - наставлять
+porcupine - дикобраз
+smallpox - оспа
+unpalatable - невкусный, неприятный
+jagged - зубчатый
+undertaker - гробовщик
+celestial - астрономический, небесный
+noose - петля
+wheelbarrow - тачка
+meadow - луг
+morbid - патологический, болезненный
