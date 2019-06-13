@@ -155,3 +155,9 @@ noose - петля
 wheelbarrow - тачка
 meadow - луг
 morbid - патологический, болезненный
+feisty - энергичный
+mongrel - дворняжка, ублюдок
+paddle - весло
+graft - трансплантат, прививать
+impugn - опровергать
+prowler - бродяга
