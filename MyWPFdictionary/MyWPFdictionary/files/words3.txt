@@ -172,3 +172,4 @@ brainiac - умник
 credenza - жертвенник
 haggle - торговаться
 modest - скромный
+cram - впихивать
