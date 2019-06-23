@@ -198,3 +198,7 @@ tap - нажмите
 obnoxious - неприятный
 pole - полюс, шест, столб
 ape - обезьяна
+marrow - костный мозг
+decompose - разлагаться
+compose - составить
+sieve - сито
