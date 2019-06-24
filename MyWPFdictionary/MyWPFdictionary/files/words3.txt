@@ -202,3 +202,5 @@ marrow - костный мозг
 decompose - разлагаться
 compose - составить
 sieve - сито
+essentially - по сути
+proverb - пословица
