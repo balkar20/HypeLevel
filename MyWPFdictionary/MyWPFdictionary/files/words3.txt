@@ -204,3 +204,5 @@ compose - составить
 sieve - сито
 essentially - по сути
 proverb - пословица
+exterminate - истреблять
+motley - пестрый
