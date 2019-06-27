@@ -216,3 +216,4 @@ lid - крышка
 trod - тропинка
 dissemination - распространение
 toll - потери
+bonanza - золотое дно
