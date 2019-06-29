@@ -222,3 +222,10 @@ stalkiing - облава
 harridan - карга
 custom - обычай
 entrails - внутренности, недра
+tumbleweed - перекати-поле
+barrister - адвокат
+grinning - ухмыляющийся
+edge - край, преимущество
+stuffed - фаршированный
+croak - квакать
+yelp - тявкать, визг
