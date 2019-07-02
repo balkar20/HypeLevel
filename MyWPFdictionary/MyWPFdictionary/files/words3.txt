@@ -251,3 +251,4 @@ guzzle - пропивать
 loins - поясница
 snapper - ничтожество
 bonnet - капот
+traversal - пересечение
