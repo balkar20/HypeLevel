@@ -286,3 +286,5 @@ spectator - зритель
 frivolous - легкомысленный
 slobber - слюни
 ambassador - посол
+gentrification - облагораживания
+divert - переадресовывать
