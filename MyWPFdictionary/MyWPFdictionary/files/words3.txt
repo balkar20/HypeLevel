@@ -277,3 +277,12 @@ mapping - отображение
 proprietor - собственник
 pander - потворствовать
 nimble - проворный, ловкий
+tray - лоток
+subpoena - повестка в суд
+rim - ободок
+injunction - судебный запрет
+swindling - мошеннический
+spectator - зритель
+frivolous - легкомысленный
+slobber - слюни
+ambassador - посол
