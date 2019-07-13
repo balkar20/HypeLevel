@@ -296,3 +296,9 @@ janitor - дворник
 ray - луч
 twinkle - мерцать
 flicker - мерцать
+steep - крутой
+chubby - круглолицый
+scoot - удирать
+pachyderm - толстокожее животное
+obesity - ожирение
+devolve - передавать
