@@ -650,7 +650,7 @@ gullet - пищевод
 grave - могила
 extinction - вымирание
 stir - переполох, размешивать
-slug - лентяй
+slug - слизень, лентяй
 loony - полоумный
 procure - закупать
 accelerate - ускорять
