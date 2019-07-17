@@ -327,3 +327,5 @@ anguish - тоска
 pit - яма
 conform - соответствовать
 summon - вызывать
+boulevard - бульвар
+glide - скольжение
