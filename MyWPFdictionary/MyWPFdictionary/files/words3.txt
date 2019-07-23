@@ -351,3 +351,8 @@ trivia - пустяки
 adoration - обожание
 traverse - ход, пересекать
 aptly - метко
+illuminate - освещать
+concise - краткий
+adorn - украшать
+asterisk - звездочка
+exponent - показатель степени
