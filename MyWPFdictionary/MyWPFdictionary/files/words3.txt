@@ -356,3 +356,4 @@ concise - краткий
 adorn - украшать
 asterisk - звездочка
 exponent - показатель степени
+rabid - бешеный
