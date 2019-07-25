@@ -36,6 +36,13 @@ namespace MyWPFdictionary.Helpers
             return lines;
         }
 
+        public static List<string> ReadAsListString(string path)
+        {
+            List<string> lines = new List<string>();
+            lines = File.ReadAllLines(path).ToList();
+            return lines;
+        }
+
         public static IDictionary<string, string> CreateFileNamesDictinary(string[] fileNames)
         {
             Dictionary<string, string> result = new Dictionary<string, string>();

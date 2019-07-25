@@ -25,6 +25,7 @@ namespace MyWPFdictionary
             ShowCollection = new ObservableCollection<string>();
             dictionary = new Dictionary<string, string>();
             revertDictionary = new Dictionary<string, string>();
+            FillBigDictionary();
             SelectedFile = fileNamesDictionary.Keys.First();
             wasChanged = false;
         }
@@ -38,6 +39,8 @@ namespace MyWPFdictionary
         private readonly WordRepository repository;
         private IDictionary<string, string> dictionary;
         private IDictionary<string, string> revertDictionary;
+        private IDictionary<string, string> bigDictionary;
+        private IDictionary<string, string> revertBigDictionary;
         private IDictionary<string, string> fileNamesDictionary;
 
         public ObservableCollection<string> ShowCollection { get; set; }
@@ -130,6 +133,37 @@ namespace MyWPFdictionary
                            else if (revertDictionary.ContainsKey(word))
                            {
                                string finded = revertDictionary[word];
+                               SelectedWord.Translate = finded;
+                               FindedTranslate = finded;
+                           }
+                           else
+                           {
+                               SelectedWord.Translate = "";
+                               FindedTranslate = "";
+                           }
+                       }));
+            }
+        }
+
+        private RelayCommand searchInWholeCommand;
+        public RelayCommand SearchInWholeCommand
+        {
+            get
+            {
+                return searchInWholeCommand ??
+                       (searchInWholeCommand = new RelayCommand(obj =>
+                       {
+                           var word = (string)obj;
+
+                           if (bigDictionary.ContainsKey(word))
+                           {
+                               string finded = bigDictionary[word];
+                               SelectedWord.Translate = finded;
+                               FindedTranslate = finded;
+                           }
+                           else if (revertDictionary.ContainsKey(word))
+                           {
+                               string finded = revertBigDictionary[word];
                                SelectedWord.Translate = finded;
                                FindedTranslate = finded;
                            }
@@ -261,6 +295,19 @@ namespace MyWPFdictionary
             {
                 ShowCollection.Add(item);
             }
+        }
+
+        public void FillBigDictionary()
+        {
+            bigDictionary = new Dictionary<string, string>();
+            bigDictionary.Clear();
+            List<string> list = new List<string>();
+            foreach(var name in filesnames)
+            {
+                list.AddRange(FileHelper.ReadAsListString(name));
+            }
+            bigDictionary = repository.GetWordsDictionaryFromText(list);
+            //revertBigDictionary = ReverseDictionary(bigDictionary);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

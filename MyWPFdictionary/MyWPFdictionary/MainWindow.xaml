@@ -42,6 +42,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Margin="0 0 95 0">Word:</TextBlock>
+                <CheckBox Name="isInWhole" IsChecked="False" Checked="IsInWhole_Checked"></CheckBox>
                 <TextBlock Grid.Row="0" Grid.Column="1" >Translate:</TextBlock>
                 <TextBox  Grid.Row="1" Grid.Column="0" Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20" PreviewKeyDown="txbxWord_OnKeyDown"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
                     <i:Interaction.Triggers>
@@ -78,8 +79,12 @@
                             <ColumnDefinition></ColumnDefinition>
                             <ColumnDefinition Width="0.2*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <ComboBox Grid.Column="0" ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
-                        <TextBlock Grid.Column="1" TextAlignment="Center" Foreground="AliceBlue" Background="CadetBlue" Text="{Binding ShowCollection.Count}"></TextBlock>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <ComboBox Grid.Row="0" Grid.Column="0" ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
+                        <TextBlock Grid.Row="0" Grid.Column="1" TextAlignment="Center" Foreground="AliceBlue" Background="CadetBlue" Text="{Binding ShowCollection.Count}"></TextBlock>
                     </Grid>
                     
                 </StackPanel>

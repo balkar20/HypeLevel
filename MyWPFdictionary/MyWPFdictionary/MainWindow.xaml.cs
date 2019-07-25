@@ -73,7 +73,15 @@ namespace MyWPFdictionary
                 context.FindedCollection.Clear();
             }
 
-            context.SearchCommand.Execute(text);
+            if (isInWhole.IsChecked == true)
+            {
+                context.SearchInWholeCommand.Execute(text);
+            }
+            else
+            {
+                context.SearchCommand.Execute(text);
+            }
+
             context.SearchForCollectionCommand.Execute(text);
         }
 
@@ -123,6 +131,13 @@ namespace MyWPFdictionary
                 }
             }
 
+        }
+
+        private void IsInWhole_Checked(object sender, RoutedEventArgs e)
+        {
+            //var context = ((AppViewModel)DataContext);
+            //context.SearchInWholeCommand.Execute(context.SelectedWord);
+            //e.Handled = true;
         }
     }
 }
