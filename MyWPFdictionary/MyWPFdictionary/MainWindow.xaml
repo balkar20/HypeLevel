@@ -79,7 +79,7 @@
                             <ColumnDefinition Width="0.2*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <ComboBox Grid.Column="0" ItemsSource="{Binding Filesnames}" Text="{Binding SelectedFile}"></ComboBox>
-                        <TextBlock Grid.Column="1" Text="{Binding ShowCollection.Count}"></TextBlock>
+                        <TextBlock Grid.Column="1" TextAlignment="Center" Foreground="AliceBlue" Background="CadetBlue" Text="{Binding ShowCollection.Count}"></TextBlock>
                     </Grid>
                     
                 </StackPanel>
