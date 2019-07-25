@@ -357,3 +357,4 @@ adorn - украшать
 asterisk - звездочка
 exponent - показатель степени
 rabid - бешеный
+perish - погибать
