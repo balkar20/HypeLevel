@@ -358,3 +358,6 @@ asterisk - звездочка
 exponent - показатель степени
 rabid - бешеный
 perish - погибать
+immersion - погружение
+conciseness - сжатость
+recap - резюмировать
