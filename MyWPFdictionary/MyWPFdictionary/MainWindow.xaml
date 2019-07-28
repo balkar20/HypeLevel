@@ -42,7 +42,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Margin="0 0 95 0">Word:</TextBlock>
-                <CheckBox Name="isInWhole" IsChecked="False" Checked="IsInWhole_Checked"></CheckBox>
+                <CheckBox Grid.Row="0" Grid.Column="0" Margin="35 0 0 0" Name="isInWhole" IsChecked="False" Checked="IsInWhole_Checked">(tick for global search)</CheckBox>
                 <TextBlock Grid.Row="0" Grid.Column="1" >Translate:</TextBlock>
                 <TextBox  Grid.Row="1" Grid.Column="0" Name="txtbx_word" BorderBrush="Black" BorderThickness="2" FontSize="20" PreviewKeyDown="txbxWord_OnKeyDown"  KeyUp="txbxWord_OnKeyUp" Text="{Binding Path=SelectedWord.Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
                     <i:Interaction.Triggers>
