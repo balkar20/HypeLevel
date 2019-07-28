@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Col, Grid, Row } from 'react-bootstrap';
 import NewsWindow from "./NewsWindow";
-import {css} from "aphrodite"
-import styles from "./styles/news"
+import { css } from "aphrodite";
+import styles from "./styles/news";
 
 class News extends Component{
     // constructor(props){
