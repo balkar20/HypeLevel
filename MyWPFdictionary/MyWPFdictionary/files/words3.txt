@@ -361,3 +361,6 @@ perish - погибать
 immersion - погружение
 conciseness - сжатость
 recap - резюмировать
+frat - братства
+civic - гражданский
+twit - упрек, колкость
