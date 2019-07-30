@@ -365,3 +365,5 @@ frat - братства
 civic - гражданский
 twit - упрек, колкость
 squeamish - брезгливый
+transparent - прозрачный
+segregation - разделение
