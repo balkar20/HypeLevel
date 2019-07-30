@@ -367,3 +367,6 @@ twit - упрек, колкость
 squeamish - брезгливый
 transparent - прозрачный
 segregation - разделение
+litigation - судебный процесс
+dormant - бездействующий
+grate - решетка
