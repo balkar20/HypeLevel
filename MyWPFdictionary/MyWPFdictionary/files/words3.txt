@@ -371,3 +371,4 @@ litigation - судебный процесс
 dormant - бездействующий
 grate - решетка
 groin - пах
+dweeb - слабак
