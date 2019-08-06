@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirtInfo", "DirtInfo\DirtInfo.csproj", "{558C747E-E608-4ECD-BB49-32003169EE3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovaSLK", "..\NovaSLK\NovaSLK.csproj", "{9C34F816-F935-4B7D-A761-395C6C9A0FA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "di2", "di2\di2.csproj", "{8764287C-DA07-47E7-A87D-DB98D90776CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{558C747E-E608-4ECD-BB49-32003169EE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{558C747E-E608-4ECD-BB49-32003169EE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{558C747E-E608-4ECD-BB49-32003169EE3D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C34F816-F935-4B7D-A761-395C6C9A0FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C34F816-F935-4B7D-A761-395C6C9A0FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C34F816-F935-4B7D-A761-395C6C9A0FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C34F816-F935-4B7D-A761-395C6C9A0FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8764287C-DA07-47E7-A87D-DB98D90776CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8764287C-DA07-47E7-A87D-DB98D90776CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8764287C-DA07-47E7-A87D-DB98D90776CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8764287C-DA07-47E7-A87D-DB98D90776CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
