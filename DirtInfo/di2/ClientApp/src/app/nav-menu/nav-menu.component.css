@@ -72,4 +72,18 @@ li.link-active a:focus {
     .top-nav {
         display: block;
     }
+    .top-nav_ul {
+        background: url(https://images.wallpaperscraft.ru/image/poverhnost_gryaz_kamni_tekstura_50719_300x175.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        width: 100%;
+    }
+    .login-label {
+        height: 40px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
 }
