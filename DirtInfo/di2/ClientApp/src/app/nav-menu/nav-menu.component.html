@@ -1,0 +1,39 @@
+<div class='top-nav'>
+
+    <!-- <div class='top-nav_label child'>
+        <a class='label' [routerLink]='[ "/"] '>
+            <img src="/dirtinfo-icon_dirty.png" alt="">
+        </a>
+    </div> -->
+    <ul class='top-nav_ul child'>
+        <li class='main-label'>
+            <a [routerLink]='[ "/"] '>
+                <img src="/dirtinfo-icon_dirty.png" alt="no img">
+            </a>
+        </li>
+        <li class="top-nav_ul_link" [routerLinkActive]='[ "link-active"] ' [routerLinkActiveOptions]='{ exact: true } '>
+            <a [routerLink]='[ "/"] ' (click)='collapse() '>
+                <span class=' '></span> ГЛАВНАЯ
+            </a>
+        </li>
+        <li class="top-nav_ul_link" [routerLinkActive]='[ "link-active"] '>
+            <a [routerLink]='[ "/counter"] ' (click)='collapse() '>
+                <span class=' '></span> НОВОСТИ
+            </a>
+        </li>
+        <li class="top-nav_ul_link" [routerLinkActive]='[ "link-active"] '>
+            <a [routerLink]='[ "/fetch-data"] ' (click)='collapse() '>
+                <span class=' '></span> ЗАГРУЗИТЬ
+            </a>
+        </li>
+        <li class="top-nav_ul_link" [routerLinkActive]='[ "link-active"] '>
+            <a [routerLink]='[ "/fetch-data"] ' (click)='collapse() '>
+                <span class=' '></span> СТАТЬИ
+            </a>
+        </li>
+    </ul>
+    <a href="/" class="login-label">
+    </a>
+
+
+</div>
