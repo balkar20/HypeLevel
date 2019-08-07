@@ -370,3 +370,4 @@ segregation - разделение
 litigation - судебный процесс
 dormant - бездействующий
 grate - решетка
+artificial - искусственный
