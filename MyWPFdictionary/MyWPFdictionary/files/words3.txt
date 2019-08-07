@@ -371,3 +371,4 @@ litigation - судебный процесс
 dormant - бездействующий
 grate - решетка
 artificial - искусственный
+empathetic - чуткий
