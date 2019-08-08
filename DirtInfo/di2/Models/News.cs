@@ -6,7 +6,7 @@ namespace di2.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public int Content { get; set; }
-        public int Picture { get; set; }
+        public string Content { get; set; }
+        public Media Media { get; set; }
     }
 }
