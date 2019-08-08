@@ -1,10 +1,29 @@
 .data-content {
-    margin-top: 60px;
+    position: absolute;
+    width: 100%;
+    top: 60px;
     height: 100%;
-    background: black;
+}
+
+.image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.newsimage {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 767px) {
+    .data-content {
+        position: absolute;
+        width: 100%;
+        top: 176px;
+        height: 100%;
+    }
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
     .body-content {
         padding-top: 50px;
