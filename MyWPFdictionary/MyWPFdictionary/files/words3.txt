@@ -372,3 +372,4 @@ dormant - бездействующий
 grate - решетка
 artificial - искусственный
 empathetic - чуткий
+outrageous - возмутительный
