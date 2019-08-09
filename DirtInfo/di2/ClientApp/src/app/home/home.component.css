@@ -1,0 +1,26 @@
+.feed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-data {}
+
+.aside {
+    width: 20%;
+    height: 180px;
+}
+
+.feed-news {
+    width: 30%;
+    height: 200px;
+    background: gray;
+}
+
+.feed-rebutal {
+    background: blue;
+}
+
+.break-arguments {
+    background: green;
+}

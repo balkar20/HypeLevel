@@ -1,0 +1,10 @@
+<div class="top-container">
+    <ul class="top-list">
+        <li class="news-element" *ngFor="let news of newsRebates; trackBy: trackByItems">
+            <a href="#" [ngStyle]="setLinkStyle(setLinkStyle(news.id))" class="image-link">
+                <span class="news-title">{{news.title}}</span>
+            </a>
+
+        </li>
+    </ul>
+</div>
