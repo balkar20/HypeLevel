@@ -374,3 +374,4 @@ artificial - искусственный
 empathetic - чуткий
 outrageous - возмутительный
 forecast - прогноз
+populate - населять
