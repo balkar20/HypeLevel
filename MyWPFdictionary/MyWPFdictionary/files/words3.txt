@@ -375,3 +375,5 @@ empathetic - чуткий
 outrageous - возмутительный
 forecast - прогноз
 populate - населять
+flapper - хлопушка
+coaster - подставка
