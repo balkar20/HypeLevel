@@ -377,3 +377,4 @@ forecast - прогноз
 populate - населять
 flapper - хлопушка
 coaster - подставка
+rut - колея, привычка
