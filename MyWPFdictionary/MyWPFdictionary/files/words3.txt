@@ -378,3 +378,5 @@ populate - населять
 flapper - хлопушка
 coaster - подставка
 rut - колея, привычка
+mosque - мечеть
+slum - трущобы
