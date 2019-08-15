@@ -1,7 +1,7 @@
 .data-content {
     position: absolute;
     width: 100%;
-    top: 60px;
+    top: 45px;
     height: 100%;
 }
 
@@ -21,7 +21,7 @@
     .data-content {
         position: absolute;
         width: 100%;
-        top: 176px;
+        top: 173px;
         height: 100%;
     }
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
