@@ -11,7 +11,7 @@ namespace di2.Models
         public Media Media { get; set; }
         public int Rating { get; set; }
         public NewsSection NewsSection { get; set; }
-        public IEnumerable<Rebuttal> RebbRebuttals { get; set; }
+        public IEnumerable<Rebuttal> Rebuttals { get; set; }
     }
 
     public enum NewsSection
