@@ -58,7 +58,7 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <TextBox Grid.Row="1" Grid.Column="1" Name="txbx_translate" KeyDown="Txbx_translate_OnKeyDown" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="txbx_translate" PreviewKeyDown="Txbx_translate_OnKeyDown" FontSize="20" BorderBrush="Black" Text="{Binding Path=SelectedWord.Translate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
             </Grid>
 
             <StackPanel HorizontalAlignment="Stretch" >

@@ -96,6 +96,7 @@ namespace MyWPFdictionary
                 txbx_translate.Focus();
                 e.Handled = true;
             }
+            
         }
 
         private void Txbx_translate_OnKeyDown(object sender, KeyEventArgs e)
@@ -104,6 +105,11 @@ namespace MyWPFdictionary
             {
                 var context = ((AppViewModel)DataContext);
                 context.AddCommand.Execute(context.SelectedWord);
+                e.Handled = true;
+            }
+            if (e.Key == Key.Left && txbx_translate.CaretIndex == 0)
+            {
+                txtbx_word.Focus();
                 e.Handled = true;
             }
         }
