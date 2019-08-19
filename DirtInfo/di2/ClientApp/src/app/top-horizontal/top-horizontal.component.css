@@ -1,8 +1,6 @@
 .top-container {
     width: 100%;
     margin: 10px auto;
-    background-image: url(https://www.artzolo.com/sites/default/files/uploads/multi/3898/largest/blue_horizontal_abstract.jpg);
-    background-size: cover;
 }
 
 .top-five {
@@ -49,6 +47,9 @@
     background-size: 200% 100%, auto;
     background-position: 200% 0, 0 0;
     box-shadow: rgba(0, 0, 0, .3) 0 2px 5px;
+    border: none;
+    height: 20px;
+    border-radius: 20%;
 }
 
 .segments .segment-button:hover {
@@ -106,7 +107,10 @@
         display: flex;
         display: -webkit-flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+    }
+    .segments {
+        justify-content: center;
     }
 }
