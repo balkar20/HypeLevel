@@ -382,3 +382,6 @@ mosque - мечеть
 slum - трущобы
 honk - сигналить
 effable - выразимые слова
+encore - на бис
+whiskers - бакенбарды
+shroud - кожух, окутывать
