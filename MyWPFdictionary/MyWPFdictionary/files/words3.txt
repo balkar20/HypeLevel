@@ -385,3 +385,6 @@ effable - выразимые слова
 encore - на бис
 whiskers - бакенбарды
 shroud - кожух, окутывать
+hillbilly - деревенщина
+excise - вырезать
+gruesome - ужасный
