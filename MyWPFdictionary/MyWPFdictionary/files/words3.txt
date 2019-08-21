@@ -390,3 +390,4 @@ excise - вырезать
 gruesome - ужасный
 itinerary - маршрут
 racking - мучительный
+apron - фартук, передник
