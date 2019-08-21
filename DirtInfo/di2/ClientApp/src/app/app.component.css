@@ -1,11 +1,20 @@
 .data-content {
     position: absolute;
     width: 100%;
+    margin: 10px auto;
     top: 45px;
     height: 100%;
 }
 
-.image-link {
+.content-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* .image-link {
     display: block;
     width: 100%;
     height: 100%;
@@ -25,7 +34,12 @@
         height: 100%;
     }
     /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-    .body-content {
-        padding-top: 50px;
-    }
+
+
+/* .body-content {
+    padding-top: 50px;
 }
+
+
+}
+*/

@@ -19,7 +19,7 @@ li.link-active a:focus {
     left: 0;
     right: 0;
     height: 50px;
-    border-bottom: 5px solid brown;
+    border-bottom: 3px solid brown;
     z-index: 1;
     background: url(https://images.wallpaperscraft.ru/image/poverhnost_gryaz_kamni_tekstura_50719_300x175.jpg);
 }

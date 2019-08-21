@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { FetchTopDataService} from './services/fetch-data.service';
-import { TopHorizontalComponent } from './top-horizontal/top-horizontal.component';
+import { TopVerticalComponent } from './top-vertical/top-vertical.component';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import { TopHorizontalComponent } from './top-horizontal/top-horizontal.componen
     HomeComponent,
     CounterComponent,
     FetchDataComponent, 
-    TopHorizontalComponent
+    TopVerticalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
