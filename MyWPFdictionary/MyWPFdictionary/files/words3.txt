@@ -388,3 +388,5 @@ shroud - кожух, окутывать
 hillbilly - деревенщина
 excise - вырезать
 gruesome - ужасный
+itinerary - маршрут
+racking - мучительный
