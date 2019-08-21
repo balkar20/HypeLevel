@@ -1,0 +1,116 @@
+.top-container {
+    background: #252525;
+}
+
+.top-five {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: #ff7f50;
+}
+
+.top-list {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.segments {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    margin: 8px;
+}
+
+.segments .segment-button {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    padding: .8em 2em;
+    outline: none;
+    /* background-color: #000;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .5) 50%, rgba(0, 0, 0, 0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(0, 0, 0, .3) 0 2px 5px; */
+    border: none;
+    height: 20px;
+    border-radius: 20%;
+}
+
+.segments .segment-button:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0;
+}
+
+.segments .segment-button:active {
+    top: 1px;
+    box-shadow: none;
+}
+
+.news-element {
+    display: inline-block;
+    width: 100%;
+    color: cornsilk;
+    height: 100px;
+    margin: 3px 5px;
+    border: 2px solid #2d2727;
+}
+
+.image-link {
+    display: inline-block;
+    width: 100px;
+}
+
+.news-title {
+    position: absolute;
+    top: 3%;
+    left: 0;
+    font-stretch: expanded;
+    font-style: normal;
+    font-family: inherit;
+    background: rgba(16, 4, 4, 0.41);
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.news-status {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    font-stretch: expanded;
+    font-style: normal;
+    font-family: cursive;
+    background: rgba(145, 6, 6, 0.41);
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .top-list {
+        height: 100%;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .segments {
+        justify-content: center;
+    }
+}
