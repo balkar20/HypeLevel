@@ -391,3 +391,8 @@ gruesome - ужасный
 itinerary - маршрут
 racking - мучительный
 apron - фартук, передник
+concoction - стряпня
+hazy - смутный
+tank - бак
+stallion - жеребец
+earthquake - землетрясение
