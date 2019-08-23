@@ -396,3 +396,6 @@ hazy - смутный
 tank - бак
 stallion - жеребец
 earthquake - землетрясение
+pronoun - местоимение
+adjective - прилагательное
+cranberry - клюква
