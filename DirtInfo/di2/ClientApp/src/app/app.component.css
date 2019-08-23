@@ -9,8 +9,12 @@
 .content-container {
     display: grid;
     grid-template-columns: 4fr 2fr;
-    width: 90%;
+    width: 96%;
     margin: 40px auto;
+}
+
+router-outlet {
+    display: none;
 }
 
 

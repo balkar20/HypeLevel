@@ -62,7 +62,7 @@ export class FetchTopDataService{
                     {
                        about:"koffe",
                        mediaPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmmQTeMB-NT8hCepO5jxiOP_nOyCa3eyLZdNWXuSl--bgOdp6C",
-                       content:"hopes to speak directly with the recipient), texting does not require the caller and recipient to both be free at the same moment; this permits communication even between busy individuals. Text messages can also be used to interact with automated systems, for example, to order products or services from way to communicate with friends, family and colleagues, including in contexts where a call would be impolite or inappropriate (e.g., calling very late at night or when one knows the other person is busy with family or work activities). Like e-mail and voicemail, and unlike calls (in which the calle"
+                       content:"hopes to speak directly with the recipient), texting does not require the caller and recipient to both be free at the same moment; this permits communication even between busy individuals. Text messages can also be used to interact with automated systems, for example, to order products or services from way to communicate with friends, family and colleagues, including in contexts where a call would be impolite or inappropriate (e.g., calling very late at night or when one knows the other person is busyi with family or work activities). Like e-mail and voicemail, and unlike calls (in which the calle"
                     },
                 ]
             },
