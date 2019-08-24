@@ -399,3 +399,4 @@ earthquake - землетрясение
 pronoun - местоимение
 adjective - прилагательное
 cranberry - клюква
+weenie - сосиска
