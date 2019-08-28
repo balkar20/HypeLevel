@@ -35,6 +35,29 @@
     height: 80%;
 }
 
+.rage-info {
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+}
+
+.dirty-percent.number {
+    float: left;
+    color: aqua;
+    font-family: cursive;
+    font-size: medium;
+    width: 40%;
+}
+
+.dirty-prcent.rage {
+    float: right;
+    background-image: url(http://opt.textileplaza.com.ua/image/cache/catalog/%D0%A8%D0%B8%D1%84%D0%BE%D0%BD%20%D0%BF%D1%80%D0%B8%D0%BD%D1%82/DSC_0094-800x800.JPG);
+    background-size: cover;
+    width: 60%;
+    height: 90%;
+    border: 2px solid blue;
+}
+
 .feed-rebutals {
     background: blue;
     width: 40%;
