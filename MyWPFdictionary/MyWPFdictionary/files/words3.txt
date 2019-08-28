@@ -400,3 +400,5 @@ pronoun - местоимение
 adjective - прилагательное
 cranberry - клюква
 weenie - сосиска
+smolder - тлеть
+fleeting - скоротечный
