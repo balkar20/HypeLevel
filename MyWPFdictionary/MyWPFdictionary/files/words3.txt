@@ -411,3 +411,7 @@ avalanche - лавина
 hayseed - деревенщина
 cranky - капризный, расшатанный
 wardrobe - гардероб
+gobble - пожирать
+ferret - хорек
+stitch - стежка, шить
+divulge - разглашать
