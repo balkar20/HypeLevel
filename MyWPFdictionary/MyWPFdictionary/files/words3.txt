@@ -415,3 +415,4 @@ gobble - пожирать
 ferret - хорек
 stitch - стежка, шить
 divulge - разглашать
+stove - плита
