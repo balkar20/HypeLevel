@@ -416,3 +416,9 @@ ferret - хорек
 stitch - стежка, шить
 divulge - разглашать
 stove - плита
+rodent - грызун
+overhaul - капитальный ремонт
+preoccupied - озабоченный
+shrine - святыня
+diary - дневник
+infestation - заражение
