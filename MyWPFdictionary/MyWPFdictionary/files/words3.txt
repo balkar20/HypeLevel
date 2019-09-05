@@ -422,3 +422,5 @@ preoccupied - озабоченный
 shrine - святыня
 diary - дневник
 infestation - заражение
+derange - отрывать, расстраивать
+unwittingly - невольно
