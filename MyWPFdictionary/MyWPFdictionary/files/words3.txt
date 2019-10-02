@@ -427,3 +427,33 @@ unwittingly - невольно
 suburb - пригород
 hunchback - горбун
 confluence - впадение, слияние
+stubble - щетина
+dill - укроп
+vinegar - уксус
+cottage cheese - творог
+whipped - взбитые
+flour - мука
+yeast - дрожжи
+bagel - бублик
+sparkling water - газированная вода
+scelery - сельдерей
+oyster - устрица
+mince - фарш
+peas - горох
+courgette - кабачок
+cauliflower - цветная капуста
+beetroot - свекла
+aubergine - баклажан
+veal - телятина
+squid - Кальмар
+herring - сельдь
+cod - треска
+trout - форель
+salmon - лосось
+prawns - креветки
+mussel - мидия
+translucent - полупрозрачный
+lag - запаздывание
+curb - обочина
+starring - в главных ролях
+rink - каток
