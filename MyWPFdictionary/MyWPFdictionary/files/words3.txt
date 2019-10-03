@@ -445,7 +445,7 @@ cauliflower - цветная капуста
 beetroot - свекла
 aubergine - баклажан
 veal - телятина
-squid - Кальмар
+squid - кальмар
 herring - сельдь
 cod - треска
 trout - форель
@@ -457,3 +457,14 @@ lag - запаздывание
 curb - обочина
 starring - в главных ролях
 rink - каток
+glutton - обжора
+calluse - мозоль
+clutch - сцепление, ухватиться
+squish - хлюпать
+squishy - болотистый
+duvet - одеяло
+diabolical - дьявольский
+hornet - шершень
+conspicuous - заметный
+malfeasance - злодеяние
+tawdry - безвкусный
