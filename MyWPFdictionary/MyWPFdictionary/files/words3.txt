@@ -478,3 +478,7 @@ splint - шина
 havoc - опустошение
 cornrows - косички
 pitcher - кувшин
+aficionado - поклонник
+quantify - определять количество
+clearance - зазор
+medieval - средневековый
