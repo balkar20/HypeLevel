@@ -482,3 +482,9 @@ aficionado - поклонник
 quantify - определять количество
 clearance - зазор
 medieval - средневековый
+mascot - талисман
+porridge - овсяная каша
+platypus - утконос
+conceal - скрывать
+attic - чердак
+golly - черт возьми
