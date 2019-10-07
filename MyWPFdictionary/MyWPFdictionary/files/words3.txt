@@ -488,3 +488,4 @@ platypus - утконос
 conceal - скрывать
 attic - чердак
 golly - черт возьми
+sash - пояс
