@@ -489,3 +489,7 @@ conceal - скрывать
 attic - чердак
 golly - черт возьми
 sash - пояс
+erupt - извергаться
+perturb - возмущать
+levitate - поднимать, парить
+kudos - почет
