@@ -496,3 +496,5 @@ kudos - почет
 flower - цветок
 buckwheat - гречиха, гречневый
 rambunctious - раздражительный, неугомонный
+conflate - объединять
+boilerplate - шаблонный
