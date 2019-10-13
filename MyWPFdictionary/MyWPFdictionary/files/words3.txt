@@ -498,3 +498,4 @@ buckwheat - гречиха, гречневый
 rambunctious - раздражительный, неугомонный
 conflate - объединять
 boilerplate - шаблонный
+gateway - шлюз
