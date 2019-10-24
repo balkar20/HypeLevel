@@ -1,3 +1,4 @@
 adhere - придерживаться
 slightly - немного
 subtle - тонкий
+capped - ограничен
