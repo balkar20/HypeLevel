@@ -15,3 +15,4 @@ palpable - осязаемый
 perdition - погибель
 disgruntled - раздраженный
 recoil - отдача
+ambient - окружающий
