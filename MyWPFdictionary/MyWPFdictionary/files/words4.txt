@@ -17,3 +17,4 @@ disgruntled - раздраженный
 recoil - отдача
 ambient - окружающий
 tutor - репетитор
+humidity - влажность
