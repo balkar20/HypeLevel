@@ -18,3 +18,5 @@ recoil - отдача
 ambient - окружающий
 tutor - репетитор
 humidity - влажность
+chafing - натирание
+rowdy - дебошир
