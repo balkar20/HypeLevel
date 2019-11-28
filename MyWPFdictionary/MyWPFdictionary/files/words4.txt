@@ -20,3 +20,5 @@ tutor - репетитор
 humidity - влажность
 chafing - натирание
 rowdy - дебошир
+immense - огромный
+density - плотность
