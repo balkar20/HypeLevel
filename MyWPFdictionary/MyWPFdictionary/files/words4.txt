@@ -39,3 +39,21 @@ lane - переулок, полоса
 stranded - скрученный
 scuttle - люк, стремительно бежать
 nuke - ядерное оружие
+bogus - фиктивный
+gestate - вынашивать
+duck - уворачиваться
+bulkhead - переборка
+fusion - слияние
+trellis - решетка
+industrious - трудолюбивый
+fungal - грибковый
+apprise - извещать
+dome - купол
+plug - пробка
+hull - корпус
+deliberately - сознательно
+berth - причал
+clash - конфликтовать, столкновение
+subterfuge - отговорка
+platoon - взвод
+pebble - галька
