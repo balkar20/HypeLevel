@@ -578,3 +578,4 @@ amalgamation - укрупнение
 pompous - напыщенный
 negligent - нерадивый
 insidious - коварный
+tread - протектор, наступать
