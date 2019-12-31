@@ -82,6 +82,6 @@ sheet - лист
 serpent - змей
 soar - парить, витать
 hoard - копить
- peck - клевать
- notwithstanding - несмотря на
- affiliation - присоединение
+peck - клевать
+notwithstanding - несмотря на
+affiliation - присоединение
