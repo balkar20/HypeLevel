@@ -98,3 +98,11 @@ ploy - уловка
 cocked - поднятый
 tinker - паять
 tilt - наклон
+insightful - проницательный
+staggering - ошеломляет
+ore - руда
+deface - портить, искажать
+trickle - струйка, сочиться
+ember - тлеющие угли
+proselytize - обращать в свою веру
+axis - ось
