@@ -139,3 +139,4 @@ potassium - калий
 foil - фольга
 deterrent - сдерживающий
 incite - подстрекают
+contraption - штуковина
