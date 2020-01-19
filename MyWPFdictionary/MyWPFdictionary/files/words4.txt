@@ -143,3 +143,8 @@ contraption - штуковина
 pooling - объединение
 dismantle - разбирает
 inhibit - подавлять
+thumper - явная ложь
+incursion - нашествие
+dim - тусклый
+fume - дымить
+inherent - присущий, свойственный
