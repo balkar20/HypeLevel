@@ -140,3 +140,6 @@ foil - фольга
 deterrent - сдерживающий
 incite - подстрекают
 contraption - штуковина
+pooling - объединение
+dismantle - разбирает
+inhibit - подавлять
