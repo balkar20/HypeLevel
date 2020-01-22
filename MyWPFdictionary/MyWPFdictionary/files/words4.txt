@@ -152,3 +152,5 @@ abdicate - отрекаться
 vicinity - окрестности
 pithy - содержательный
 grandeur - величие
+forfeit - неустойка, штраф
+protracted - затянувшийся
