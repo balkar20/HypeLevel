@@ -154,3 +154,6 @@ pithy - содержательный
 grandeur - величие
 forfeit - неустойка, штраф
 protracted - затянувшийся
+shanty - лачуга
+distortion - искажение
+manifold - многообразие
