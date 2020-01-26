@@ -157,3 +157,4 @@ protracted - затянувшийся
 shanty - лачуга
 distortion - искажение
 manifold - многообразие
+grim - мрачный
