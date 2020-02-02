@@ -158,3 +158,4 @@ shanty - лачуга
 distortion - искажение
 manifold - многообразие
 grim - мрачный
+scow - баржа
