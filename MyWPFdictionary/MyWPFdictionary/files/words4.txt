@@ -159,3 +159,4 @@ distortion - искажение
 manifold - многообразие
 grim - мрачный
 scow - баржа
+mist - туман
