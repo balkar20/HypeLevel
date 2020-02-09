@@ -160,3 +160,8 @@ manifold - многообразие
 grim - мрачный
 scow - баржа
 mist - туман
+dormitory - общежитие
+harp - арфа
+stutter - заикание
+drowsy - сонный
+prudent - предусмотрительный
