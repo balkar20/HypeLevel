@@ -173,3 +173,6 @@ oaf - болван
 venture - рисковать
 peaky - бледный
 mischief - зло, проказы
+strut - стойка
+ragged - рваный
+chime - перезвон, куранты
