@@ -178,3 +178,8 @@ ragged - рваный
 chime - перезвон, куранты
 susceptible - восприимчивый
 exhaustive - исчерпывающий
+aptitude - уместность
+slumber - сон
+dashing - лихой
+loquacious - говорливый
+innocuous - безобидный
