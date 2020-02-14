@@ -176,3 +176,5 @@ mischief - зло, проказы
 strut - стойка
 ragged - рваный
 chime - перезвон, куранты
+susceptible - восприимчивый
+exhaustive - исчерпывающий
