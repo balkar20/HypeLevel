@@ -204,3 +204,4 @@ infraction - нарушение
 severe - суровый
 extraneous - посторонний
 twilight - сумерки
+blithering - законченный
