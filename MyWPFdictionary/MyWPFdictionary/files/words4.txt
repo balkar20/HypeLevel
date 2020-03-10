@@ -237,3 +237,5 @@ nuptials - свадьба
 hubris - высокомерие
 mistress - госпожа, любовница
 audacity - дерзость
+pond - пруд
+slake - утолить
