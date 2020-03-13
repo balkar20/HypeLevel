@@ -240,3 +240,4 @@ audacity - дерзость
 pond - пруд
 slake - утолить
 desolation - опустошение
+chipmunk - бурундук
