@@ -241,3 +241,4 @@ pond - пруд
 slake - утолить
 desolation - опустошение
 chipmunk - бурундук
+disciple - ученик, последователь
