@@ -242,3 +242,5 @@ slake - утолить
 desolation - опустошение
 chipmunk - бурундук
 disciple - ученик, последователь
+fangle - нелепое изобретение
+attain - достигать
