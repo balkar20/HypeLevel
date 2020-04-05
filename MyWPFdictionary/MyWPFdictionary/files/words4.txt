@@ -245,3 +245,7 @@ disciple - ученик, последователь
 fangle - нелепое изобретение
 attain - достигать
 proclivity - наклонность
+unrelenting - безжалостный
+furnace - печь
+augment - увеличивать
+shed - сарай
