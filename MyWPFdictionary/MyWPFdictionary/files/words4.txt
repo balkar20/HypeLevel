@@ -249,3 +249,5 @@ unrelenting - безжалостный
 furnace - печь
 augment - увеличивать
 shed - сарай
+abattoir - скотобойня
+insights - понимание
