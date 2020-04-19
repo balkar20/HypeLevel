@@ -253,3 +253,4 @@ abattoir - скотобойня
 insights - понимание
 ominous - угрожающий
 tentacle - щупальце
+mow - косить
