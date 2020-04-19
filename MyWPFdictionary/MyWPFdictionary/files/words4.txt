@@ -251,3 +251,5 @@ augment - увеличивать
 shed - сарай
 abattoir - скотобойня
 insights - понимание
+ominous - угрожающий
+tentacle - щупальце
