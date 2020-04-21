@@ -254,3 +254,8 @@ insights - понимание
 ominous - угрожающий
 tentacle - щупальце
 mow - косить
+pillar - столб
+fortitude - стойкость, сила духа
+berate - ругать, журят
+ream - рассверлить, стопа
+epiphany - прозрение
