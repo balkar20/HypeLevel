@@ -261,3 +261,7 @@ ream - рассверлить, стопа
 epiphany - прозрение
 gavel - молоток судьи
 culvert - водопропускная труба
+diligence - усердие
+demolish - сносить
+contemporary - современный
+discreet - сдержанный
