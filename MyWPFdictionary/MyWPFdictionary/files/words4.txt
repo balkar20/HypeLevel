@@ -265,3 +265,6 @@ diligence - усердие
 demolish - сносить
 contemporary - современный
 discreet - сдержанный
+soothe - успокаивать
+wrench - гаечный ключ
+accost - приставать
