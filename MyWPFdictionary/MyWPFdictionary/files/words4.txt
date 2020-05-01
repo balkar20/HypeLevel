@@ -268,3 +268,4 @@ discreet - сдержанный
 soothe - успокаивать
 wrench - гаечный ключ
 accost - приставать
+gist - суть
