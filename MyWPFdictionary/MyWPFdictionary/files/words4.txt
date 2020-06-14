@@ -270,3 +270,4 @@ wrench - гаечный ключ
 accost - приставать
 gist - суть
 abomination - мерзость
+angst - тоска
