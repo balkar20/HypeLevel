@@ -204,7 +204,7 @@ infraction - нарушение
 severe - суровый
 extraneous - посторонний
 twilight - сумерки
-blithering - законченный
+blithering - веселый, законченный
 pilfer - воровать
 pest - вредитель
 jiffy - миг
