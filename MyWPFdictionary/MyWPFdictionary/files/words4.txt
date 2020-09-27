@@ -271,3 +271,6 @@ accost - приставать
 gist - суть
 abomination - мерзость
 angst - тоска
+laceration - рваная рана
+evisceration - потрошение
+embellishment - приукрашивание
