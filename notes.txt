@@ -1,0 +1,44 @@
+User:
+1)Id : int
+2)Login : string
+3)PasswordHash : string
+4)Role : enum(or in table?)
+5)Rating : int
+
+Bonus(oe Event):
+1)Id: int
+2)Name: string
+2)City : string
+3)From : DateTime
+3)To : DateTime
+
+Benefits:
+1)NotifySchedule  - enum(Week, Mounth, Year)
+
+Events:
+1)Date : DateTime
+2)Duration : DateTime
+
+UserBenefit:
+1)BenefitId : int
+2)UserId : int
+3)Remains : int
+4)Comment : string
+5)Canceled : bolean
+
+UserEvent:
+1)EventId : int
+2)UserId : int
+4)Comment : string
+5)Canceled : bolean
+
+BonusOptions:
+1) Id : int
+2) BonusType : enum
+3) BonusId : int
+4) Option : string
+
+UserBonusOptions:
+1)UserId : int
+2)BonusOptionId : int
+
