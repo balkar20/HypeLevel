@@ -276,3 +276,4 @@ evisceration - потрошение
 embellishment - приукрашивание
 resilient - упругий
 locution - выражение
+mortify - унижать
