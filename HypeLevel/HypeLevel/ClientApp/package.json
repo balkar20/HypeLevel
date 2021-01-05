@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "aphrodite": "^2.2.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^3.3.7",
     "react": "^16.5.2",
     "react-bootstrap": "^0.31.5",
