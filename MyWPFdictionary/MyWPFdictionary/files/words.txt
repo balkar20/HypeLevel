@@ -330,7 +330,7 @@ tribe - племя
 dung - помет
 cougar - пума
 hut - хижина
-tripped - сработал
+tripped - споткнулся
 gruel - кашица
 coast - побережье
 swift - быстрый

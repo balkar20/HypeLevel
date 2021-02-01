@@ -271,10 +271,7 @@ accost - приставать
 gist - суть
 abomination - мерзость
 angst - тоска
-<<<<<<< HEAD
 laceration - рваная рана
 evisceration - потрошение
 embellishment - приукрашивание
-=======
 resilient - упругий
->>>>>>> 60b110612586ce6ec0b8daad45ff09e78a22bb0e
