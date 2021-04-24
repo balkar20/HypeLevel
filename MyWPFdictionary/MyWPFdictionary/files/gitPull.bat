@@ -1,2 +1,3 @@
 cd %1
-git pull origin master
+git pull git@github.com:balkar20/HypeLevel.git --force
+pause
