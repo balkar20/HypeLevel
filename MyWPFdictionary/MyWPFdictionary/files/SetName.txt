@@ -9,3 +9,6 @@ indigenous - местный
 eviction - выселение
 peninsula - полуостров
 utility - полезность
+entrepreneur - предприниматель
+without my consent - без моего согласия
+engender - порождать
