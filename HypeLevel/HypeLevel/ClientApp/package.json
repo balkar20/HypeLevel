@@ -5,7 +5,7 @@
   "dependencies": {
     "aphrodite": "^2.2.3",
     "axios": "^0.18.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "react": "^16.5.2",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.5.2",
